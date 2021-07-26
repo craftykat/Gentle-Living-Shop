@@ -1,0 +1,49 @@
+@font-face { font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf); }
+
+* {
+    font-family: BoopasBlobs;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    text-align: left;
+}
+
+menu {
+    list-style-type: none;
+    background-color: #b2f7a8;
+    font-size: 1.2em;
+}
+
+
+h1 {
+    color: SeaGreen;
+}
+body {
+    margin-left: 220px;
+    margin-right: 10px;
+    background-color: lightgreen;
+}
+
+.site-header {
+    margin: 0% 0%;
+}
+
+
+@media (max-width: 700px) {
+    nav {
+        width: 140px;
+    }
+    menu {
+    font-size: 0.9em;
+    margin-left: -25px;
+    text-align: left;
+}
+body {
+    margin-left: 160px;
+    margin-right: 5px;
+    background-color: lightgreen;
+}
