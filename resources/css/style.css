@@ -43,6 +43,8 @@ nav li a {
     color: #000;
     text-decoration: none;
     font-size: 1.6em;
+    padding: 20px;
+    text-align: center;
 }
   
 nav li:hover,
@@ -103,8 +105,8 @@ nav li > a:only-child:after {
 }
 
 #menu-btn {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -115,7 +117,7 @@ nav li > a:only-child:after {
 /*main*/
 body {
     margin-left: 40px;
-    margin-top: 72px;
+    margin-top: 76px;
     margin-right: 40px;
     background: rgb(196, 240, 196);
 }
@@ -126,16 +128,15 @@ body {
 
 /*responsive*/
 @media (max-width: 768px) {
-    nav {
-        font-size: 0.8em;
+    nav li a {
+        font-size: 1.2em;
     }
-
     nav li {
-        padding: 4px;
+        padding: 0px;
     }
     nav ul li ul {
         min-width: 120px;
-        margin-top: 5px;
+        margin-top: 2px;
     }    
     body {
         margin-left: 12px;
@@ -144,13 +145,13 @@ body {
     }
 }
 
-@media (max-width: 500px) {
-    }
-    nav {
-        font-size: 0.8em;
-    }
+@media (max-width: 520px) {
     nav li {
         padding: 2px;
+    }
+    nav li a {
+        padding: 2px;
+        font-size: 0.8em;
     }
     nav ul li ul {
         min-width: 100px;
@@ -159,11 +160,11 @@ body {
     body {
         margin-left: 12px;
         margin-right: 12px;
-        margin-top: 45px;
+        margin-top: 50px;
     }
 
 /*mobile menu button responsive*/
-@media only screen and (max-width: 500px) {    
+@media only screen and (max-width: 520px) {    
     #menubutton {
         display: block;
     }
@@ -172,9 +173,13 @@ body {
         display: block;
         opacity: 0.01;
     }
+    
     #menu-btn:checked ~ nav,
     #menu-btn:checked ~ nav ul li ul {
-        visibility: visible;      
+        visibility: visible; 
+    }
+    body {
+        margin-top: 30px;
     }
     nav {
         padding: 0px;
@@ -184,7 +189,7 @@ body {
         top: 60px;
         right: 50px;
         min-width: 160px;
-        background: #b7e0f8;
+        background: #c4e5f8;
         border-color: #afddf8;
         border-style: solid;
     }
@@ -209,7 +214,7 @@ body {
     nav li a {
         color: #000;
         text-decoration: none;
-        font-size: 1.2em;
+        font-size: 1.4em;
         text-decoration: underline;
 
     }
@@ -217,7 +222,7 @@ body {
         visibility: hidden;
         background: none;
         opacity: 1;
-        width: auto;
+        min-width: 200px;
         position: relative;
         left: 0;
         display: block;
@@ -232,9 +237,12 @@ body {
     }
 
     nav ul li ul a {
-        font-size: 1em;
+        font-size: 1.1em;
         text-decoration: none;
-
+    }
+   
+    nav ul li ul li:hover {
+        background: rgb(206, 220, 247);
     }
     /*menu dropdown button*/
     nav li > a:after {
