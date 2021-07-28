@@ -1,49 +1,136 @@
+/*font*/
+
 @font-face { font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf); }
+* {font-family: BoopasBlobs;}
+p {font-family: Cantarell, Verdana, sans-serif;}
 
-* {
-    font-family: BoopasBlobs;
-}
-
+/*dropdown menu with tab support*/
 nav {
     position: fixed;
-    left: 0;
     top: 0;
-    width: 200px;
-    text-align: left;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    background: #b7e0f8;
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    background: #b7e0f8;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    height: auto;
+}
+  
+nav li {
+    color: #000;
+    background: #b7e0f8;
+    display: block;
+    float: left;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.2s;
+    border-color: #afddf8;
+    border-style: solid;
+}
+  
+nav li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+  
+nav li:hover,
+nav li:focus-within {
+    background: #e6f6ff;
+    cursor: pointer;
+}
+  
+nav ul li ul {
+    visibility: hidden;
+    background: #b7e0f8;
+    opacity: 0;
+    min-width: 140px;
+    position: absolute;
+    transition: all 0.2s ease;
+    margin-top: 10px;
+    left: 0;
+    display: none;
+}
+  
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+  
+ul li ul li {
+    clear: both;
+    width: 100%;
+    display: inline-block;
+}
+  
+/*menu dropdown button*/
+nav li > a:after {
+    content: " »";
+}
+nav li > a:only-child:after {
+    content: "";
 }
 
-menu {
-    list-style-type: none;
-    background-color: #b2f7a8;
-    font-size: 1.2em;
-}
-
-
-h1 {
-    color: SeaGreen;
-}
+/*main*/
 body {
-    margin-left: 220px;
-    margin-right: 10px;
-    background-color: lightgreen;
+    margin-left: 40px;
+    margin-top: 72px;
+    margin-right: 40px;
+    background-color: rgb(191, 247, 191);
 }
 
 .site-header {
     margin: 0% 0%;
 }
 
-
-@media (max-width: 700px) {
+/*responsive*/
+@media (max-width: 768px) {
     nav {
-        width: 140px;
+        font-size: 0.8em;
     }
-    menu {
-    font-size: 0.9em;
-    margin-left: -25px;
-    text-align: left;
+
+    nav li {
+        padding: 4px;
+    }
+    nav ul li ul {
+        min-width: 120px;
+        margin-top: 5px;
+    }    
+    body {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 50px;
+    }
 }
-body {
-    margin-left: 160px;
-    margin-right: 5px;
-    background-color: lightgreen;
+
+@media (max-width: 500px) {
+    * {
+        font-size: 1em;
+    }
+    nav {
+        font-size: 0.8em;
+    }
+    nav li {
+        padding: 2px;
+    }
+    nav ul li ul {
+        min-width: 100px;
+        margin-top: 2px;
+    }    
+    body {
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-top: 45px;
+    }
 }
