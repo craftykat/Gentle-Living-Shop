@@ -1,15 +1,24 @@
 /*font*/
 
-@font-face { font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf); }
-* {font-family: BoopasBlobs, Cantarell, Verdana, sans-serif;}
-p {font-family: Cantarell, Verdana, sans-serif;}
+@font-face {font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf);}
+@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Regular.ttf);}
+@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Bold.ttf); font-weight: bold;}
+@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Oblique.ttf); font-style:oblique}
+@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-BoldOblique.ttf); font-weight: bold; font-style: oblique;}
+@font-face {font-family: chinese; src: url(../fonts/jf-openhuninn-1.1.ttf);}
+body {font-family: Cantarell, Verdana, sans-serif;}
+h1, h2, h3, h4, h5, h6, blockquote, footer, #mainnav {font-family: BoopasBlobs, Cantarell, Verdana, sans-serif;}
+:lang(zh) {
+    font-family: chinese;
+}
+
 
 /*general theme*/
 
 
 
 /*dropdown menu with tab support*/
-nav {
+#mainnav {
     position: fixed;
     top: 0;
     right: 0;
@@ -18,8 +27,9 @@ nav {
     background: #b7e0f8;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-nav ul {
+#mainnav ul {
     background: #b7e0f8;
     list-style: none;
     margin: 0;
@@ -27,7 +37,7 @@ nav ul {
     height: auto;
 }
   
-nav li {
+#mainnav li {
     color: #000;
     background: #b7e0f8;
     display: block;
@@ -35,25 +45,24 @@ nav li {
     padding: 10px;
     position: relative;
     transition-duration: 0.2s;
-    border-color: #afddf8;
-    border-style: solid;
+    min-width: 200px;
+    text-align: center;
 }
   
-nav li a {
+#mainnav li a {
     color: #000;
     text-decoration: none;
     font-size: 1.6em;
     padding: 20px;
-    text-align: center;
 }
   
-nav li:hover,
-nav li:focus-within {
+#mainnav li:hover,
+#mainnav li:focus-within {
     background: #e6f6ff;
     cursor: pointer;
 }
   
-nav ul li ul {
+#mainnav ul li ul {
     visibility: hidden;
     background: #b7e0f8;
     opacity: 0;
@@ -65,15 +74,15 @@ nav ul li ul {
     display: none;
 }
   
-ul li:hover > ul,
-ul li:focus-within > ul,
-ul li ul:hover,
-ul li ul:focus {
+#mainnav ul li:hover > ul,
+#mainnav ul li:focus-within > ul,
+#mainnav ul li ul:hover,
+#mainnav ul li ul:focus {
     visibility: visible;
     opacity: 1;
     display: block;
 }
-  
+
 ul li ul li {
     clear: both;
     width: 100%;
@@ -81,14 +90,14 @@ ul li ul li {
 }
   
 /*menu dropdown button*/
-nav li > a:after {
+#mainnav li > a:after {
     content: " »";
 }
-nav li > a:only-child:after {
+#mainnav li > a:only-child:after {
     content: "";
 }
 
-/*mobile menu hamburger button*/
+/*mobile menu 'hamburger' button*/
 #menubutton {
     width: 16px;
     height: 16px;
@@ -126,74 +135,168 @@ body {
     margin: 0% 0%;
 }
 
+/*bottom info area*/
+#moreinfo {
+    position: absolute;
+    bottom: 60px;
+    display: grid;
+    left: 20px;
+    right: 20px;
+    column-gap: 12px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "public-domain-declare buttomlogo contact-videos"
+        ". . ."
+        ". . .";
+    grid-template-columns: 1fr 0.7fr 1fr;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottomlogo {
+    grid-area: buttomlogo;
+}
+
+#public-domain-declare {
+    text-align: justify;   
+    grid-area: public-domain-declare;
+}
+#contact-videos {
+    grid-area: contact-videos;
+    text-align: center;
+}
+
+#contact-videos hr {
+    width: 80%;
+}
+
+
+/*footer*/
+footer {
+    background: #d0ecfc;
+    width:100%;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+footer a {
+    color: black;
+    padding: 16px;
+}
+
 /*responsive*/
 @media (max-width: 768px) {
-    nav li a {
+    #mainnav li a {
         font-size: 1.2em;
     }
-    nav li {
+    #mainnav li {
         padding: 0px;
     }
-    nav ul li ul {
+    #mainnav ul li ul {
         min-width: 120px;
         margin-top: 2px;
     }    
     body {
         margin-left: 12px;
         margin-right: 12px;
-        margin-top: 50px;
+        margin-top: 55px;
+    }
+    #moreinfo {
+        bottom: 50px;
+        font-size: 0.9em;
+    }
+    #public-domain-logo {
+        width: 56px;
+        height: auto;
+    }
+    #bottomlogo {
+        width: 180px;
+        height: auto;
     }
 }
+@media (max-width: 650px) {
+    #moreinfo {
+        grid-template-areas: 
+            "public-domain-declare public-domain-declare public-domain-declare"
+            "bottomlogo . contact-videos"
+            ". . .";
+        grid-template-columns: auto;
 
+    }
+}
 @media (max-width: 520px) {
-    nav li {
+    #mainnav li {
         padding: 2px;
     }
-    nav li a {
+    #mainnav li a {
         padding: 2px;
         font-size: 0.8em;
     }
-    nav ul li ul {
+    #mainnav ul li ul {
         min-width: 100px;
         margin-top: 2px;
     }    
-    body {
+    #mainnav {
         margin-left: 12px;
         margin-right: 12px;
         margin-top: 50px;
     }
+    footer {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+    footer a {
+        padding: 4px;
+    }
+    #moreinfo {
+        grid-template-areas: 
+            "public-domain-declare"
+            "bottomlogo"
+            "contact-videos";
+        grid-template-columns: auto;
+    }
+}
 
 /*mobile menu button responsive*/
 @media only screen and (max-width: 520px) {    
+    body {
+        margin-top: 30px;
+    }
     #menubutton {
         display: block;
+        z-index: 99;
     }
 
     #menu-btn {
         display: block;
         opacity: 0.01;
+        z-index: 100;
     }
     
-    #menu-btn:checked ~ nav,
-    #menu-btn:checked ~ nav ul li ul {
+    #menu-btn:checked ~ #mainnav,
+    #menu-btn:checked ~ #mainnav ul li ul {
         visibility: visible; 
+        opacity: 1;
     }
-    body {
-        margin-top: 30px;
-    }
-    nav {
+    #mainnav {
         padding: 0px;
         font-size: 1.2em;
         width: auto;
         visibility: hidden;
-        top: 60px;
+        top: 20px;
         right: 50px;
         min-width: 160px;
         background: #c4e5f8;
         border-color: #afddf8;
         border-style: solid;
+        z-index: 200;
+        box-shadow: 0 0 2px 10px rgba(0, 0, 255, .2);
     }
-    nav ul {
+    #mainnav ul {
         list-style: none;
         margin: 0;
         padding-left: 0;
@@ -201,7 +304,7 @@ body {
         background: none;
     }
       
-    nav li {
+    #mainnav li {
         color: #000;
         background:none;
         display: block;
@@ -210,15 +313,13 @@ body {
         border-style: none;
         transition-duration: 0s;
     }
-      
-    nav li a {
+    #mainnav li a {
         color: #000;
         text-decoration: none;
         font-size: 1.4em;
         text-decoration: underline;
-
     }
-    nav ul li ul {
+    #mainnav ul li ul {
         visibility: hidden;
         background: none;
         opacity: 1;
@@ -227,7 +328,6 @@ body {
         left: 0;
         display: block;
         transition: none;
-
     }
     ul li ul li {
         clear: both;
@@ -236,19 +336,16 @@ body {
         text-align: center;
     }
 
-    nav ul li ul a {
+    #mainnav ul li ul a {
         font-size: 1.1em;
         text-decoration: none;
     }
    
-    nav ul li ul li:hover {
+    #mainnav ul li ul li:hover {
         background: rgb(206, 220, 247);
     }
     /*menu dropdown button*/
-    nav li > a:after {
+    #mainnav li > a:after {
     content: "";
+    }
 }
-      
-}
-    
-    
