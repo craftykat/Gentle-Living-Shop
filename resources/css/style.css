@@ -15,6 +15,7 @@ h1, h2, h3, h4, h5, h6, blockquote, footer, #mainnav {font-family: BoopasBlobs, 
 
 /*general theme*/
 
+  
 
 
 /*dropdown menu with tab support*/
@@ -125,10 +126,14 @@ ul li ul li {
 
 /*main*/
 body {
-    margin-left: 40px;
     margin-top: 76px;
-    margin-right: 40px;
     background: rgb(196, 240, 196);
+    bottom: 0;
+}
+
+main {
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .site-header {
@@ -137,11 +142,10 @@ body {
 
 /*bottom info area*/
 #moreinfo {
-    position: absolute;
     bottom: 60px;
     display: grid;
-    left: 20px;
-    right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     column-gap: 12px;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -155,6 +159,8 @@ body {
 }
 #bottomlogo {
     grid-area: buttomlogo;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 
 #public-domain-declare {
@@ -169,18 +175,22 @@ body {
 #contact-videos hr {
     width: 80%;
 }
+#spacer {
+    height: 20px;
+    width: 100%;
+}
 
 
 /*footer*/
 footer {
     background: #d0ecfc;
-    width:100%;
-    bottom: 0;
-    position: absolute;
-    left: 0;
+    width: 100%;
     text-align: center;
     padding-top: 6px;
     padding-bottom: 6px;
+    margin-bottom: -10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer a {
@@ -194,7 +204,8 @@ footer a {
         font-size: 1.2em;
     }
     #mainnav li {
-        padding: 0px;
+        padding: 10px;
+        min-width: 100px;
     }
     #mainnav ul li ul {
         min-width: 120px;
@@ -203,7 +214,7 @@ footer a {
     body {
         margin-left: 12px;
         margin-right: 12px;
-        margin-top: 55px;
+        margin-top: 60px;
     }
     #moreinfo {
         bottom: 50px;
@@ -216,6 +227,8 @@ footer a {
     #bottomlogo {
         width: 180px;
         height: auto;
+        margin-left: 35px;
+        margin-top: 0;
     }
 }
 @media (max-width: 650px) {
@@ -258,6 +271,10 @@ footer a {
             "bottomlogo"
             "contact-videos";
         grid-template-columns: auto;
+    }
+    #bottomlogo {
+        margin-left: 0px;
+        margin-top: 15px;
     }
 }
 
@@ -312,6 +329,7 @@ footer a {
         position: relative;
         border-style: none;
         transition-duration: 0s;
+        
     }
     #mainnav li a {
         color: #000;
