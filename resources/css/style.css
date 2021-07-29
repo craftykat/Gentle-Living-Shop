@@ -7,12 +7,13 @@
 @font-face {font-family: Cantarell; src: url(../fonts/Cantarell-BoldOblique.ttf); font-weight: bold; font-style: oblique;}
 @font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-1.1.ttf); unicode-range: U+4E00–9FFF;}
 body {font-family: Cantarell, jf-openhuninn, Verdana, sans-serif;}
-h1, h2, h3, h4, h5, h6, blockquote, footer, #mainnav {font-family: BoopasBlobs, Cantarell, jf-openhuninn, Verdana, sans-serif;}
+h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Cantarell, jf-openhuninn, Verdana, sans-serif;}
 
 /*general theme*/
-
+body {
+    height: 100%;
+}
   
-
 
 /*dropdown menu with tab support*/
 #mainnav {
@@ -137,7 +138,11 @@ main {
     margin-right: 10px;
 }
 
-/*bottom info area*/
+
+/*footer style*/
+
+
+/*foot(er) info area*/
 #moreinfo {
     bottom: 60px;
     display: grid;
@@ -175,8 +180,8 @@ main {
 
 
 
-/*footer*/
-footer {
+/*foot(er) very bottom*/
+#foot {
     background: #d0ecfc;
     width: 100%;
     text-align: center;
@@ -187,7 +192,7 @@ footer {
     margin-right: auto;
 }
 
-footer a {
+#foot a {
     color: black;
     padding: 16px;
 }
@@ -266,11 +271,11 @@ footer a {
         margin-right: 12px;
         margin-top: 50px;
     }
-    footer {
+    #foot {
         padding-top: 4px;
         padding-bottom: 4px;
     }
-    footer a {
+    #foot a {
         padding: 4px;
     }
     #moreinfo {
@@ -380,4 +385,51 @@ footer a {
     #mainnav li > a:after {
     content: "";
     }
+}
+
+
+
+/*home page*/
+.blockquote-purple {
+    background: #c3d6fa;
+    width: auto;
+    height: auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+.music {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+/*homepage recent posts - responsive*/
+.archive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 32px;
+    grid-auto-flow: dense;
+    padding-bottom: 16px;
+
+}
+@media (max-width: 650px) {
+    .archive {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
+@media (max-width: 459px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+.recent-post {
+    box-shadow: 0 0 3px 1px rgb(0, 0, 0);
+    height: 50vh;
+    height: 50vh;
+    padding: 6px;
+
+}
+.recent-post a {
+    color: black;
 }
