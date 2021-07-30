@@ -1,5 +1,4 @@
 /*font*/
-
 @font-face {font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf);}
 @font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Regular.ttf);}
 @font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Bold.ttf); font-weight: bold;}
@@ -13,15 +12,42 @@ h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, C
 body {
     height: 100%;
 }
-  
+#title-logo {
+    position: relative;
+    top: 16px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #8892ec;
+}
+header h1 #logo-link:hover {
+    box-shadow: 0px 0px 80px #a388ec;
+    border-radius: 50%;
+}
+header a {
+    color:rgb(0, 0, 0);
+    text-shadow: 4px 4px 4px #8892ec;
+}
+#site-title a {
+    color:rgb(0, 0, 0);
+    text-shadow: 0px 0px 2px #8892ec;
+}
+header {
+    text-shadow: 0px 0px 2px #a2caf0;
+}
+a:hover {
+    color: rgb(6, 93, 223) !important;
+}
+h2 {
+    text-shadow: 2px 2px 2px #a7a2f0;
+}
 
 /*dropdown menu with tab support*/
 #mainnav {
     position: fixed;
     top: 0;
     right: 0;
+    left: 0;
     margin: auto;
-    width: 100vw;
+    width: 100%;
     background: #b7e0f8;
     display: flex;
     justify-content: center;
@@ -34,8 +60,7 @@ body {
     margin: 0;
     padding-left: 0;
     height: auto;
-}
-  
+} 
 #mainnav li {
     color: #000;
     background: #b7e0f8;
@@ -46,21 +71,18 @@ body {
     transition-duration: 0.2s;
     min-width: 200px;
     text-align: center;
-}
-  
+} 
 #mainnav li a {
     color: #000;
     text-decoration: none;
     font-size: 1.6em;
     padding: 20px;
 }
-  
 #mainnav li:hover,
 #mainnav li:focus-within {
     background: #e6f6ff;
     cursor: pointer;
 }
-  
 #mainnav ul li ul {
     visibility: hidden;
     background: #b7e0f8;
@@ -71,8 +93,7 @@ body {
     margin-top: 10px;
     left: 0;
     display: none;
-}
-  
+} 
 #mainnav ul li:hover > ul,
 #mainnav ul li:focus-within > ul,
 #mainnav ul li ul:hover,
@@ -130,14 +151,14 @@ ul li ul li {
 
 /*main*/
 body {
-    margin-top: 76px;
+    margin-top: 56px;
     background: rgb(196, 240, 196);
     bottom: 0;
 }
 
 main {
-    margin-left: 40px;
-    margin-right: 40px;
+    width:90%;
+    margin: auto;
 }
 
 .site-header {
@@ -145,9 +166,12 @@ main {
     margin-right: 10px;
 }
 
-
-/*footer style*/
-
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 70%;
+        margin: auto;
+    }
+}
 
 /*foot(er) info area*/
 #moreinfo {
@@ -165,6 +189,7 @@ main {
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    margin: auto;
 }
 #bottomlogo {
     grid-area: buttomlogo;
@@ -175,6 +200,7 @@ main {
 #public-domain-declare {
     text-align: justify;   
     grid-area: public-domain-declare;
+    margin-left: 10px;
 }
 #contact-videos {
     grid-area: contact-videos;
@@ -184,8 +210,6 @@ main {
 #contact-videos hr {
     width: 80%;
 }
-
-
 
 /*foot(er) very bottom*/
 #foot {
@@ -215,13 +239,14 @@ main {
         margin-top: 10px;
     }    
     body {
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 2px;
+        margin-right: 2px;
         margin-top: 60px;
     }
     main {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: auto;
     }
     #moreinfo {
         bottom: 50px;
@@ -258,14 +283,15 @@ main {
     }
 }
 /*mobile view*/
-@media (max-width: 460px) {
+@media (max-width: 480px) {
     body {
         margin-left: 8px;
         margin-right: 8px;
-        margin-top: 60px;
+        margin-top: 20px;
     }
     #mainnav li {
         padding: 2px;
+        min-width: none;
     }
     #mainnav li a {
         padding: 2px;
@@ -307,9 +333,10 @@ main {
 }
 
 /*mobile menu button responsive*/
-@media only screen and (max-width: 460px) {    
+@media only screen and (max-width: 480px) {    
     body {
-        margin-top: 30px;
+        margin-top: 20px;
+        margin: auto;
     }
     #menubutton {
         display: block;
@@ -413,11 +440,17 @@ main {
 /*home page*/
 .blockquote-purple {
     background: #c3d6fa;
-    width: auto;
     height: auto;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    padding: 6px;
     text-align: center;
+    transition: padding 1s ease;
+}
+.blockquote-purple a {
+    color: black;
+}
+.blockquote-purple:hover {
+    font-size: 100%;
+    padding: 12px;
 }
 .music {
     display: flex;
@@ -431,14 +464,13 @@ main {
     grid-gap: 32px;
     grid-auto-flow: dense;
     padding-bottom: 16px;
-
 }
 @media (max-width: 650px) {
     .archive {
         grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
   }
-@media (max-width: 459px) {
+@media (max-width: 480px) {
     .archive {
       display: flex;
       flex-direction: column;
@@ -446,11 +478,17 @@ main {
   }
 .recent-post {
     box-shadow: 0 0 3px 1px rgb(0, 0, 0);
-    height: 50vh;
-    height: 50vh;
+    height: 40vh;
+    width: auto;
     padding: 6px;
-
+    transition: height 0.2s linear;
+    font-size: 140%;
+}
+.recent-post:hover {
+    height: 40.5vh;
+    width: auto;
 }
 .recent-post a {
     color: black;
+    text-decoration-style: dotted;
 }
