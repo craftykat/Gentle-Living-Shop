@@ -1,12 +1,12 @@
 /*font*/
-@font-face {font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.otf);}
-@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Regular.ttf);}
-@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Bold.ttf); font-weight: bold;}
-@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-Oblique.ttf); font-style:oblique}
-@font-face {font-family: Cantarell; src: url(../fonts/Cantarell-BoldOblique.ttf); font-weight: bold; font-style: oblique;}
+@font-face {font-family: BoopasBlobs; src: url(../fonts/BoopasBlobs2.0-Regular.ttf) format('truetype'); font-weight: normal; font-style: normal; }
+@font-face {font-family: Nunito; src: url(../fonts/Nunito-Regular.ttf);}
+@font-face {font-family: Nunito; src: url(../fonts/Nunito-Bold.ttf); font-weight: bold;}
+@font-face {font-family: Nunito; src: url(../fonts/Nunito-Italic.ttf); font-style: italic}
+@font-face {font-family: Nunito; src: url(../fonts/Nunito-BoldItalic.ttf); font-weight: bold; font-style: italic;}
 @font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-1.1.ttf); unicode-range: U+4E00–9FFF;}
-body {font-family: Cantarell, jf-openhuninn, Verdana, sans-serif;}
-h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Cantarell, jf-openhuninn, Verdana, sans-serif;}
+body {font-family: Nunito, jf-openhuninn, sans-serif;}
+h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Nunito, jf-openhuninn, Verdana, sans-serif;}
 
 /*general theme*/
 body {
@@ -34,10 +34,34 @@ header {
     text-shadow: 0px 0px 2px #a2caf0;
 }
 a:hover {
-    color: rgb(6, 93, 223) !important;
+    color: rgb(5, 81, 194) !important;
+}
+h1 {
+    text-shadow: 2px 2px 2px #c4a2f0;
 }
 h2 {
-    text-shadow: 2px 2px 2px #a7a2f0;
+    text-shadow: 2px 2px 2px #a2f0dc;
+}
+
+
+.hr-dotted {
+    border-top: 6px dotted black;
+    width: 6%;
+}
+
+.section-box {
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 2%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: justify;
+}
+.hr-spacer {
+    visibility: hidden;
 }
 
 /*dropdown menu with tab support*/
@@ -218,6 +242,7 @@ main {
     padding-top: 6px;
     padding-bottom: 6px;
     margin-bottom: -10px;
+    border-radius: 4%;
 }
 
 #foot a {
@@ -491,4 +516,24 @@ main {
 .recent-post a {
     color: black;
     text-decoration-style: dotted;
+}
+
+/*privacy policy page*/
+.toc {
+    border-color: black;
+    border-style: dotted;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    border-radius: 3%;
+}
+#privacy-toc {
+    background: rgb(238, 224, 226);
+}
+.toc h2 {
+    text-align: center;
+}
+.toc a {
+    color: black;
 }
