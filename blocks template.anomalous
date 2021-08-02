@@ -36,7 +36,7 @@
     <main>
         <h1>Blocks templates</h1>
         <hr>
-        <nav class="toc" id="template">
+        <nav class="toc pink" id="template">
             <h2>Table of Contents:</h2>
             <ul>
                 <li><a href="#a">a</a></li>
