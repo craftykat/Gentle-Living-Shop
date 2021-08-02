@@ -59,6 +59,12 @@
           <h2>Header</h2>
           <p>Text</p>
       </div>
+      <hr class ="hr-spacer">
+      <div class="blockquote purple">
+          <h2>
+              <blockquote>text</blockquote>
+          </h2>
+      </div>
 
     </main>
     <!--main content ends-->

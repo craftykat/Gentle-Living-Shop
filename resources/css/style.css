@@ -7,38 +7,6 @@
 @font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-11.woff); unicode-range: U+4E00–9FFF;}
 body {font-family: Nunito, jf-openhuninn, sans-serif;}
 h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Nunito, jf-openhuninn, Verdana, sans-serif;}
-
-/*general theme*/
-body {
-    height: 100%;
-}
-main {
-  font-size: 120%;
-}
-#title-logo {
-    position: relative;
-    top: 16px;
-    border-radius: 50%;
-    box-shadow: 0 0 4px #8892ec;
-}
-header h1 #logo-link:hover {
-    box-shadow: 0px 0px 80px #a388ec;
-    border-radius: 50%;
-}
-header a {
-    color:rgb(0, 0, 0);
-    text-shadow: 4px 4px 4px #8892ec;
-}
-#site-title a {
-    color:rgb(0, 0, 0);
-    text-shadow: 0px 0px 2px #8892ec;
-}
-header {
-    text-shadow: 0px 0px 2px #a2caf0;
-}
-a:hover {
-    color: rgb(5, 81, 194) !important;
-}
 h1 {
     text-shadow: 2px 2px 2px #c4a2f0;
 }
@@ -46,10 +14,63 @@ h2 {
     text-shadow: 2px 2px 2px #a2f0dc;
 }
 
+/*main*/
+body {
+    margin-top: 56px;
+    background: rgb(196, 240, 196);
+    bottom: 0;
+}
+
+main {
+    width:90%;
+    margin: auto;
+    font-size: 120%;
+}
+
+@media only screen and (min-width: 1200px) {
+    main {
+        width: 1080px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 800px) {
+  body {
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-top: 60px;
+  }
+  main {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    body {
+        margin-top: 20px;
+        margin: auto;
+    }
+  }
+
 /*colors*/
 .pink {
     background: rgb(238, 224, 226);
 }
+
+.purple {
+  background: #c3d6fa;
+}
+
+/*BLOCKS*/
 
 /*Navigation*/
 .toc {
@@ -90,6 +111,97 @@ h2 {
     margin-right: auto;
     padding: 10px;
     text-align: justify;
+}
+
+.blockquote {
+    height: auto;
+    padding: 6px;
+    text-align: center;
+    transition: padding 1s ease;
+}
+.blockquote a {
+    color: black;
+}
+.blockquote:hover {
+    font-size: 100%;
+    padding: 12px;
+}
+
+/*media*/
+.music {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*page specific blocks*/
+
+/*homepage recent posts - responsive*/
+.archive {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 32px;
+    grid-auto-flow: dense;
+    padding-bottom: 16px;
+}
+@media (max-width: 650px) {
+    .archive {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+  }
+@media (max-width: 480px) {
+    .archive {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+.recent-post {
+    box-shadow: 0 0 3px 1px rgb(0, 0, 0);
+    height: 40vh;
+    width: auto;
+    padding: 6px;
+    transition: height 0.2s linear;
+    font-size: 140%;
+}
+.recent-post:hover {
+    height: 40.5vh;
+    width: auto;
+}
+.recent-post a {
+    color: black;
+    text-decoration-style: dotted;
+}
+
+/*HEADER & FOOTER*/
+
+/*header*/
+#title-logo {
+    position: relative;
+    top: 16px;
+    border-radius: 50%;
+    box-shadow: 0 0 4px #8892ec;
+}
+header h1 #logo-link:hover {
+    box-shadow: 0px 0px 80px #a388ec;
+    border-radius: 50%;
+}
+header a {
+    text-shadow: 4px 4px 4px #8892ec;
+    color: #000;
+}
+#site-title a {
+    text-shadow: 0px 0px 2px #8892ec;
+}
+header {
+    text-shadow: 0px 0px 2px #a2caf0;
+}
+a:hover {
+    color: rgb(5, 81, 194) !important;
+}
+
+.site-header {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /*dropdown menu with tab support*/
@@ -201,30 +313,6 @@ ul li ul li {
     display: none;
 }
 
-/*main*/
-body {
-    margin-top: 56px;
-    background: rgb(196, 240, 196);
-    bottom: 0;
-}
-
-main {
-    width:90%;
-    margin: auto;
-}
-
-.site-header {
-    margin-left: 10px;
-    margin-right: 10px;
-}
-
-@media only screen and (min-width: 1200px) {
-    main {
-        width: 70%;
-        margin: auto;
-    }
-}
-
 /*foot(er) info area*/
 #moreinfo {
     bottom: 60px;
@@ -291,16 +379,6 @@ main {
         min-width: 140px;
         margin-top: 10px;
     }
-    body {
-        margin-left: 2px;
-        margin-right: 2px;
-        margin-top: 60px;
-    }
-    main {
-        margin-left: 0px;
-        margin-right: 0px;
-        margin: auto;
-    }
     #moreinfo {
         bottom: 50px;
         font-size: 0.9em;
@@ -337,11 +415,6 @@ main {
 }
 /*mobile view*/
 @media (max-width: 480px) {
-    body {
-        margin-left: 8px;
-        margin-right: 8px;
-        margin-top: 20px;
-    }
     #mainnav li {
         padding: 2px;
         min-width: none;
@@ -387,10 +460,6 @@ main {
 
 /*mobile menu button responsive*/
 @media only screen and (max-width: 480px) {
-    body {
-        margin-top: 20px;
-        margin: auto;
-    }
     #menubutton {
         display: block;
         z-index: 899;
@@ -486,62 +555,4 @@ main {
     #mainnav li > a:after {
     content: "";
     }
-}
-
-
-
-/*home page*/
-.blockquote-purple {
-    background: #c3d6fa;
-    height: auto;
-    padding: 6px;
-    text-align: center;
-    transition: padding 1s ease;
-}
-.blockquote-purple a {
-    color: black;
-}
-.blockquote-purple:hover {
-    font-size: 100%;
-    padding: 12px;
-}
-.music {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-/*homepage recent posts - responsive*/
-.archive {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-gap: 32px;
-    grid-auto-flow: dense;
-    padding-bottom: 16px;
-}
-@media (max-width: 650px) {
-    .archive {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    }
-  }
-@media (max-width: 480px) {
-    .archive {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-.recent-post {
-    box-shadow: 0 0 3px 1px rgb(0, 0, 0);
-    height: 40vh;
-    width: auto;
-    padding: 6px;
-    transition: height 0.2s linear;
-    font-size: 140%;
-}
-.recent-post:hover {
-    height: 40.5vh;
-    width: auto;
-}
-.recent-post a {
-    color: black;
-    text-decoration-style: dotted;
 }
