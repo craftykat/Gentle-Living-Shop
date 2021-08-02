@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--update language!-->
-<html lang="en">
+<html lang="zh">
 
 <head>
     <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
     <!--favicon-->
-    <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
     <link rel="manifest" href="./resources/favicon/site.webmanifest">
@@ -16,16 +16,17 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#daf0e2">
     <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="">
+    <title>Gentle Living Shop手作之家</title>
+    <meta name="description" content="歡迎來到我們熱愛手工製作的家, 所有教程都免費為你提供❤">
     <!--open graph meta tags-->
     <meta property="og:type" content="website">
     <meta property="og:url" content="#">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="">
+    <meta property="og:title" content="Gentle Living Shop手作之家">
+    <meta property="og:description" content="歡迎來到我們熱愛手工製作的家, 所有教程都免費為你提供❤">
     <meta property="og:image" content="#">
     <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+    <link rel="alternate" href="#" hreflang="nl">
+    <link rel="alternate" href="#" hreflang="en">
 </head>
 
 <body>
@@ -36,7 +37,7 @@
     <main>
         <h1></h1>
         <hr>
- 
+
     </main>
     <!--main content ends-->
 
