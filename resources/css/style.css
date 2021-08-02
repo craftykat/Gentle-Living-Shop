@@ -64,6 +64,11 @@ h2 {
     visibility: hidden;
 }
 
+/*colors*/
+.pink {
+    background: rgb(238, 224, 226);
+}
+
 /*dropdown menu with tab support*/
 #mainnav {
     position: fixed;
@@ -84,7 +89,7 @@ h2 {
     margin: 0;
     padding-left: 0;
     height: auto;
-} 
+}
 #mainnav li {
     color: #000;
     background: #b7e0f8;
@@ -95,7 +100,7 @@ h2 {
     transition-duration: 0.2s;
     min-width: 200px;
     text-align: center;
-} 
+}
 #mainnav li a {
     color: #000;
     text-decoration: none;
@@ -117,7 +122,7 @@ h2 {
     margin-top: 10px;
     left: 0;
     display: none;
-} 
+}
 #mainnav ul li:hover > ul,
 #mainnav ul li:focus-within > ul,
 #mainnav ul li ul:hover,
@@ -132,7 +137,7 @@ ul li ul li {
     width: 100%;
     display: inline-block;
 }
-  
+
 /*menu dropdown button*/
 #mainnav li > a:after {
     content: " »";
@@ -203,7 +208,7 @@ main {
     display: grid;
     column-gap: 8px;
     grid-template-rows: auto;
-    grid-template-areas: 
+    grid-template-areas:
         "public-domain-declare buttomlogo contact-videos"
         ". . ."
         ". . .";
@@ -222,7 +227,7 @@ main {
 }
 
 #public-domain-declare {
-    text-align: justify;   
+    text-align: justify;
     grid-area: public-domain-declare;
     margin-left: 10px;
 }
@@ -262,7 +267,7 @@ main {
     #mainnav ul li ul {
         min-width: 140px;
         margin-top: 10px;
-    }    
+    }
     body {
         margin-left: 2px;
         margin-right: 2px;
@@ -291,7 +296,7 @@ main {
 }
 @media (max-width: 650px) {
     #moreinfo {
-        grid-template-areas: 
+        grid-template-areas:
             "public-domain-declare public-domain-declare public-domain-declare"
             "bottomlogo . contact-videos"
             ". . .";
@@ -325,7 +330,7 @@ main {
     #mainnav ul li ul {
         min-width: 100px;
         margin-top: 2px;
-    }    
+    }
     #mainnav {
         margin-left: 12px;
         margin-right: 12px;
@@ -339,7 +344,7 @@ main {
         padding: 4px;
     }
     #moreinfo {
-        grid-template-areas: 
+        grid-template-areas:
             "public-domain-declare"
             "bottomlogo"
             "contact-videos";
@@ -358,7 +363,7 @@ main {
 }
 
 /*mobile menu button responsive*/
-@media only screen and (max-width: 480px) {    
+@media only screen and (max-width: 480px) {
     body {
         margin-top: 20px;
         margin: auto;
@@ -373,10 +378,10 @@ main {
         opacity: 0.01;
         z-index: 900;
     }
-    
+
     #menu-btn:checked ~ #mainnav,
     #menu-btn:checked ~ #mainnav ul li ul {
-        visibility: visible; 
+        visibility: visible;
         opacity: 1;
     }
     #mainnav {
@@ -400,7 +405,7 @@ main {
         height: auto;
         background: none;
     }
-      
+
     #mainnav li {
         color: #000;
         background:none;
@@ -427,7 +432,7 @@ main {
     background: transparent;
     cursor: pointer;
     }
-    
+
     #mainnav ul li ul {
         visibility: hidden;
         background: none;
@@ -449,7 +454,7 @@ main {
         font-size: 1.4em;
         text-decoration: none;
     }
-   
+
     #mainnav ul li ul li:hover {
         background: rgb(231, 237, 248);
     }
@@ -528,9 +533,7 @@ main {
     padding-right: 10px;
     border-radius: 3%;
 }
-#privacy-toc {
-    background: rgb(238, 224, 226);
-}
+
 .toc h2 {
     text-align: center;
 }
