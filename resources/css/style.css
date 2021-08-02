@@ -12,6 +12,9 @@ h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, N
 body {
     height: 100%;
 }
+main {
+  font-size: 120%;
+}
 #title-logo {
     position: relative;
     top: 16px;
@@ -43,12 +46,40 @@ h2 {
     text-shadow: 2px 2px 2px #a2f0dc;
 }
 
+/*colors*/
+.pink {
+    background: rgb(238, 224, 226);
+}
 
+/*Navigation*/
+.toc {
+    border-color: black;
+    border-style: dotted;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10px;
+    border-radius: 3%;
+}
+
+.toc h2 {
+    text-align: center;
+}
+.toc a {
+    color: black;
+}
+
+/*spacers*/
 .hr-dotted {
     border-top: 6px dotted black;
     width: 6%;
 }
 
+.hr-spacer {
+    visibility: hidden;
+}
+
+/*sections*/
 .section-box {
     border-color: black;
     border-style: solid;
@@ -59,14 +90,6 @@ h2 {
     margin-right: auto;
     padding: 10px;
     text-align: justify;
-}
-.hr-spacer {
-    visibility: hidden;
-}
-
-/*colors*/
-.pink {
-    background: rgb(238, 224, 226);
 }
 
 /*dropdown menu with tab support*/
@@ -521,22 +544,4 @@ main {
 .recent-post a {
     color: black;
     text-decoration-style: dotted;
-}
-
-/*privacy policy page*/
-.toc {
-    border-color: black;
-    border-style: dotted;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 10px;
-    border-radius: 3%;
-}
-
-.toc h2 {
-    text-align: center;
-}
-.toc a {
-    color: black;
 }
