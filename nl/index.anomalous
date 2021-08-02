@@ -2,7 +2,7 @@
 <html lang="nl">
 
 <head>
-    <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href=" ../resources/css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gentle Living Shop | Discover tutorials and how-tos on how we create our natural handmade home, free access
@@ -11,8 +11,8 @@
         content="We are a family sharing free tutorials of handmade projects like sewing and soapmaking with you. Welcome to our simple way of life! ">
     <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
     <!--this page in another language-->
-    <link rel="alternate" href="./zh.html" hreflang="zh">
-    <link rel="alternate" href="./index.html" hreflang="en">
+    <link rel="alternate" href="../zh/index.html" hreflang="zh">
+    <link rel="alternate" href="../index.html" hreflang="en">
     <!--open graph meta tags-->
     <meta property="og:url" content="#">
     <meta property="og:type" content="website">
@@ -33,38 +33,7 @@
 
 <body>
 
-<header class="site-header" itemscope itemtype="https://schema.org/WPHeader">
-    <h1 id="site-title"><a href="./index.html" id="logo-link"><img id="title-logo" src="./resources/img/logo 64px.png"
-                width="64" height="64" alt="title logo"></a> <a href="#">Gentle Living Shop</a></h1>
-    <h2> Ontdek tutorials en how-tos over hoe we ons natuurlijke en handgemaakte leven creeëren, vrije toegang voor iedereen❤️
-</h2>
-
-    <!--navigation menu & mobile menu-->
-    <span id="menubutton">menu</span>
-    <input id="menu-btn" type="checkbox" />
-    <nav id="mainnav" itemscope itemtype="https://schema.org/SiteNavigationElement">
-        <ul>
-            <li><a href="./index.html">Thuis</a>
-                <ul>
-                    <li><a href="./about-us.html">Over Ons</a></li>
-                    <li><a href="./privacy-policy.html">Privacy Verklaring</a></li>
-                </ul>
-            <li><a href="./projects.html">Vind een project</a>
-                <ul>
-                    <li><a href="./sewing.html">Naaien</a></li>
-                    <li><a href="./soapmaking.html">Zeep maken</a></li>
-                    <li><a href="./digital-life.html">Technologie</a></li>
-                </ul>
-            </li>
-            <li><a href="./index.html">English</a>
-                <ul>
-                    <li><a href="./zh.html" lan="zh">中文</a></li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
-</header>
-
+<partial src="_header-nl.html"/>
 
 
     <main>
@@ -139,40 +108,7 @@
 
     <hr>
 
-    <footer itemscope itemtype="https://schema.org/WPFooter">
-    <div id="moreinfo">
-        <div id="public-domain-declare">
-            <a href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank"><img
-                    id="public-domain-logo" src="./resources/img/CC_Public_Domain.png" width="88" height="31"
-                    alt="CC0 public domain logo"></a> <span>We geven alle inhoud op deze website vrij in het publieke domein.
-                      Je mag ons werk kopiëren, veranderen en verspreiden voor alle doeleinden zonder restricties.
-                      <a rel="license"
-                    href="https://creativecommons.org/publicdomain/zero/1.0/deed.nl" target="_blank">(Zie
-                    CC0 licentie)</a></span>
-        </div>
-        <div id="contact-videos">
-            <p> Praat met ons: <a href="mailto:gentlelivingshop@protonmail.com">gentlelivingshop@protonmail.com</a> of
-                <a href="https://matrix.to/#/#gentlelivingshop:matrix.org?via=matrix.org">op Matrix</a>.
-            </p>
-            <hr>
-            <p>Kijk onze videos: <a href="https://www.youtube.com/channel/UCj-eQP-Mt6Eo0mh3iwdB9Hg">YouTube</a> | <a
-                    href="https://odysee.com/@GentleLivingShop:5">Odysee</a></p>
-        </div>
-        <div><img id="bottomlogo" src="./resources/img/Love gentle (blk n white.png" alt="logo with handwriting"
-                width="260" height="89"></div>
-    </div>
-
-    <div id="foot">
-        <span><a href="./nl.html">Thuis</a></span>
-        <span><a href="./about-us.html">Over ons</a></span>
-        <span><a href="./privacy-policy.html">Privacy Verklaring</a></span>
-        <span><a href="./en.html">English</a></span>
-        <span><a href="./zh.html">中文</a></span>
-        <br>
-        <span>❤ Geen rechten voorbehouden ❤</span>
-    </div>
-</footer>
-
+    <partial src="_footer-nl.html"/>
 
 
 </body>
