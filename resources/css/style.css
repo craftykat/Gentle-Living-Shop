@@ -136,41 +136,86 @@ main {
 
 /*page specific blocks*/
 
-/*homepage recent posts - responsive*/
-.archive {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    grid-gap: 32px;
-    grid-auto-flow: dense;
-    padding-bottom: 16px;
+/*homepage recent posts - mosaic - responsive*/
+.archive-mosaic {
+  column-count: 3;
+  column-gap: 32px;
 }
-@media (max-width: 650px) {
-    .archive {
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+@media (max-width: 850px) {
+    .archive-mosaic {
+        column-count: 2;
+        column-gap: 32px;
     }
   }
-@media (max-width: 480px) {
-    .archive {
+@media (max-width: 650px) {
+    .archive-mosaic {
       display: flex;
       flex-direction: column;
     }
   }
-.recent-post {
+.recent-post-mosaic {
     box-shadow: 0 0 3px 1px rgb(0, 0, 0);
-    height: 40vh;
-    width: auto;
-    padding: 6px;
-    transition: height 0.2s linear;
+    height: max-content;
+    height: 85%;
+    padding: 20px;
+    transition: padding-bottom 0.2s linear;
     font-size: 140%;
+    margin-bottom:1em;
+
+    display: block;
+    break-inside: avoid;
 }
-.recent-post:hover {
-    height: 40.5vh;
-    width: auto;
+
+
+.recent-post-mosaic:hover {
+    padding-bottom: 30px;
 }
-.recent-post a {
+.recent-post-mosaic a {
     color: black;
     text-decoration-style: dotted;
 }
+
+.recent-post-img-mosaic {
+  max-width:100%;
+  height:auto;
+}
+
+/*homepage recent posts - responsive - grid*/
+.archive-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+grid-gap: 32px;
+grid-auto-flow: dense;
+padding-bottom: 16px;
+}
+@media (max-width: 650px) {
+.archive-grid {
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+}
+@media (max-width: 480px) {
+.archive-grid {
+display: flex;
+flex-direction: column;
+}
+}
+.recent-post-grid {
+box-shadow: 0 0 3px 1px rgb(0, 0, 0);
+height: 40vh;
+width: auto;
+padding: 6px;
+transition: height 0.2s linear;
+font-size: 140%;
+}
+.recent-post-grid:hover {
+height: 40.5vh;
+width: auto;
+}
+.recent-post-grid a {
+color: black;
+text-decoration-style: dotted;
+}
+
 
 /*HEADER & FOOTER*/
 

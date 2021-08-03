@@ -82,7 +82,7 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
                 <blockquote>❣️<strong> Our website is <i>100% free and in the public domain</i>. You are welcome to
                         copy,
                         edit, and distribute our knowledge for any purpose with no restrictions.</strong> <a
-                        href="#">Read About Us for more info!</a></blockquote>
+                        href="./about-us.html">Read About Us for more info!</a></blockquote>
             </h2>
         </div>
 
@@ -90,33 +90,34 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
 
         <h2>Need some inspiration for your next handmade project?</h2>
 
-        <div class="archive">
-            <article class="recent-post"><a href="#">Wax Canvas at Home with soy wax (DIY Waxed Canvas)</a></article>
-            <article class="recent-post"><a href="#">Coding our own website with HTML and CSS – Introduction</a>
+        <div class="archive-mosaic">
+            <article class="recent-post-mosaic"><a href="#">Wax Canvas at Home with soy wax (DIY Waxed Canvas)</a></article>
+            <article class="recent-post-mosaic"><a href="#">Coding our own website with HTML and CSS – Introduction</a>
             </article>
-            <article class="recent-post"><a href="#">How to Scour Cotton Canvas Fabric (Cellulose Fibres)</a></article>
-            <article class="recent-post"><a href="#">Our favourite free and open source Android apps (F-droid)</a>
+            <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/scour-fabric-thumbnail.jpg"
+                        ><a href="#">How to Scour Cotton Canvas Fabric (Cellulose Fibres)</a></article>
+            <article class="recent-post-mosaic"><a href="#">Our favourite free and open source Android apps (F-droid)</a>
             </article>
-            <article class="recent-post"><a href="#">Make Washing Soda/Soda Ash from Baking Soda for Fabric Scouring,
+            <article class="recent-post-mosaic"><a href="#">Make Washing Soda/Soda Ash from Baking Soda for Fabric Scouring,
                     Dying, Laundry, Cleaning & Cooking</a></article>
-            <article class="recent-post"><a href="#">Make Liquid Soap At Home Without a Stick Blender (recipe building
+            <article class="recent-post-mosaic"><a href="#">Make Liquid Soap At Home Without a Stick Blender (recipe building
                     and tutorial)</a></article>
-            <article class="recent-post"><a href="#">Easy 2-Seam T-shirt Sewing and Pattern Making Guide – No Sewing
+            <article class="recent-post-mosaic"><a href="#">Easy 2-Seam T-shirt Sewing and Pattern Making Guide – No Sewing
                     Machine Needed (PDF Download)</a></article>
-            <article class="recent-post"><a href="#">Beginner’s Guide PDF Download | Learn How to Make Natural Soap!
+            <article class="recent-post-mosaic"><a href="#">Beginner’s Guide PDF Download | Learn How to Make Natural Soap!
                     Introduction</a></article>
-            <article class="recent-post"><a href="#">Our Soap Recipes for Inspiration | Part 5: Learn How to Make
+            <article class="recent-post-mosaic"><a href="#">Our Soap Recipes for Inspiration | Part 5: Learn How to Make
                     Natural Soap!</a></article>
-            <article class="recent-post"><a href="#">Soapmaking Terms and Definitions</a></article>
-            <article class="recent-post"><a href="#">Step by Step Cold Process Soapmaking | Part 4: Learn How to Make
+            <article class="recent-post-mosaic"><a href="#">Soapmaking Terms and Definitions</a></article>
+            <article class="recent-post-mosaic"><a href="#">Step by Step Cold Process Soapmaking | Part 4: Learn How to Make
                     Natural Soap!</a></article>
-            <article class="recent-post"><a href="#">Safety Gear, Tools and Ingredients | Part 3: Learn How to Make
+            <article class="recent-post-mosaic"><a href="#">Safety Gear, Tools and Ingredients | Part 3: Learn How to Make
                     Natural Soap!</a></article>
-            <article class="recent-post"><a href="#">Creating You Own Recipes | Part 2: Learn How to Make Natural
+            <article class="recent-post-mosaic"><a href="#">Creating You Own Recipes | Part 2: Learn How to Make Natural
                     Soap!</a></article>
-            <article class="recent-post"><a href="#">Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</a>
+            <article class="recent-post-mosaic"><a href="#">Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</a>
             </article>
-            <article class="recent-post"><a href="#">Make Bean Bags! | Easy Tunisian Crochet Pattern (PDF Download)</a>
+            <article class="recent-post-mosaic"><a href="#">Make Bean Bags! | Easy Tunisian Crochet Pattern (PDF Download)</a>
             </article>
 
         </div>
