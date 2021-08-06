@@ -21,7 +21,7 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
 <!--Code starts here-->
 <head>
     <link rel="preload" href=".resources/fonts/boopasblobs2.0-regular-webfont.woff" as="font" crossorigin="anonymous">
-
+    <link rel="preload" href=".resources/fonts/nunito-regular-webfont.woff" as="font" crossorigin="anonymous">
     <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,7 +57,7 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
     <main>
         <div class="music">
             <figure>
-                <audio controls src="https://gentlelivingshop.com/wp-content/uploads/2021/06/Champ-de-tournesol.mp3"
+                <audio controls src="./resources/music/champ-de-tournesol.ogg"
                     loop>
                 </audio>
                 <figcaption>Enjoy some music!</figcaption>
