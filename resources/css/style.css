@@ -141,6 +141,7 @@ main {
   column-count: 3;
   column-gap: 64px;
   padding-bottom: 64px;
+  break-inside: avoid;
 }
 @media (max-width: 1100px) {
   .archive-mosaic {
@@ -155,18 +156,20 @@ main {
   }
 }
 .recent-post-mosaic {
+  margin-top: 5px;
   box-shadow: 0 0 3px 1px rgb(0, 0, 0);
   height: max-content;
   padding: 32px;
   transition: padding-bottom 0.2s linear;
   font-size: 140%;
   margin-bottom:64px;
-  display: block;
   break-inside: avoid;
+  transform: translateZ(0);
+
 }
 
 .recent-post-mosaic:hover {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .recent-post-mosaic a {
   color: black;
