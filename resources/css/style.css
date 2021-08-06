@@ -1,10 +1,10 @@
 /*font*/
-@font-face {font-family: BoopasBlobs; src: url(../fonts/boopasblobs2.0-regular-webfont.woff) format('woff'); font-weight: normal; font-style: normal; }
+@font-face {font-family: BoopasBlobs; src: url(../fonts/boopasblobs2.0-regular-webfont.woff) format('woff'); font-weight: normal; font-style: normal; font-display: swap;}
 @font-face {font-family: Nunito; src: url(../fonts/nunito-regular-webfont.woff) format('woff');}
 @font-face {font-family: Nunito; src: url(../fonts/nunito-bold-webfont.woff); font-weight: bold;}
 @font-face {font-family: Nunito; src: url(../fonts/nunito-italic-webfont.woff); font-style: italic}
 @font-face {font-family: Nunito; src: url(../fonts/nunito-bolditalic-webfont.woff); font-weight: bold; font-style: italic;}
-@font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-11.woff); unicode-range: U+4E00–9FFF;}
+/*@font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-11.woff); unicode-range: U+4E00–9FFF;}*/
 body {font-family: Nunito, jf-openhuninn, sans-serif;}
 h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Nunito, jf-openhuninn, Verdana, sans-serif;}
 h1 {
@@ -133,6 +133,7 @@ main {
   justify-content: center;
   text-align: center;
 }
+
 /*page specific blocks*/
 
 /*homepage recent posts - mosaic - responsive*/
