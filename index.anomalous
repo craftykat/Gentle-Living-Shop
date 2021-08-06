@@ -20,7 +20,8 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
 
 <!--Code starts here-->
 <head>
-    <link rel="preload" href=".resources/fonts/boopasblobs2.0-regular-webfont.woff" as="font">
+    <link rel="preload" href=".resources/fonts/boopasblobs2.0-regular-webfont.woff" as="font" crossorigin="anonymous">
+
     <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
