@@ -14,6 +14,16 @@ h2 {
   text-shadow: 2px 2px 2px #a2f0dc;
 }
 
+.dropcap::first-letter {
+  float: left;
+  line-height: 85%;
+  width: .7em;
+  font-size: 300%;
+}
+
+dt {font-weight: bold;}
+dd {font-size: 1rem; margin-bottom: 1em;}
+
 /*main*/
 body {
   margin-top: 56px;
@@ -22,19 +32,19 @@ body {
 }
 
 main {
-  width:90%;
+  width:70%;
   margin: auto;
   font-size: 120%;
 }
 
 @media only screen and (min-width: 1280px) {
   main {
-    width: 1240px;
+    width: 896px;
     margin: auto;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
   body {
     margin-left: 2px;
     margin-right: 2px;
@@ -44,14 +54,7 @@ main {
     margin-left: 0px;
     margin-right: 0px;
     margin: auto;
-  }
-}
-
-@media (max-width: 480px) {
-  body {
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 20px;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -132,6 +135,14 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+.post-thumbnail {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 /*page specific blocks*/

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--update language!-->
+<html lang="en">
+
+<head>
+  <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Gentle Living Shop</title>
+  <meta name="description" content="">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:title" content="Gentle Living Shop">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="#">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
+</head>
+
+<body>
+
+  <partial src="_header-en.html"/>
+
+  <!--main content starts-->
+  <main>
+    <h1>Soapmaking Terms and Definitions</h1>
+    <hr>
+    <img class="post-thumbnail" src="./resources/img/soapmaking-terms-and-definitions-feature.webp" width="800" height="472">
+    <hr class="hr-dotted">
+    <p class="dropcap">
+      Here is a non-exhaustive list of soapmaking terms and their
+      definitions in simple English. The terms especially serve as references to the guides and posts we have written on natural soapmaking. Hope you learn something new!
+    </p>
+    <dl>
+      <dt>Alkaline</dt><dd>having a pH of 7 or more.</dd>
+      <dt>Caustic</dt><dd>see <i>corrosive</i></dd>
+      <dt>Caustic Soda</dt><dd>see <i>sodium hydroxide</i></dd>
+      <dt>Chelator</dt><dd>an agent that binds with metals to suppress their activities</dd>
+      <dt>Corrosive</dt><dd>being able to corrode, meaning can weaken or wear away gradually by chemical action</dd>
+      <dt>Emulsification</dt><dd>when oils are well-blended with lye solution where you won&#8217;t be able to see oil trails afloat when stirring</dd>
+      <dt>False trace</dt><dd>when soap batter appears to be thick but it has not yet reached emulsification.<br>This is due to hard oils solidifying when in contact with cold lye solution.</dd>
+      <dt>Hard oil</dt><dd>an oil or butter that is semi-solid at room temperature (around 20°C), such as coconut oil, shea butter, and palm oil</dd>
+      <dt>Hard water</dt><dd>water with a high content of dissolved minerals, especially calcium, which reduces lathering in soap</dd>
+      <dt>Lye</dt><dd>an alkaline substance used to make soap, i.e. <i>sodium hydroxide</i> or <i>potassium hydroxide</i></dd>
+      <dt>Lye discount</dt><dd>using less lye in a recipe where amounts of oils stay the same. Also known as <i>superfat</i>.</dd>
+      <dt>Potassium hydroxide</dt><dd>a caustic alkali used to make liquid soap, bleach and etc.</dd>
+      <dt>Saponification (SAP)</dt><dd>the process in which fatty substances, through combination with an alkali, forms soap</dd>
+      <dt>Seizing</dt><dd>when soap goes beyond thick trace to a point where it is difficult to transfer into moulds.<br>It is possible to soften seized soap with heat but it would be not viable to do designs with it.</dd>
+      <dt>Soap scum</dt><dd>a chalky residue buildup on sink surfaces due to minerals in hard water reacting with soap</dd>
+      <dt>Sodium hydroxide</dt><dd>a caustic alkali used to make solid soap, paper and etc., also known as <i>caustic soda</i></dd>
+      <dt>Soft water</dt><dd>water with low levels of dissolved minerals, making it easier to lather with soap</dd>
+      <dt>Superfat or Superfatting</dt><dd>using extra oil in soap recipe with unchanged amount of lye in order to result in unsaponified oils.<br>Also known as <i>lye discount</i>.</dd>
+      <dt>Trace</dt><dd>the stage following <i>emulsification</i> which can be broken down into a spectrum of light, medium and hard &#8211; based on the thickness of the soap batter.<br>Familiarity with this stage helps with creating soap designs.</dd>
+
+
+  </main>
+  <!--main content ends-->
+
+  <hr>
+
+  <partial src="_footer-en.html"/>
+
+</body>
+
+</html>
