@@ -25,6 +25,11 @@ dt {font-weight: bold;}
 dd {font-size: 1rem; margin-bottom: 1em;}
 
 /*main*/
+
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   margin-top: 56px;
   background: rgb(196, 240, 196);
@@ -91,6 +96,31 @@ main {
 }
 .toc a {
   color: black;
+}
+
+.anchor {
+  display: block;
+  height: 65px;
+  margin-top: -65px;
+  visibility: hidden;
+}
+
+.anchorhead {
+    padding-top: 65px;
+    margin-top: -65px;
+}
+
+@media (max-width: 800px) {
+  .anchor {
+    display: block;
+    height: 55px;
+    margin-top: -55px;
+    visibility: hidden;
+  }
+  .anchorhead {
+      padding-top: 55px;
+      margin-top: -55px;
+  }
 }
 
 /*spacers*/

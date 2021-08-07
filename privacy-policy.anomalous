@@ -45,7 +45,9 @@
                 <li><a href="#contact">Contact us</a></li>
             </ul>
         </nav>
-        <hr class="hr-dotted"  id="who">
+        <hr class="hr-dotted">
+        <div ></div>
+        <div  id="who" class="anchor"></div>
         <div class="section-box">
             <h2>Who we are</h2>
             <p>Our website address is: <a href="https://gentlelivingshop.com">https://gentlelivingshop.com</a>
@@ -54,12 +56,14 @@
                 of privacy and security. In order to operate the website, we receive <a
                     href="https://gitlab.com/">hosting services from GitLab*</a>.</p>
         </div>
-        <hr class="hr-spacer" id="data">
+        <hr class="hr-spacer">
+        <div id="data" class="anchor"></div>
         <div class="section-box">
             <h2>We do not collect any data</h2>
             <p><b>We do not collect any information about you whatsoever.</b></p>
         </div>
-        <hr class="hr-spacer" id="thiswebsite">
+        <hr class="hr-spacer">
+        <div id="thiswebsite" class="anchor"></div>
         <div class="section-box">
             <h2>How this website runs</h2>
             <p>We wrote all the code of this website ourselves exclusively with HTML. It is therefore a static website
@@ -67,7 +71,8 @@
                 from GitLab and your browser interprests and then displays the page. The interaction ends there and </p>
             <p>no cookies, no javascript, no trackers</p>
         </div>
-        <hr class="hr-spacer" id="contact">
+        <hr class="hr-spacer">
+        <div id="contact" class="anchor"></div>
         <div class="section-box">
             <h2>Contact us</h2>
             <p>If you have any question, you can reach us at: <a href="mailto:gentlelivingshop@protonmail.com"
