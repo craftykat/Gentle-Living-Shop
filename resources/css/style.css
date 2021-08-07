@@ -13,7 +13,6 @@ h1 {
 h2 {
   text-shadow: 2px 2px 2px #a2f0dc;
 }
-
 .dropcap::first-letter {
   float: left;
   line-height: 85%;
@@ -27,30 +26,25 @@ dt {font-weight: bold;}
 dd {font-size: 1rem; margin-bottom: 1em;}
 
 /*main*/
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
   margin-top: 56px;
   background: rgb(205, 238, 205);
   bottom: 0;
 }
-
 main {
   width:70%;
   margin: auto;
   font-size: 120%;
 }
-
 @media only screen and (min-width: 1280px) {
   main {
     width: 896px;
     margin: auto;
   }
 }
-
 @media (max-width: 650px) {
   body {
     margin-left: 2px;
@@ -81,7 +75,6 @@ main {
 .pink {
   background: rgb(238, 224, 226);
 }
-
 .purple {
   background: #c3d6fa;
 }
@@ -98,7 +91,6 @@ main {
   padding-right: 10px;
   border-radius: 3%;
 }
-
 .toc h2 {
   text-align: center;
 }
@@ -112,12 +104,10 @@ main {
   margin-top: -65px;
   visibility: hidden;
 }
-
 .anchorhead {
     padding-top: 65px;
     margin-top: -65px;
 }
-
 @media (max-width: 800px) {
   .anchor {
     display: block;
@@ -136,7 +126,6 @@ main {
   border-top: 6px dotted black;
   width: 6%;
 }
-
 .hr-spacer {
   visibility: hidden;
 }
@@ -186,7 +175,7 @@ main {
 }
 .img-responsive {
   width: 100%;
-   height: auto;
+  height: auto;
 }
 
 /*page specific blocks*/
@@ -206,6 +195,7 @@ main {
   .archive-mosaic {
     column-count: 2;
     column-gap: 64px;
+    width: 90%;
   }
 }
 @media (max-width: 800px) {
@@ -214,6 +204,12 @@ main {
     flex-direction: column;
     justify-content: center;
     width: 90%;
+  }
+}
+@media (min-width: 1100px) {
+  .archive-mosaic {
+    width: 80%;
+    min-width: 990px;
   }
 }
 .recent-post-mosaic {
@@ -226,9 +222,7 @@ main {
   margin-bottom:64px;
   break-inside: avoid;
   transform: translateZ(0);
-
 }
-
 .recent-post-mosaic:hover {
   padding-bottom: 50px;
 }
@@ -236,7 +230,6 @@ main {
   color: black;
   text-decoration-style: dotted;
 }
-
 .recent-post-img-mosaic {
   max-width:100%;
   height:auto;
@@ -278,7 +271,6 @@ main {
   color: black;
   text-decoration-style: dotted;
 }
-
 
 /*HEADER & FOOTER*/
 
@@ -449,10 +441,12 @@ ul li ul li {
   text-align: justify;
   grid-area: public-domain-declare;
   margin-left: 10px;
+  max-width: 500px;
 }
 #contact-videos {
   grid-area: contact-videos;
   text-align: center;
+  max-width: 400px;
 }
 
 #contact-videos hr {
