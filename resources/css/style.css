@@ -22,6 +22,7 @@ h2 {
 }
 .text-justify{text-align: justify;}
 p {text-align: justify;}
+#contact-videos p {text-align: center!important;}
 dt {font-weight: bold;}
 dd {font-size: 1rem; margin-bottom: 1em;}
 
@@ -166,6 +167,10 @@ main {
   column-gap: 64px;
   padding-bottom: 64px;
   break-inside: avoid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 2000px;
 }
 @media (max-width: 1100px) {
   .archive-mosaic {
@@ -173,10 +178,12 @@ main {
     column-gap: 64px;
   }
 }
-@media (max-width: 740px) {
+@media (max-width: 800px) {
   .archive-mosaic {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 90%;
   }
 }
 .recent-post-mosaic {
@@ -222,6 +229,7 @@ main {
   .archive-grid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 }
 .recent-post-grid {

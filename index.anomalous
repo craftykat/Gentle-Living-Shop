@@ -91,7 +91,7 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
         <hr>
 
         <h2>Need some inspiration for your next handmade project?</h2>
-
+      </main>
         <div class="archive-mosaic">
           <article class="recent-post-mosaic"><a href="./old-website.html"><img class="recent-post-img-mosaic" src="./resources/img/old-website-feature.webp"></a><a href="./old-website.html">Our Old Website (built on WordPress.org)</a></article>
             <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/waxed-canvas-feature.webp"
@@ -138,7 +138,6 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
 
         </div>
 
-    </main>
 
     <hr>
 
