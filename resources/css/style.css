@@ -20,7 +20,8 @@ h2 {
   width: .7em;
   font-size: 300%;
 }
-
+.text-justify{text-align: justify;}
+p {text-align: justify;}
 dt {font-weight: bold;}
 dd {font-size: 1rem; margin-bottom: 1em;}
 
@@ -32,7 +33,7 @@ html {
 
 body {
   margin-top: 56px;
-  background: rgb(196, 240, 196);
+  background: rgb(205, 238, 205);
   bottom: 0;
 }
 
@@ -67,6 +68,12 @@ main {
     margin-top: 20px;
     margin: auto;
   }
+}
+/*centering things*/
+.flex-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /*colors*/
@@ -166,13 +173,19 @@ main {
   justify-content: center;
   text-align: center;
 }
-
 .post-thumbnail {
   width: auto;
   height: auto;
   max-width: 100%;
   display: block;
   margin: auto;
+}
+.img-border {
+  box-shadow: 0 0 10px cornflowerblue;
+}
+.img-responsive {
+  width: 100%;
+   height: auto;
 }
 
 /*page specific blocks*/
