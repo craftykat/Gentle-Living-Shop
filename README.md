@@ -1,4 +1,5 @@
 # Welcome to our family website where you can discover tutorials and how-tos on how we create our **natural handmade home**, free access for all❤️
+<img href="https://gentlelivingshop.gitlab.io/" src="https://gitlab.com/gentlelivingshop/gentlelivingshop.gitlab.io/-/raw/main/resources/img/Screenshot_2021-08-09%20Gentle%20Living%20Shop.webp" width="80%" height="auto" alt="screenshot of websit front page">
 
 Find tutorials for sewing, soapmaking, digital privacy, website making and more!
 
