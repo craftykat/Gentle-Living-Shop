@@ -65,7 +65,23 @@ main{
   justify-content: center;
   flex-direction: column;
 }
-
+/*margins*/
+.toc, .blockquote, .music, .post-thumbnail, .archive-mosaic{
+  margin-top:2em;
+  margin-bottom:2em;
+}
+h1, h2, .hr-dotted, .hr-spacer, hr, .section-box, iframe, img, .p-margin{
+  margin-top:1em;
+  margin-bottom:1em;
+}
+h3, h4, h5, h6,li,ul,p{
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+}
+#mainnav ul, #mainnav ul li, #site-title, #logo-link, #title-logo, #public-domain-logo, .no-margin{
+  margin-top:0;
+  margin-bottom:0;
+}
 /*colors*/
 .pink{background: rgb(238, 224, 226);}
 .purple{background: #c3d6fa;}
