@@ -12,7 +12,7 @@ All tutorials are [released into the public domain](https://creativecommons.org/
 - migrate to .org
 - migrate posts to GitLab Pages website
 - *write secret post on cats*😽  
-> <strong>[see our to-do list, live on CryptPad](https://cryptpad.fr/kanban/#/2/kanban/edit/wndQEuR-mryxLFz2D8M0bTgo/)</strong>
+> <strong>[see our to-do list, live on CryptPad](https://cryptpad.fr/kanban/#/2/kanban/view/hhuyRfwVohuetMMjpPbtY6mgH6y4TmzNOBwziFWdJUs/)</strong>
 
 
 # 歡迎來到我們熱愛手工製作的家, 所有教程都免費為你提供❤
