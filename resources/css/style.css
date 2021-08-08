@@ -76,15 +76,19 @@ main{
   flex-direction: column;
 }
 /*margins*/
-.toc, .blockquote, .music, .post-thumbnail, .archive-mosaic{
+{
+  margin-top:5em;
+  margin-bottom:5em;
+}
+.toc, .blockquote, .music, .archive-mosaic, .post-thumbnail, .hr-dotted {
   margin-top:2em;
   margin-bottom:2em;
 }
-h1, h2, .hr-dotted, .hr-spacer, hr, .section-box, iframe, img, .p-margin{
+h1, h2, h3, .hr-spacer, hr, .section-box, iframe, .p-margin{
   margin-top:1em;
   margin-bottom:1em;
 }
-h3, h4, h5, h6,li,ul,p{
+h4, h5, h6,li,ul,p{
   margin-top:0.5em;
   margin-bottom:0.5em;
 }
@@ -117,6 +121,7 @@ h3, h4, h5, h6,li,ul,p{
   display: block;
   height: 65px;
   margin-top: -65px;
+  
   visibility: hidden;
 }
 
@@ -169,7 +174,6 @@ h3, h4, h5, h6,li,ul,p{
   height: auto;
   max-width: 100%;
   display: block;
-  margin: auto;
 }
 .img-border{box-shadow: 0 0 10px cornflowerblue;}
 .img-responsive{width: 100%;height: auto;}
@@ -210,7 +214,6 @@ h3, h4, h5, h6,li,ul,p{
   .archive-mosaic{width: 80%;min-width: 990px;}
 }
 .recent-post-mosaic {
-  margin-top: 5px;
   box-shadow: 0 0 3px 1px rgb(0, 0, 0);
   height: max-content;
   padding: 32px;
@@ -226,6 +229,7 @@ h3, h4, h5, h6,li,ul,p{
   text-decoration-style: dotted;
 }
 .recent-post-img-mosaic {
+  margin-top: 0px;
   max-width:100%;
   height:auto;
 }
