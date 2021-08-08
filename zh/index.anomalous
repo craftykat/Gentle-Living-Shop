@@ -43,8 +43,8 @@
     <meta property="og:description" content="歡迎來到我們熱愛手工製作的家, 所有教程都免費為你提供❤">
     <meta property="og:image" content="#">
     <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="nl">
-    <link rel="alternate" href="#" hreflang="en">
+    <link rel="alternate" href="../nl/index.html" hreflang="nl">
+    <link rel="alternate" href="../index.html" hreflang="en">
 </head>
 
 <body>
