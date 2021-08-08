@@ -22,11 +22,22 @@ p{text-align: justify;}
 #contact-videos p {text-align: center!important;}
 dt{font-weight: bold;}
 dd{font-size: 1rem; margin-bottom: 1em;}
-pre{color: white;
-background: content-box radial-gradient(darkolivegreen,darkslategray);  padding: 2px;
+pre{
+  color: white;
+  background: content-box radial-gradient(darkolivegreen,darkslategray);
   font-size: 96%;
-border-radius: 10px;
-width: auto;}
+  text-align:left;
+  border-radius: 10px;
+  display: block;
+  overflow: auto;
+  min-height: min-content;
+  max-height: 300px;
+  min-width: 20px;
+  max-width: 500px;
+  margin: 0px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 /*main*/
 html{scroll-behavior: smooth;}
 body{
@@ -162,6 +173,11 @@ h3, h4, h5, h6,li,ul,p{
 }
 .img-border{box-shadow: 0 0 10px cornflowerblue;}
 .img-responsive{width: 100%;height: auto;}
+.container-overflow{
+  height: 800px;
+  width: 100%;
+  overflow: scroll;
+}
 /*page specific blocks*/
 
 /*homepage recent posts - mosaic - responsive*/
@@ -488,6 +504,7 @@ ul li ul li {
       margin-right: 1em;
       margin-left: 1em;;
     }
+    pre{font-size: 80%}
   }
   /*mobile view*/
   @media (max-width: 480px) {

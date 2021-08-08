@@ -80,11 +80,15 @@
       <hr class="hr-dotted">
       <div class="anchor" id="oldwebsite"></div>
       <h2>Old website's front page</h2>
-      <img class="img-border img-responsive" alt="screenshot of the old website front page" src="./resources/img/old-website-frontpage.webp" width="1272" height="5358">
+      <div class="container-overflow img-border">
+        <img class="img-responsive" alt="screenshot of the old website front page" src="./resources/img/old-website-frontpage.webp" width="1272" height="5358">
+      </div>
       <hr class="hr-dotted">
       <div class="anchor" id="oldpost"></div>
       <h2>Post page on the old website</h2>
-      <img class="img-border img-responsive" alt="screenshot of a post page on the old website" src="./resources/img/old-website-post.webp" width="1272" height="13514">
+      <div class="container-overflow">
+        <img class="img-responsive" alt="screenshot of a post page on the old website" src="./resources/img/old-website-post.webp" width="1272" height="13514">
+      </div>
     </div><hr class="hr-dotted">
 
     <h2 class="text-center">Thank you for reading!</h2>
