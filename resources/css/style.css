@@ -194,7 +194,6 @@ h3, h4, h5, h6,li,ul,p{
   .archive-mosaic{width: 80%;min-width: 990px;}
 }
 .recent-post-mosaic {
-  margin-top: 5px;
   box-shadow: 0 0 3px 1px rgb(0, 0, 0);
   height: max-content;
   padding: 32px;
@@ -210,6 +209,7 @@ h3, h4, h5, h6,li,ul,p{
   text-decoration-style: dotted;
 }
 .recent-post-img-mosaic {
+  margin-top: 0px;
   max-width:100%;
   height:auto;
 }
