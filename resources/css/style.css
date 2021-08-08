@@ -87,9 +87,9 @@ main{
   margin-top: -65px;
   visibility: hidden;
 }
-.anchorhead {
-    padding-top: 65px;
-    margin-top: -65px;
+.anchortop {
+  height: 65px;
+  margin-top: -85px;
 }
 @media (max-width: 800px) {
   .anchor {
@@ -98,9 +98,9 @@ main{
     margin-top: -55px;
     visibility: hidden;
   }
-  .anchorhead {
-      padding-top: 55px;
-      margin-top: -55px;
+  .anchortop {
+    height: 55px;
+    margin-top: -85px;
   }
 }
 
