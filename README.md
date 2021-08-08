@@ -4,9 +4,16 @@ Find tutorials for sewing, soapmaking, digital privacy, website making and more!
 
 All tutorials are [released into the public domain](https://creativecommons.org/publicdomain/zero/1.0/). You may copy, edit and distribute our stuff for any purpose with no restrictions. We try to make them available in English, Nederlands and 中文.
 
-<code>Coded with HTML and CSS - no Javascript</code>
+<code>Written with HTML and CSS - no Javascript</code>
 
-[Visit the website](https://gentlelivingshop.gitlab.io/) <br>
+[Visit the website](https://gentlelivingshop.gitlab.io/)
+
+## Upcoming stuff
+- migrate to .org
+- migrate posts to GitLab Pages website
+- *write secret post on cats*😽  
+> <strong>[see our to-do list, live on CryptPad](https://cryptpad.fr/kanban/#/2/kanban/edit/wndQEuR-mryxLFz2D8M0bTgo/)</strong>
+
 
 # 歡迎來到我們熱愛手工製作的家, 所有教程都免費為你提供❤
 
