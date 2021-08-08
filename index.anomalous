@@ -93,6 +93,7 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
         <h2>Need some inspiration for your next handmade project?</h2>
       </main>
         <div class="archive-mosaic">
+          <article class="recent-post-mosaic"><a href="#"><img class="recent-post-img-mosaic" src="#"></a><a href="./css-scroll-to-top-button.html">Scroll to Top Button (HTML and CSS Only)</a></article>
           <article class="recent-post-mosaic"><a href="./old-website.html"><img class="recent-post-img-mosaic" src="./resources/img/old-website-feature.webp"></a><a href="./old-website.html">Our Old Website (built on WordPress.org)</a></article>
             <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/waxed-canvas-feature.webp"
                         ><a href="#">Wax Canvas at Home with soy wax (DIY Waxed Canvas)</a></article>
