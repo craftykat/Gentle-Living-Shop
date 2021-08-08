@@ -393,10 +393,11 @@ ul li ul li {
     font-size: 20px;
     z-index: 1000;
     text-decoration: none;
+    text-shadow: 2px 2px 6px #c4a2f0;
     font-family: boopasblobs;
     font-weight: bolder;
   }
-  #scroll-text:hover{color: lightgreen;}
+  #scroll-text:hover{color: palegreen;}
 }
 
   /*foot(er) info area*/
