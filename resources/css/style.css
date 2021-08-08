@@ -22,7 +22,12 @@ p{text-align: justify;}
 #contact-videos p {text-align: center!important;}
 dt{font-weight: bold;}
 dd{font-size: 1rem; margin-bottom: 1em;}
-
+pre{color: white;
+  background-color: darkslategrey;
+  padding: 2px;
+  font-size: 96%;
+border-radius: 10px;
+width: auto;}
 /*main*/
 html{scroll-behavior: smooth;}
 body{
@@ -65,6 +70,7 @@ main{
 .pink{background: rgb(238, 224, 226);}
 .purple{background: #c3d6fa;}
 .yellow{background: rgba(255, 255, 163, 0.89)}
+.black{background: black;}
 
 /*BLOCKS*/
 
@@ -381,7 +387,7 @@ ul li ul li {
     font-family: boopasblobs;
     font-weight: bolder;
   }
-   a #scroll-text:hover{color: lightgreen;}
+  #scroll-text:hover{color: lightgreen;}
 }
 
   /*foot(er) info area*/

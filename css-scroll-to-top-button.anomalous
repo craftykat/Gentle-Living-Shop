@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--update language!-->
+<html lang="en">
+
+<head>
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Scroll to Top Button (HTML and CSS Only)</title>
+  <meta name="description" content="">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:title" content="Scroll to Top Button (HTML and CSS Only)">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="#">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
+</head>
+
+<body>
+
+  <partial src="_header-en.html"/>
+
+  <!--main content starts-->
+  <main>
+    <h1>Scroll to Top Button (HTML and CSS Only)</h1>
+    <hr>
+    <h2>HTML</h2>
+    <pre>
+      <code>
+        &lt;body&gt;
+        &lt;header&gt;
+        &lt;div id="scrolltop"&gt;&lt;/div&gt;
+        &lt;/header&gt;
+        &lt;footer&gt;
+        &lt;a href="#scrolltop"&gt;
+        &lt;div class="scroll-arrow"&gt;&lt;/div&gt;
+        &lt;span id="scroll-text"&gt;top&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;/footer&gt;
+        &lt;/body&gt;
+      </code>
+    </pre>
+    <h2>CSS</h2>
+    <pre>
+      <code>
+        &lt;style&gt;
+        .scroll-arrow {
+          position: fixed;
+          left: 26px;
+          bottom: 26px;
+          width: 36px;
+          height: 36px;
+          background: rgba(0, 0, 0, 0.66);
+          border-radius: 50% 0 50% 50%;
+          transform: rotate(-45deg);
+        }
+        #scroll-text{
+          color: white;
+          position: fixed;
+          left: 28px;
+          bottom: 30px;
+          font-size: 20px;
+          z-index: 1000;
+          text-decoration: none;
+          font-family: sans-serif;
+          font-weight: bolder;
+        }
+        #scroll-text:hover{color: lightgreen;}
+        &lt;/style&gt;
+      </code>
+    </pre>
+
+    <h2>Play with the code!</h2>
+    <iframe src="https://codesandbox.io/embed/interesting-platform-pm4fe?autoresize=1&fontsize=14&theme=dark"
+    style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+    title="interesting-platform-pm4fe"
+    allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+    sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+    </iframe>
+</main>
+<!--main content ends-->
+
+<hr>
+
+<partial src="_footer-en.html"/>
+
+</body>
+
+</html>
