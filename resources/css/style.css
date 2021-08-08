@@ -121,7 +121,7 @@ h4, h5, h6,li,ul,p{
   display: block;
   height: 65px;
   margin-top: -65px;
-  
+
   visibility: hidden;
 }
 
@@ -181,6 +181,21 @@ h4, h5, h6,li,ul,p{
   height: 800px;
   width: 100%;
   overflow: scroll;
+}
+.iframe-container{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 62.5%;
+}
+.responsive-iframe{
+  position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
 }
 /*page specific blocks*/
 
