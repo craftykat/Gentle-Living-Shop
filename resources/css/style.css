@@ -88,8 +88,8 @@ main{
   visibility: hidden;
 }
 .anchorhead {
-    padding-top: 65px;
-    margin-top: -65px;
+  padding-top: 65px;
+  margin-top: -65px;
 }
 @media (max-width: 800px) {
   .anchor {
@@ -99,8 +99,8 @@ main{
     visibility: hidden;
   }
   .anchorhead {
-      padding-top: 55px;
-      margin-top: -55px;
+    padding-top: 55px;
+    margin-top: -55px;
   }
 }
 
@@ -360,234 +360,247 @@ ul li ul li {
 }
 /*scroll to top button*/
 @media only screen and (min-width: 480px) {
-.scroll-arrow {
-  position: fixed;
-  left: 26px;
-  bottom: 26px;
-  width: 0;
-  height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-bottom: 30px solid rgba(0, 0, 0, 0.66);
-}
-.scroll-arrow:hover{border-bottom: 32px solid green;}
-}
-/*foot(er) info area*/
-#moreinfo {
-  bottom: 60px;
-  display: grid;
-  column-gap: 8px;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "public-domain-declare buttomlogo contact-videos"
-  ". . ."
-  ". . .";
-  grid-template-columns: 1fr 0.6fr 1fr;
-  justify-items: center;
-  justify-content: space-around;
-  align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin: auto;
-}
-#bottomlogo {
-  grid-area: buttomlogo;
-  margin-left: 0px;
-  margin-top: 0px;
+  .scroll-arrow {
+    position: fixed;
+    left: 26px;
+    bottom: 26px;
+    width: 36px;
+    height: 36px;
+    background: rgba(0, 0, 0, 0.66);
+    border-radius: 50% 0 50% 50%;
+    transform: rotate(-45deg);
+  }
+  #scroll-text{
+    color: white;
+    position: fixed;
+    left: 28px;
+    bottom: 30px;
+    font-size: 20px;
+    z-index: 1000;
+    text-decoration: none;
+    font-family: boopasblobs;
+    font-weight: bolder;
+  }
+   a #scroll-text:hover{color: lightgreen;}
 }
 
-#public-domain-declare {
-  text-align: justify;
-  grid-area: public-domain-declare;
-  margin-left: 10px;
-  max-width: 500px;
-}
-#contact-videos {
-  grid-area: contact-videos;
-  text-align: center;
-  max-width: 400px;
-}
-
-#contact-videos hr{width: 80%;}
-/*foot(er) very bottom*/
-#foot {
-  background: #d0ecfc;
-  text-align: center;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  margin-bottom: -10px;
-  border-radius: 4%;
-}
-#foot a {color: black;padding: 16px;}
-/*responsive header and footer*/
-@media (max-width: 800px) {
-  #mainnav li a {font-size: 1.2em;}
-  #mainnav li {
-    padding: 10px;
-    min-width: 120px;
-  }
-  #mainnav ul li ul {
-    min-width: 140px;
-    margin-top: 10px;
-  }
+  /*foot(er) info area*/
   #moreinfo {
-    bottom: 50px;
-    font-size: 0.9em;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  #public-domain-logo {
-    width: 56px;
-    height: auto;
-  }
-  #bottomlogo {
-    width: 180px;
-    height: auto;
-    margin-top: 0;
-  }
-}
-@media (max-width: 650px) {
-  #moreinfo {
+    bottom: 60px;
+    display: grid;
+    column-gap: 8px;
+    grid-template-rows: auto;
     grid-template-areas:
-    "public-domain-declare public-domain-declare public-domain-declare"
-    "bottomlogo . contact-videos"
+    "public-domain-declare buttomlogo contact-videos"
+    ". . ."
     ". . .";
-    grid-template-columns: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  #bottomlogo {margin-left: 10vw;}
-  #public-domain-declare {
-    margin-right: 1em;
-    margin-left: 1em;;
-  }
-}
-/*mobile view*/
-@media (max-width: 480px) {
-  #mainnav li {
-    padding: 2px;
-    min-width: none;
-  }
-  #mainnav li a {
-    padding: 2px;
-    font-size: 0.8em;
-  }
-  #mainnav ul li ul {
-    min-width: 100px;
-    margin-top: 2px;
-  }
-  #mainnav {
-    margin-left: 12px;
-    margin-right: 12px;
-    margin-top: 50px;
-  }
-  #foot {
-    padding-top: 4px;
-    padding-bottom: 4px;
-  }
-  #foot a {padding: 4px;}
-  #moreinfo {
-    grid-template-areas:
-    "public-domain-declare"
-    "bottomlogo"
-    "contact-videos";
-    grid-template-columns: auto;
-  }
-  #public-domain-declare {
-    margin-right: 0.5em;
-    margin-left: 0.5em;
+    grid-template-columns: 1fr 0.6fr 1fr;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin: auto;
   }
   #bottomlogo {
+    grid-area: buttomlogo;
     margin-left: 0px;
-    margin-top: 15px;
-  }
-}
-/*mobile menu button responsive*/
-@media only screen and (max-width: 480px) {
-  #menubutton {
-    display: block;
-    z-index: 899;
-  }
-
-  #menu-btn {
-    display: block;
-    opacity: 0.01;
-    z-index: 900;
-  }
-
-  #menu-btn:checked ~ #mainnav,
-  #menu-btn:checked ~ #mainnav ul li ul {
-    visibility: visible;
-    opacity: 1;
-  }
-  #mainnav {
-    padding: 0px;
-    font-size: 1.2em;
-    width: 100%;
-    height: 100%;
-    visibility: hidden;
-    min-width: 160px;
-    background: #c4e5f8;
-    z-index: 200;
     margin-top: 0px;
-    margin-bottom: 0;
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  #mainnav ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    height: auto;
-    background: none;
   }
 
-  #mainnav li {
-    color: #000;
-    background:none;
-    display: block;
-    float: none;
-    position: relative;
-    transition-duration: 0s;
-    padding-top: 8px;
-    padding-bottom: 8px;
+  #public-domain-declare {
+    text-align: justify;
+    grid-area: public-domain-declare;
+    margin-left: 10px;
+    max-width: 500px;
   }
-  #mainnav li a {
-    color: #000;
-    text-decoration: none;
-    font-size: 1.8em;
-    text-decoration: underline;
-  }
-
-  #mainnav ul li a:hover{background: rgb(231, 237, 248);}
-
-  #mainnav li:hover,
-  #mainnav li:focus-within {
-    background: transparent;
-    cursor: pointer;
-  }
-
-  #mainnav ul li ul {
-    visibility: hidden;
-    background: none;
-    opacity: 1;
-    min-width: auto;
-    position: relative;
-    left: 0;
-    display: block;
-    transition: none;
-  }
-  ul li ul li {
-    clear: both;
-    width: 100%;
-    display: block;
+  #contact-videos {
+    grid-area: contact-videos;
     text-align: center;
+    max-width: 400px;
   }
-  #mainnav ul li ul a {
-    font-size: 1.4em;
-    text-decoration: none;
+
+  #contact-videos hr{width: 80%;}
+  /*foot(er) very bottom*/
+  #foot {
+    background: #d0ecfc;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-bottom: -10px;
+    border-radius: 4%;
   }
-  #mainnav ul li ul li:hover {background: rgb(231, 237, 248);}
-  /*menu dropdown button*/
-  #mainnav li > a:after {content: "";}
-}
+  #foot a {color: black;padding: 16px;}
+  /*responsive header and footer*/
+  @media (max-width: 800px) {
+    #mainnav li a {font-size: 1.2em;}
+    #mainnav li {
+      padding: 10px;
+      min-width: 120px;
+    }
+    #mainnav ul li ul {
+      min-width: 140px;
+      margin-top: 10px;
+    }
+    #moreinfo {
+      bottom: 50px;
+      font-size: 0.9em;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    #public-domain-logo {
+      width: 56px;
+      height: auto;
+    }
+    #bottomlogo {
+      width: 180px;
+      height: auto;
+      margin-top: 0;
+    }
+  }
+  @media (max-width: 650px) {
+    #moreinfo {
+      grid-template-areas:
+      "public-domain-declare public-domain-declare public-domain-declare"
+      "bottomlogo . contact-videos"
+      ". . .";
+      grid-template-columns: auto;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #bottomlogo {margin-left: 10vw;}
+    #public-domain-declare {
+      margin-right: 1em;
+      margin-left: 1em;;
+    }
+  }
+  /*mobile view*/
+  @media (max-width: 480px) {
+    #mainnav li {
+      padding: 2px;
+      min-width: none;
+    }
+    #mainnav li a {
+      padding: 2px;
+      font-size: 0.8em;
+    }
+    #mainnav ul li ul {
+      min-width: 100px;
+      margin-top: 2px;
+    }
+    #mainnav {
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-top: 50px;
+    }
+    #foot {
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+    #foot a {padding: 4px;}
+    #moreinfo {
+      grid-template-areas:
+      "public-domain-declare"
+      "bottomlogo"
+      "contact-videos";
+      grid-template-columns: auto;
+    }
+    #public-domain-declare {
+      margin-right: 0.5em;
+      margin-left: 0.5em;
+    }
+    #bottomlogo {
+      margin-left: 0px;
+      margin-top: 15px;
+    }
+    #scroll-text{display: none;}
+  }
+  /*mobile menu button responsive*/
+  @media only screen and (max-width: 480px) {
+    #menubutton {
+      display: block;
+      z-index: 899;
+    }
+
+    #menu-btn {
+      display: block;
+      opacity: 0.01;
+      z-index: 900;
+    }
+
+    #menu-btn:checked ~ #mainnav,
+    #menu-btn:checked ~ #mainnav ul li ul {
+      visibility: visible;
+      opacity: 1;
+    }
+    #mainnav {
+      padding: 0px;
+      font-size: 1.2em;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      min-width: 160px;
+      background: #c4e5f8;
+      z-index: 200;
+      margin-top: 0px;
+      margin-bottom: 0;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    #mainnav ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+      height: auto;
+      background: none;
+    }
+
+    #mainnav li {
+      color: #000;
+      background:none;
+      display: block;
+      float: none;
+      position: relative;
+      transition-duration: 0s;
+      padding-top: 8px;
+      padding-bottom: 8px;
+    }
+    #mainnav li a {
+      color: #000;
+      text-decoration: none;
+      font-size: 1.8em;
+      text-decoration: underline;
+    }
+
+    #mainnav ul li a:hover{background: rgb(231, 237, 248);}
+
+    #mainnav li:hover,
+    #mainnav li:focus-within {
+      background: transparent;
+      cursor: pointer;
+    }
+
+    #mainnav ul li ul {
+      visibility: hidden;
+      background: none;
+      opacity: 1;
+      min-width: auto;
+      position: relative;
+      left: 0;
+      display: block;
+      transition: none;
+    }
+    ul li ul li {
+      clear: both;
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+    #mainnav ul li ul a {
+      font-size: 1.4em;
+      text-decoration: none;
+    }
+    #mainnav ul li ul li:hover {background: rgb(231, 237, 248);}
+    /*menu dropdown button*/
+    #mainnav li > a:after {content: "";}
+  }
