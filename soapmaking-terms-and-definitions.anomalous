@@ -19,11 +19,11 @@
   <title>Soapmaking Terms and Definitions | Gentle Living Shop</title>
   <meta name="description" content="A list of natural soapmaking terms defined in simple English">
   <!--open graph meta tags-->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="#">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://gentlelivingshop.org/soapmaking-terms-and-definitions.html">
   <meta property="og:title" content="Soapmaking Terms and Definitions | Gentle Living Shop">
   <meta property="og:description" content="A list of natural soapmaking terms defined in simple English.">
-  <meta property="og:image" content="./resources/img/soapmaking-terms-and-definitions-feature.webp">
+  <meta property="og:image" content="https://gentlelivingshop.org/resources/img/soapmaking-terms-and-definitions-feature.webp">
   <!--this page in another language-->
   <link rel="alternate" href="#" hreflang="#">
 </head>
@@ -36,7 +36,7 @@
   <main>
     <h1>Soapmaking Terms and Definitions</h1>
     <hr>
-    <img class="post-thumbnail" src="./resources/img/soapmaking-terms-and-definitions-feature.webp" width="800" height="472">
+    <img class="post-thumbnail img-border" src="./resources/img/soapmaking-terms-and-definitions-feature.webp" width="800" height="472">
     <hr class="hr-dotted">
     <p class="dropcap">
       Here is a non-exhaustive list of soapmaking terms and their

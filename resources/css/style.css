@@ -8,8 +8,10 @@
 body {font-family: Nunito, jf-openhuninn, sans-serif;}
 h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Nunito, jf-openhuninn, Verdana, sans-serif;}
 h1{text-shadow: 2px 2px 2px #c4a2f0;}
-h2{text-shadow: 2px 2px 2px #a2f0dc;}
-h3{text-shadow: 2px 2px 2px lightyellow;}
+h2{text-shadow: 2px 2px 2px #a2f0dc;font-size: 34px;}
+h3{text-shadow: 2px 2px 2px lightyellow; font-size: 26px;}
+h4{text-shadow: 2px 2px 2px lightpink;font-size: 22px;}
+h5{text-shadow: 1px 1px 1px cornflowerblue;font-size: 20px;}
 .dropcap::first-letter{
   float: left;
   line-height: 85%;
@@ -18,11 +20,22 @@ h3{text-shadow: 2px 2px 2px lightyellow;}
 }
 .text-justify{text-align: justify;}
 .text-center{text-align: center;}
+.text-left{text-align: left;}
 p{text-align: justify;}
+li{text-align: left}
 #contact-videos p {text-align: center!important;}
 dt{font-weight: bold;}
 dd{font-size: 1rem; margin-bottom: 1em;}
-pre{
+figcaption{
+background-color: darkslategray;
+color: #fff;
+font: italic sans-serif;
+padding: 3px;
+text-align: center;
+font-variant: small-caps;
+opacity: 0.72;
+}
+.pre-code{
   color: white;
   background: content-box radial-gradient(darkolivegreen,darkslategray);
   font-size: 96%;
@@ -38,6 +51,9 @@ pre{
   margin-left: auto;
   margin-right: auto;
   }
+pre{text-align: center;}
+.border-dash{border-style: dashed;}
+.width-fit-content{width: fit-content;}
 /*main*/
 html{scroll-behavior: smooth;}
 body{
@@ -75,6 +91,8 @@ main{
   justify-content: center;
   flex-direction: column;
 }
+/*flexing*/
+.display-flex{display: flex}
 /*margins*/
 {
   margin-top:5em;
@@ -97,11 +115,18 @@ h4, h5, h6,li,ul,p{
   margin-bottom:0;
 }
 /*colors*/
-.pink{background: rgb(238, 224, 226);}
-.purple{background: #c3d6fa;}
-.yellow{background: rgba(255, 255, 163, 0.89)}
+.pink{background: #F9DFFD;}
+.purple{background: #D0D2F1;}
+.yellow{background: #FFFABE;}
 .black{background: black;}
-
+.blue{background: #B9E8FF}
+.babypink{background: #FFD1D1}
+.darkblue{background: #005DAE}
+.darkcornflowerblue{background: #3A4986}
+.darkgreen{background: #3A8751}
+.chestnut{background: #87483A}
+.darkpurple{background: #3A4387}
+.brighter{filter: brightness(120%)}
 /*BLOCKS*/
 
 /*Navigation*/
@@ -111,11 +136,11 @@ h4, h5, h6,li,ul,p{
   width: max-content;
   margin-left: auto;
   margin-right: auto;
-  padding-right: 10px;
   border-radius: 3%;
+  padding: 26px;
 }
 .toc h2{text-align: center;}
-.toc a{color: black;}
+.toc a{color: black; font-size: 120%;}
 
 .anchor {
   display: block;
@@ -137,17 +162,18 @@ h4, h5, h6,li,ul,p{
 /*spacers*/
 .hr-dotted {border-top: 6px dotted black;width: 6%;}
 .hr-spacer {visibility: hidden;}
+.halfwidth{width: 50%;}
 
 /*sections*/
 .section-box{
   border-color: black;
   border-style: solid;
   border-width: 2px;
-  border-radius: 2%;
-  width: auto;
+  border-radius: 26px;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px;
+  padding: 20px;
   text-align: justify;
 }
 
@@ -161,6 +187,13 @@ h4, h5, h6,li,ul,p{
 .blockquote:hover {
   font-size: 100%;
   padding: 12px;
+}
+.random-box{
+  border-radius: 26px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
 /*media*/
@@ -197,6 +230,38 @@ right: 0;
 width: 100%;
 height: 100%;
 }
+/*download button*/
+.download-btn{
+  display: inline-block;
+  font-family: boopasblobs;
+  color:white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding: 10px;
+  font-size: 30px;
+  background: #153F73;
+  filter: sepia(60%);
+  border-radius: 16px;
+  cursor: pointer;
+}
+.download-btn:hover{
+    filter: sepia(0%);
+    background: linear-gradient(-45deg, #3A4387, #3A873B, #3298C4, #7A3A87,#B8C433);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    box-shadow: 0 0 12px 10px mintcream;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
 /*page specific blocks*/
 
 /*homepage recent posts - mosaic - responsive*/
@@ -232,13 +297,13 @@ height: 100%;
   box-shadow: 0 0 3px 1px rgb(0, 0, 0);
   height: max-content;
   padding: 32px;
-  transition: padding-bottom 0.2s linear;
+  transition: padding-bottom 0.6s linear;
   font-size: 140%;
   margin-bottom:64px;
   break-inside: avoid;
   transform: translateZ(0);
 }
-.recent-post-mosaic:hover{padding-bottom: 50px;}
+.recent-post-mosaic:hover{padding-bottom: 36px;}
 .recent-post-mosaic a {
   color: black;
   text-decoration-style: dotted;
@@ -298,6 +363,7 @@ header a {
   text-shadow: 4px 4px 4px #8892ec;
   color: #000;
 }
+header h2 {font-size: 22px}
 #site-title a{text-shadow: 0px 0px 2px #8892ec;}
 header{text-shadow: 0px 0px 2px #a2caf0;}
 a:hover {color: rgb(5, 81, 194) !important;}
@@ -518,6 +584,7 @@ ul li ul li {
       height: auto;
       margin-top: 0;
     }
+    .display-flex{flex-direction: column;}
   }
   @media (max-width: 650px) {
     #moreinfo {
@@ -581,6 +648,12 @@ ul li ul li {
       height: auto;
     }
     #foot-end{column-gap: 1px; margin: 0px;}
+    .section-box{padding: 6px;}
+    .download-btn{
+      letter-spacing: 1px;
+      padding: 4px;
+      font-size: 20px;
+    }
   }
   /*mobile menu button responsive*/
   @media only screen and (max-width: 480px) {

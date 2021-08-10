@@ -25,7 +25,7 @@
     <h1>Scroll to Top Button (HTML and CSS Only)</h1>
     <hr>
     <h2>HTML</h2>
-    <pre>
+    <pre class="pre-code">
       <code>
         &lt;body&gt;
         &lt;header&gt;
@@ -41,7 +41,7 @@
       </code>
     </pre>
     <h2>CSS</h2>
-    <pre>
+    <pre class="pre-code">
       <code>
         /*teardrop shape styling*/
         .scroll-arrow {
