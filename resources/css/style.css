@@ -488,7 +488,8 @@ ul li ul li {
     column-gap: 5px;
     margin: 5px;
   }
-  .footer-button:hover{filter: brightness(126%);}
+  #button-vegan:hover{filter: drop-shadow(16px 16px 20px palegreen) invert(75%);}
+  #button-gnulinux:hover{filter: hue-rotate(60deg)}
   /*responsive header and footer*/
   @media (max-width: 800px) {
     #mainnav li a {font-size: 1.2em;}
