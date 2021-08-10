@@ -12,17 +12,10 @@ ______   ______       __     __ ________  ______   ______  __    __ __
 | ▓▓|    \ ▓▓  | ▓▓     \▓▓\ /  ▓▓ ▓▓  \  | ▓▓|    \ ▓▓    ▓▓ ▓▓▓▓\ ▓▓ ▓▓
 | ▓▓ \▓▓▓▓ ▓▓  | ▓▓      \▓▓\  ▓▓| ▓▓▓▓▓  | ▓▓ \▓▓▓▓ ▓▓▓▓▓▓▓▓ ▓▓\▓▓ ▓▓\▓▓
 | ▓▓__| ▓▓ ▓▓__/ ▓▓       \▓▓ ▓▓ | ▓▓_____| ▓▓__| ▓▓ ▓▓  | ▓▓ ▓▓ \▓▓▓▓__
-<<<<<<< HEAD
-\▓▓    ▓▓\▓▓    ▓▓        \▓▓▓  | ▓▓     \\▓▓    ▓▓ ▓▓  | ▓▓ ▓▓  \▓▓▓  \
-\▓▓▓▓▓▓  \▓▓▓▓▓▓          \▓    \▓▓▓▓▓▓▓▓ \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓   \▓▓\▓▓
-eet veganistisch!   吃素長壽!
-ღƪ(ˆ◡ˆ)ʃ♡ƪ(ˆ◡ˆ)ʃ♪(ﾉ◕ヮ◕)ﾉ*❤:♡ﾟ✧ﾟ･:✧❤ヽ(◕ヮ◕ヽ)ღƪ(ˆ◡ˆ)ʃ♡ƪ(ˆ◡ˆ)ʃ♪
-=======
  \▓▓    ▓▓\▓▓    ▓▓        \▓▓▓  | ▓▓     \\▓▓    ▓▓ ▓▓  | ▓▓ ▓▓  \▓▓▓  \
   \▓▓▓▓▓▓  \▓▓▓▓▓▓          \▓    \▓▓▓▓▓▓▓▓ \▓▓▓▓▓▓ \▓▓   \▓▓\▓▓   \▓▓\▓▓
                                   Go vegan!  eet veganistisch!   吃素長壽!
       ღƪ(ˆ◡ˆ)ʃ♡ƪ(ˆ◡ˆ)ʃ♪(ﾉ◕ヮ◕)ﾉ*❤:♡ﾟ✧ﾟ･:✧❤ヽ(◕ヮ◕ヽ)ღƪ(ˆ◡ˆ)ʃ♡ƪ(ˆ◡ˆ)ʃ♪
->>>>>>> 282c0563e7650bd09eb55ac59316a4c83aba101d
 Thank you for visiting our code! Sources available on GitLab, happy coding! -->
 
 <!--Code starts here-->
@@ -62,7 +55,6 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
     <partial src="_header-en.html"/>
 
     <main>
-<<<<<<< HEAD
       <div class="music">
         <figure>
           <audio controls src="./resources/music/champ-de-tournesol.ogg"
@@ -88,32 +80,6 @@ Thank you for visiting our code! Sources available on GitLab, happy coding! -->
             edit, and distribute our knowledge for any purpose with no restrictions.</strong> <a
             href="./about-us.html">Read About Us for more info!</a></blockquote>
           </h2>
-=======
-        <div class="music">
-            <figure>
-                <audio controls src="./resources/music/champ-de-tournesol.ogg"
-                    loop>
-                </audio>
-                <figcaption>Enjoy some music!</figcaption>
-            </figure>
-        </div>
-        <div>
-            <p>Under construction. Go here for our current website: <a href="https:\\gentlelivingshop.com"
-                    target="_blank">gentlelivingshop.com</a></p>
-        </div>
-          <h3>our current to do list</h3>
-          <div class="iframe-container">
-            <iframe name="cryptpad-iframe" class="responsive-iframe" src="./iframe-cryptpad-todo.html"></iframe>
-          </div>
-          <a href="https://cryptpad.fr/kanban/#/2/kanban/view/hhuyRfwVohuetMMjpPbtY6mgH6y4TmzNOBwziFWdJUs/embed/">Link to to-do list</a>
-        <div class="blockquote purple">
-            <h2>
-                <blockquote>❣️<strong> Our website is <i>100% free and in the public domain</i>. You are welcome to
-                        copy,
-                        edit, and distribute our knowledge for any purpose with no restrictions.</strong> <a
-                        href="./about-us.html">Read About Us for more info!</a></blockquote>
-            </h2>
->>>>>>> 282c0563e7650bd09eb55ac59316a4c83aba101d
         </div>
 
         <hr>
