@@ -1,5 +1,5 @@
 # Welcome to our family website where you can discover tutorials and how-tos on how we create our **natural handmade home**, free access for all❤️
-<img href="https://gentlelivingshop.gitlab.io/" src="https://gitlab.com/gentlelivingshop/gentlelivingshop.gitlab.io/-/raw/main/resources/img/Screenshot_2021-08-09%20Gentle%20Living%20Shop.webp" width="80%" height="auto" alt="screenshot of websit front page">
+<img src="https://gitlab.com/gentlelivingshop/gentlelivingshop.gitlab.io/-/raw/main/resources/img/Screenshot_2021-08-09%20Gentle%20Living%20Shop.webp" width="80%" height="auto" alt="screenshot of websit front page">
 
 Find tutorials for sewing, soapmaking, digital privacy, website making and more!
 
@@ -7,7 +7,7 @@ All tutorials are [released into the public domain](https://creativecommons.org/
 
 <code>Written with HTML and CSS - no Javascript</code>
 
-[Visit the website](https://gentlelivingshop.gitlab.io/)
+[Visit the website](https://gentlelivingshop.org/)
 
 ## Upcoming stuff
 - migrate to .org
@@ -22,9 +22,9 @@ All tutorials are [released into the public domain](https://creativecommons.org/
 
 <code>100%使用HTML和CSS - 無Javascript</code>
 
-[來看看我們的網站](https://gentlelivingshop.gitlab.io/zh.html)<br>
+[來看看我們的網站](https://gentlelivingshop.org/zh.html)<br>
 
 
 # 
 
-[Bezoek onze website](https://gentlelivingshop.gitlab.io/nl.html)
+[Bezoek onze website](https://gentlelivingshop.org/nl.html)
