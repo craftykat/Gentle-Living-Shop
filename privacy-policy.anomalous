@@ -3,91 +3,96 @@
 <html lang="en">
 
 <head>
-    <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
-    <!--favicon-->
-    <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./resources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#daf0e2">
-    <!--make changes here-->
-    <title>Our Privacy Policy | Gentle Living Shop</title>
-    <meta name="description" content="">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:title" content="Our Privacy Policy | Gentle Living Shop">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+  <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Our Privacy Policy | Gentle Living Shop</title>
+  <meta name="description" content="">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:title" content="Our Privacy Policy | Gentle Living Shop">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="#">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
 </head>
 
 <body>
 
-<partial src="_header-en.html"/>
+  <partial src="_header-en.html"/>
 
-    <!--main content starts-->
-    <main>
-        <h1>Privacy Policy</h1>
-        <hr>
-        <nav class="toc pink" id="privacy-toc">
-            <h2>Table of Contents:</h2>
-            <ul>
-                <li><a href="#who">Who we are</a></li>
-                <li><a href="#data">We do not collect any data</a></li>
-                <li><a href="#thiswebsite">How this website runs</a></li>
-                <li><a href="#contact">Contact us</a></li>
-            </ul>
-        </nav>
-        <hr class="hr-dotted">
-        <div ></div>
-        <div  id="who" class="anchor"></div>
-        <div class="section-box">
-            <h2>Who we are</h2>
-            <p>Our website address is: <a href="https://gentlelivingshop.com">https://gentlelivingshop.com</a>
-                &#8211; a family-operated site relating to crafting, making things by hand and living a simple life.
-                We created and continue to develop this website with an open-access mindset along with an awareness
-                of privacy and security. In order to operate the website, we receive <a
-                    href="https://gitlab.com/">hosting services from GitLab*</a>.</p>
-        </div>
-        <hr class="hr-spacer">
-        <div id="data" class="anchor"></div>
-        <div class="section-box">
-            <h2>We do not collect any data</h2>
-            <p><b>We do not collect any information about you whatsoever.</b></p>
-        </div>
-        <hr class="hr-spacer">
-        <div id="thiswebsite" class="anchor"></div>
-        <div class="section-box">
-            <h2>How this website runs</h2>
-            <p>We wrote all the code of this website ourselves exclusively with HTML. It is therefore a static website
-                meaning when you visit us, the computer downloads the code we wrote
-                from GitLab and your browser interprests and then displays the page. The interaction ends there and </p>
-            <p>no cookies, no javascript, no trackers</p>
-        </div>
-        <hr class="hr-spacer">
-        <div id="contact" class="anchor"></div>
-        <div class="section-box">
-            <h2>Contact us</h2>
-            <p>If you have any question, you can reach us at: <a href="mailto:gentlelivingshop@protonmail.com"
-                    target="_blank">gentlelivingshop@protonmail.com</a> or <a
-                    href="https://matrix.to/#/#gentlelivingshop:matrix.org?via=matrix.org" target="_blank">talk to
-                    us on Matrix</a>.</p>
-        </div>
-    </main>
-    <!--main content ends-->
+  <!--main content starts-->
+  <main>
+    <h1>Privacy Policy</h1>
+ <hr>
+ <nav class="toc pink" id="privacy-toc">
+   <h2>Table of Contents:</h2>
+   <ul>
+     <li><a href="#who">Who we are</a></li>
+     <li><a href="#data">Your data is yours</a></li>
+     <li><a href="#thiswebsite">How this website runs</a></li>
+     <li><a href="#contact">Contact us</a></li>
+   </ul>
+ </nav>
+ <hr class="hr-dotted">
+ <div ></div>
+ <div  id="who" class="anchor"></div>
+ <div class="section-box">
+   <h2>Who we are</h2>
+   <p>Our website address is: <a href="https://gentlelivingshop.org">https://gentlelivingshop.org</a> &#8211; a family-operated site relating to crafting, making things by hand and living a simple life. We created and continue to develop this website with an open-access mindset along with an awareness of privacy and security. In order to operate the website, we receive <a href="https://gitlab.com/">hosting services from GitLab*</a>.</p>
+ </div>
+ <hr class="hr-spacer">
+ <div id="data" class="anchor"></div>
+ <div class="section-box">
+   <h2>Your data is yours</h2>
+<h3>Analytics</h3>
+   <p><b>We do not collect any information about you whatsoever when you visit our website.</b> You are free to roam around at your leisure and we won't look. There are no analytics running, no ip address logged, you are invisible to us.</p>
+<h3>Email</h3>
+<p> <b>Emails are for our eyes only and you are free to erase yourself from our digital memory.</b> When you send us an email it is encrypted on our end by protonmail and protected with a strong locally stored password. We recommend you also use <a href="https://protonmail.com" target="_blank">protonmail</a> to ensure end to end encryption. We do not store your email address outside of our inbox and will delete our email exchanges from our inbox upon your request. </p>
+<h3>Chat</h3>
+For our community chat group we use the matrix network. Matrix is a great decentralized, open source communication protocol which lets you send messages anonymously. We highly recommend using it as a chat replacement for Whatsapp, Signal, Telegram etc. <b>When you send us a chat through the matrix network it is end to end encrypted.</b> Our matrix group is a community space, anyone who joined our room can see your messages. You can however delete your messages from the group at any time.</p>
+<h4>Donations</h4>
+<p>We accept donations in Liberapay (open-source) and Ko-Fi. The payment information you use with those platforms will be shared with the relevant payment processing service, either Stripe, Paypal. <b>We recommend using Liberapay and paying through Stripe.</b> This way we won't receive any of your information. Please look at the <a href="https://liberapay.com/about/privacy" target="_blank">Liberapay</a> and <a href="https://more.ko-fi.com/privacy" target="_blank">Ko-Fi</a> policies for more information.</p>
+ </div>
+ <hr class="hr-spacer">
+ <div id="thiswebsite" class="anchor"></div>
+ <div class="section-box">
+   <h2>How this website runs</h2>
+   <p><b>We wrote all the code of this website ourselves exclusively with HTML and CSS.</b> It is therefore a static website meaning when you visit us, the computer downloads the files it needs such as code, images and fonts from GitLab and our interaction ends there. You can inspect any of these files on our Gitlab as this website is open source. Your browser does the rest of the work locally, it interprets the files and then displays the page.
+     <br>A static website is different from a dynamic website which uses coding languages such as JavaScript, PHP and Python to take your input and make changes to the website accordingly, allowing functions such as login, infinite scrolling, tracking across websites etc. A static website without JavaScript is not only faster, it is also more privacy and security friendly as we are not able to run any scripts on your computer nor are we receiving any information about your actions on our website. No cookies, no JavaScript, no trackers. <a href="./making-this-website">Read more about the making of this website</a></p>
+   <p>We do have an <b>exception</b> where JavaScript is used and the code is not written by us. We make use of a HTML functionality called <code>iframe</code> which allows us to embed other webpages within our website. We use this to show some content that would otherwise be difficult to share such as our videos. The embedded page is only loaded after you agree by clicking on the element with a clear notice. The way we use it, it will be just like clicking a link but instead of it opening in a new tab, it opens on our website within an <code>iframe</code>. The only websites we embed are ones we love and trust. Try it out by clicking on one of the links below, and then <a href="testiframe.html" target="testiframe">get back to reading about them:</a>
+     <div class="iframe-container">  <iframe sandbox="allow-same-origin allow-scripts allow-popups" height=50px name="testiframe" src="./testiframe.html" class="responsive-iframe"></iframe></div>
+     If you find an <code>iframe</code> on one of our pages and you agree to load it, there will be some JavaScript running as the page loaded requires it. We checked and it is all basic JavaScript, no trackers included. We trust these websites but the choice is yours :)<br>
+     If you know of more privacy friendly embeds we can use as an alternative, please let us know!
+   </div>
+   <hr class="hr-spacer">
+   <div id="contact" class="anchor"></div>
+   <div class="section-box">
+     <h2>Contact us</h2>
+     <p>If you have any question or suggestions, let us know at: <a href="mailto:gentlelivingshop@protonmail.com"
+       target="_blank">gentlelivingshop@protonmail.com</a> or <a
+       href="https://matrix.to/#/#gentlelivingshop:matrix.org?via=matrix.org" target="_blank">talk to
+       us on Matrix</a>.</p>
+     </div>
+      </main>
+      <!--main content ends-->
 
-    <hr>
+      <hr>
 
-    <partial src="_footer-en.html"/>
+      <partial src="_footer-en.html"/>
 
 
-</body>
+    </body>
 
-</html>
+    </html>
