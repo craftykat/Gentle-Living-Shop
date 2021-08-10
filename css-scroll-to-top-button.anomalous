@@ -3,17 +3,17 @@
 <html lang="en">
 
 <partial src="_head.html"/>
-  <!--make changes here-->
-  <title>Scroll to Top Button (HTML and CSS Only)</title>
-  <meta name="description" content="">
-  <!--open graph meta tags-->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="#">
-  <meta property="og:title" content="Scroll to Top Button (HTML and CSS Only)">
-  <meta property="og:description" content="">
-  <meta property="og:image" content="#">
-  <!--this page in another language-->
-  <link rel="alternate" href="#" hreflang="#">
+<!--make changes here-->
+<title>Scroll to Top Button (HTML and CSS Only)</title>
+<meta name="description" content="">
+<!--open graph meta tags-->
+<meta property="og:type" content="website">
+<meta property="og:url" content="#">
+<meta property="og:title" content="Scroll to Top Button (HTML and CSS Only)">
+<meta property="og:description" content="">
+<meta property="og:image" content="#">
+<!--this page in another language-->
+<link rel="alternate" href="#" hreflang="#">
 </head>
 
 <body>
@@ -28,15 +28,15 @@
     <pre>
       <code>
         &lt;body&gt;
-          &lt;header&gt;
-            &lt;div id="scrolltop"&gt;&lt;/div&gt;
-          &lt;/header&gt;
-          &lt;footer&gt;
-            &lt;a href="#scrolltop"&gt;
-            &lt;div class="scroll-arrow"&gt;&lt;/div&gt;
-            &lt;span id="scroll-text"&gt;top&lt;/span&gt;
-            &lt;/a&gt;
-          &lt;/footer&gt;
+        &lt;header&gt;
+        &lt;div id="scrolltop"&gt;&lt;/div&gt;
+        &lt;/header&gt;
+        &lt;footer&gt;
+        &lt;a href="#scrolltop"&gt;
+        &lt;div class="scroll-arrow"&gt;&lt;/div&gt;
+        &lt;span id="scroll-text"&gt;top&lt;/span&gt;
+        &lt;/a&gt;
+        &lt;/footer&gt;
         &lt;/body&gt;
       </code>
     </pre>
@@ -44,56 +44,53 @@
     <pre>
       <code>
         /*teardrop shape styling*/
-          .scroll-arrow {
-            position: fixed;
-            left: 26px;
-            bottom: 26px;
-            width: 36px;
-            height: 36px;
-            background: rgba(0, 0, 0, 0.66);
-            border-radius: 50% 0 50% 50%;
-            transform: rotate(-45deg);
-          }
+        .scroll-arrow {
+          position: fixed;
+          left: 26px;
+          bottom: 26px;
+          width: 36px;
+          height: 36px;
+          background: rgba(0, 0, 0, 0.66);
+          border-radius: 50% 0 50% 50%;
+          transform: rotate(-45deg);
+        }
 
         /*text styling*/
-          #scroll-text{
-            color: white;
-            position: fixed;
-            left: 28px;
-            bottom: 30px;
-            font-size: 20px;
-            z-index: 1000;
-            text-decoration: none;
-            text-shadow: 2px 2px 10px #5c2f96;
-            font-family: sans-serif;
-            font-weight: bolder;
-          }
-          #scroll-text:hover {
-            color: lightgreen;
-          }
+        #scroll-text{
+          color: white;
+          position: fixed;
+          left: 28px;
+          bottom: 30px;
+          font-size: 20px;
+          z-index: 1000;
+          text-decoration: none;
+          text-shadow: 2px 2px 10px #5c2f96;
+          font-family: sans-serif;
+          font-weight: bolder;
+        }
+        #scroll-text:hover {
+          color: lightgreen;
+        }
 
         /*for smooth scrolling*/
-          html {
-            scroll-behavior: smooth;
-          }
+        html {
+          scroll-behavior: smooth;
+        }
       </code>
     </pre>
     <h2>Play with the code!</h2>
-    <p><a href="https://codepen.io/craftykat/pen/zYwMEyK">Link to CodePen</a></p>
-    <iframe height="526" style="width: 100%;" scrolling="no" title="scroll to top button (teardrop style)" src="https://codepen.io/craftykat/embed/zYwMEyK?default-tab=html%2Cresult&editable=true&theme-id=dark" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
-      See the Pen <a href="https://codepen.io/craftykat/pen/zYwMEyK">
-      scroll to top button (teardrop style)</a> by craftykat (<a href="https://codepen.io/craftykat">@craftykat</a>)
-      on <a href="https://codepen.io">CodePen</a>.
-    </iframe>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-  </main>
-  <!--main content ends-->
+    <div class="iframe-container">
+      <iframe name="flems-iframe" src="./iframe-flems-scroll-button.html" class="responsive-iframe"></iframe></div>
 
-  <hr>
 
-  <partial src="_footer-en.html"/>
+    </main>
+    <!--main content ends-->
 
-</body>
+    <hr>
 
-</html>
+    <partial src="_footer-en.html"/>
+
+  </body>
+
+  </html>
