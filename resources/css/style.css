@@ -479,6 +479,7 @@ ul li ul li {
     margin-bottom: -10px;
     bottom: 0;
     border-radius: 4%;
+    word-break: keep-all;
   }
   #foot a {color: black;padding: 16px;}
   #foot-end{
@@ -488,7 +489,8 @@ ul li ul li {
     column-gap: 5px;
     margin: 5px;
   }
-  #button-vegan:hover{filter: drop-shadow(16px 16px 20px palegreen) invert(75%);}
+  #foot-end a {padding: 0;}
+  #button-vegan:hover{filter: drop-shadow(0px 0px 12px red) invert(75%);}
   #button-gnulinux:hover{filter: hue-rotate(60deg)}
   /*responsive header and footer*/
   @media (max-width: 800px) {
@@ -574,6 +576,11 @@ ul li ul li {
       margin-top: 15px;
     }
     #scroll-text{display: none;}
+    .footer-button{
+      width: 80%;
+      height: auto;
+    }
+    #foot-end{column-gap: 1px; margin: 0px;}
   }
   /*mobile menu button responsive*/
   @media only screen and (max-width: 480px) {
