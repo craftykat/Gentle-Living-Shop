@@ -62,7 +62,7 @@
 <p> <b>Emails are for our eyes only and you are free to erase yourself from our digital memory.</b> When you send us an email it is encrypted on our end by protonmail and protected with a strong locally stored password. We recommend you also use <a href="https://protonmail.com" target="_blank">protonmail</a> to ensure end to end encryption. We do not store your email address outside of our inbox and will delete our email exchanges from our inbox upon your request. </p>
 <h3>Chat</h3>
 For our community chat group we use the matrix network. Matrix is a great decentralized, open source communication protocol which lets you send messages anonymously. We highly recommend using it as a chat replacement for Whatsapp, Signal, Telegram etc. <b>When you send us a chat through the matrix network it is end to end encrypted.</b> Our matrix group is a community space, anyone who joined our room can see your messages. You can however delete your messages from the group at any time.</p>
-<h4>Donations</h4>
+<h3>Donations</h3>
 <p>We accept donations in Liberapay (open-source) and Ko-Fi. The payment information you use with those platforms will be shared with the relevant payment processing service, either Stripe, Paypal. <b>We recommend using Liberapay and paying through Stripe.</b> This way we won't receive any of your information. Please look at the <a href="https://liberapay.com/about/privacy" target="_blank">Liberapay</a> and <a href="https://more.ko-fi.com/privacy" target="_blank">Ko-Fi</a> policies for more information.</p>
  </div>
  <hr class="hr-spacer">
