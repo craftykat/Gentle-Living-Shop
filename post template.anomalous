@@ -17,12 +17,12 @@
     <meta name="theme-color" content="#daf0e2">
     <!--make changes here-->
     <title>Gentle Living Shop</title>
-    <meta name="description" content="">
+    <meta name="description" content="#">
     <!--open graph meta tags-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://gentlelivingshop.org/">
     <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="#">
     <meta property="og:image" content="#">
     <!--this page in another language-->
     <link rel="alternate" href="#" hreflang="#">

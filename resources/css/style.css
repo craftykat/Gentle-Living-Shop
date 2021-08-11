@@ -123,7 +123,7 @@ main{
 }
 .hr-spacer, .iframe-container, .blockquote {margin-top:1em;
 margin-bottom:1em;}
-h1, h2, hr, .section-box, .p-margin{
+h2, hr, .section-box, .p-margin{
   margin-top:1.6em;
   margin-bottom:1em;
 }
@@ -144,7 +144,7 @@ h4, h5, h6,li,ul,p{
   margin-top:0.5em;
   margin-bottom:0.5em;
 }
-#mainnav ul, #mainnav ul li, #site-title, #logo-link, #title-logo, #public-domain-logo, .no-margin, .toc h2 {
+#mainnav ul, #mainnav ul li, #logo-link, #title-logo, #public-domain-logo, .no-margin, .toc h2 {
   margin-top:0;
   margin-bottom:0;
 }
@@ -243,7 +243,7 @@ a[href^="http"]{color: mediumblue}
 /*.tables{width: 120%;margin-left: 0;margin-right: 0;}*/
 table{
   border-collapse: collapse;
-  width:100%;
+  min-width: 300px;
 }
 td, th{
   border:1px solid black;
@@ -253,6 +253,7 @@ thead{background: #bcf1bc}
 tbody th {
   background: #bcf1bc;
 }
+.overflow-auto{overflow: auto;}
 
 /*media*/
 .music {
@@ -669,6 +670,7 @@ ul li ul li {
 }
 /*mobile view*/
 @media (max-width: 480px) {
+  #site-title{margin-top: 30px;}
   #mainnav li {
     padding: 2px;
     min-width: none;

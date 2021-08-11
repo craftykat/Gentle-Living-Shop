@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--update language!-->
+<html lang="en">
+
+<head>
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Easy 2-Seam T-shirt Sewing Guide + Pattern Making (No Sewing Machine)</title>
+  <meta name="description" content="Learn how to make a pattern and sew this easy Hanfu-inspired T-shirt. It has only two seams and you do not need a sewing machine to make it!">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://gentlelivingshop.org/2-seam-tshirt-sewing-guide/">
+  <meta property="og:title" content="Easy 2-Seam T-shirt Sewing Guide + Pattern Making (No Sewing Machine)">
+  <meta property="og:description" content="Learn how to make a pattern and sew this easy Hanfu-inspired T-shirt. It has only two seams and you do not need a sewing machine to make it!">
+  <meta property="og:image" content="https://gentlelivingshop.org/resources/img/2-seam-tee-feature.webp">
+  <!--this page in another language-->
+  <link rel="alternate" href="https://gentlelivingshop.org/zh/hanfu-tshirt-sewing-guide.html" hreflang="zh">
+</head>
+
+<body>
+
+  <partial src="_header-en.html"/>
+
+  <!--main content starts-->
+  <main>
+    <h1>Easy 2-Seam T-shirt Sewing and Pattern Making Guide &#8211; No Sewing Machine Needed</h1>
+    <hr>
+    <p class="dropcap">A 2-seam T-shirt  is inspired by traditional Chinese clothing called Hanfu (漢服). It follows the traditional way of 2-dimensional pattern making. Its fit is rather boxy and the sleeve design resembles bat sleeves as the sleeves and bodice are one single piece. If normal T-shirt patterns are confusing to you – hopefully you will find this to be much more straightforward and easy to understand 😀</p>
+    <p>You may <a href="#video"> follow along with our video</a> as well as with the <a href="#download">accompanying PDF guide</a> that makes it easier to keep track of measurements.</p>
+    <div class="toc yellow">
+      <h2><strong>We will cover the following:</strong></h2>
+      <ul>
+        <li><a href="#video">Video Guide</a></li>
+        <li><a href="#tools">Tools and Materials Needed</a></strong></li>
+        <li><a href="#compare">Normal T-shirt vs 2-Seam T-shirt</a></li>
+        <li><a href="#measurements">2-Seam T-shirt Measurements</a></li>
+        <li><strong><a href="#step-by-step">Steps to Create a 2-Seam Tee!</a></strong></li>
+        <li><a href="#download">Download for PDF Guide</a></li>
+      </ul>
+    </div>
+    <hr class="hr-dotted">
+    <div id="video"></div>
+    <h2>Video Guide</h2>
+    <p>YouTube: <a href="https://youtu.be/X56BLuwWJlo" target="_blank">https://youtu.be/X56BLuwWJlo</a></p>
+    <p class="text-left">Odysee: <a href="https://odysee.com/@GentleLivingShop:5/sewing-2seam-tshirt:a?r=3VDAvYmCPc3N81v2HTz4amYnRugyq9Tn" target="_blank">https://odysee.com/@GentleLivingShop:5/sewing-2seam-tshirt:a?r=3VDAvYmCPc3N81v2HTz4amYnRugyq9Tn</a></p>
+    <hr class="hr-dotted">
+    <div id="tools"></div>
+    <h2>Tools and Materials Needed</h2>
+    <ul>
+      <li>tape measure</li>
+      <li>pen</li>
+      <li>fabric (jersey or another preferred fabric)</li>
+      <li>tailor’s chalk or pen for fabric</li>
+      <li>fabric scissors</li>
+      <li>needle + thread or sewing machine</li>
+      <li>(Optional) <a href="#download">accompanying guide printout</a> </li>
+    </ul>
+    <p><strong>Difficulty Level:</strong> beginner friendly</p>
+    <p><strong>Project Length: </strong>around an hour</p>
+
+    <hr class="hr-dotted">
+    <div id="compare"></div>
+    <h2>Normal T-shirt vs 2-Seam T-shirt</h2>
+    <p>There are many noticeable and subtle differences between the two, let’s find out!</p>
+
+
+
+    <hr class="hr-dotted">
+    <div id="measurements"></div>
+    <h2>2-Seam T-shirt Measurements</h2>
+
+
+    <hr class="hr-dotted">
+    <div id="step-by-step"></div>
+    <h2>Steps to Create a 2-Seam Tee!</h2>
+
+
+    <hr class="hr-dotted">
+    <div id="download"></div>
+    <h2>Download PDF Guide Here</h2>
+
+
+
+
+
+
+
+
+
+
+  </main>
+  <!--main content ends-->
+
+  <hr>
+
+  <partial src="_footer-en.html"/>
+
+</body>
+
+</html>

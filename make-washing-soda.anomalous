@@ -68,8 +68,9 @@
     <hr class="hr-dotted">
     <div class="anchor" id="differences"></div>
     <h2>Differences between baking soda and washing soda</h2>
+    <div class="overflow-auto">
     <figure class="tables">
-      <table class="lightgreen ">
+      <table class="lightgreen">
         <thead>
           <tr>
             <th></th>
@@ -118,7 +119,9 @@
             </tr>
           </tbody>
         </table>
-        <figcaption>Reference: <a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a></figcaption></figure>
+        <figcaption>Reference: <a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a></figcaption>
+      </figure>
+      </div
         <hr class="hr-dotted">
         <div class="anchor" id="uses"></div>
         <h2>Uses for washing soda</h2>
