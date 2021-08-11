@@ -87,7 +87,7 @@ main{
 @media only screen and (min-width: 1280px) {
   main{width: 896px;margin: auto;}
 }
-@media (max-width: 650px) {
+@media (max-width: 800px) {
   body {
     margin-left: 2px;
     margin-right: 2px;
@@ -121,14 +121,18 @@ main{
   margin-top:2em;
   margin-bottom:0.5em;
 }
-.hr-spacer{margin-top:1em;
+.hr-spacer, .iframe-container, .blockquote {margin-top:1em;
 margin-bottom:1em;}
+h1, h2, hr, .section-box, .p-margin{
+  margin-top:1.6em;
+  margin-bottom:1em;
+}
 @media (min-width:800px) {
 {
   margin-top:5em;
   margin-bottom:5em;
 }
-.toc, .blockquote, .music, .archive-mosaic, .post-thumbnail {
+.toc, .music, .archive-mosaic, .post-thumbnail {
   margin-top:2em;
   margin-bottom:1.8em;
 }
@@ -151,7 +155,7 @@ h4, h5, h6,li,ul,p{
 .yellow{background: #FFFABE;}
 .black{background: black;}
 .blue{background: #B9E8FF}
-.thistle{background: thistle}
+.thistle{background: rgba(230,220,233,.85)}
 .babypink{background: #FFD1D1}
 .darkblue{background: #005DAE}
 .darkcornflowerblue{background: #3A4986}
@@ -173,7 +177,7 @@ a[href^="http"]{color: mediumblue}
   width: auto;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 3%;
+  border-radius: 2%;
   padding: 20px;
   max-width: 500px;
 }
@@ -214,6 +218,7 @@ a[href^="http"]{color: mediumblue}
   padding: 20px;
   text-align: justify;
 }
+.section-box h2{text-align: center;}
 
 .blockquote{
   height: auto;
@@ -419,9 +424,9 @@ header a {
   color: #000!important;
   text-decoration: none;
 }
-header h2 {font-size: 22px}
+header h2 {font-size: 22px;margin-top: 0.5em!important;}
+#site-title{margin-bottom: 16px!important;}
 #site-title a{text-shadow: 0px 0px 2px #8892ec;}
-header{text-shadow: 0px 0px 2px #a2caf0;}
 a:hover {color: rgb(5, 81, 194) !important;}
 .site-header {
   margin-left: 10px;

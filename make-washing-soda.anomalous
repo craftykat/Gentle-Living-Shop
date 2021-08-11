@@ -34,7 +34,7 @@
 
   <!--main content starts-->
   <main>
-    <h1>Make Washing Soda/Soda Ash from Baking Soda (for fabric scouring and more)</h1>
+    <h1>Make Washing Soda/Soda Ash from Baking Soda (for fabric scouring)</h1>
     <hr>
     <p>Washing soda, also known as soda ash, is used in our household to scour fabrics in preparation for waxing and indigo dying, to clean laundry, the kitchen and the bathroom, and to remove stains from stainless steel cookware. It is a very versatile natural ingredient but is not as easily available as baking soda, so we will show you how we make washing soda from baking soda. Enjoy this easy tutorial!</p>
     <nav class="toc thistle">
@@ -70,98 +70,114 @@
     <h2>Differences between baking soda and washing soda</h2>
     <figure class="tables">
       <table class="lightgreen ">
-      <thead>
-        <tr>
-        <th></th>
-        <th data-align="left">Baking Soda</th>
-        <th>Washing Soda/Soda Ash</th>
-      </tr>
-    </thead>
-      <tbody>
-        <tr>
-          <th><strong>Chemical name</strong></th>
-          <td  data-align="left">Sodium bicarbonate</td>
-          <td>Sodium carbonate</td>
-        </tr>
-        <tr>
-          <th><strong>pH</strong></th>
-          <td  data-align="left">8.3</td>
-          <td>11</td>
-        </tr>
-        <tr>
-          <th><strong>Density</strong></th>
-          <td  data-align="left">2.20g/cm<sup>3</sup>
-          </td>
-          <td>2.54g/cm<sup>3</sup>
-          </td>
-        </tr>
-        <tr>
-          <th><strong>Safety</strong></th>
-          <td data-align="left">Mild irritant</td>
-          <td>Irritant</td>
-        </tr>
-        <tr>
-          <th><strong>Cleaning power</strong></th>
-          <td data-align="left">Mild</td>
-          <td>Strong</td>
-        </tr>
-        <tr>
-          <th><strong>Appearance</strong></th>
-          <td data-align="left">Clumpy</td>
-          <td>Smooth powder</td>
-        </tr>
-        <tr>
-          <th><strong>Edibility</strong></th>
-          <td data-align="left">Widely used in baking and cooking</td>
-          <td>
-            <a href="#uses">Used in selective cases</a> (do your research)</td>
+        <thead>
+          <tr>
+            <th></th>
+            <th data-align="left">Baking Soda</th>
+            <th>Washing Soda/Soda Ash</th>
           </tr>
-        </tbody>
-      </table>
-      <figcaption>Reference: <a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a></figcaption></figure>
-      <hr class="hr-dotted">
-      <div class="anchor" id="uses"></div>
-      <h2>Uses for washing soda</h2>
-      <ul>
-      <li><strong>Clean laundry</strong> and tough stains on fabric</li>
-      <li>Clean stains on bathroom and kitchen surfaces</li>
-      <li><a href="#stainless-steel">Remove stains and rust on stainless steel</a> (read more below!)</li>
-      <li><strong>Scour</strong> cellulose fabric such as cotton canvas and linen to prepare for waxing and dying (i.e. remove grease and dirt accumulated in the factory)</li>
-      <li>Soften hard water</li>
-      <li>Food (do your own research!): Used to <a href="https://www.chinayummyfood.com/kansui-lye-water-alkaline-water/" target="_blank">make kansui (鹼水)</a> for making ramen, moon cakes, <a href="https://youtu.be/B8-4GHFjhDY" target="_blank">Chinese buns, and other wheat-based foods</a>; to give pretzels its dark brown colour</li>
-      </ul>
-      <hr class="hr-dotted">
-      <div class="anchor" id="howto"></div>
-      <h2>How to make washing soda</h2>
+        </thead>
+        <tbody>
+          <tr>
+            <th><strong>Chemical name</strong></th>
+            <td  data-align="left">Sodium bicarbonate</td>
+            <td>Sodium carbonate</td>
+          </tr>
+          <tr>
+            <th><strong>pH</strong></th>
+            <td  data-align="left">8.3</td>
+            <td>11</td>
+          </tr>
+          <tr>
+            <th><strong>Density</strong></th>
+            <td  data-align="left">2.20g/cm<sup>3</sup>
+            </td>
+            <td>2.54g/cm<sup>3</sup>
+            </td>
+          </tr>
+          <tr>
+            <th><strong>Safety</strong></th>
+            <td data-align="left">Mild irritant</td>
+            <td>Irritant</td>
+          </tr>
+          <tr>
+            <th><strong>Cleaning power</strong></th>
+            <td data-align="left">Mild</td>
+            <td>Strong</td>
+          </tr>
+          <tr>
+            <th><strong>Appearance</strong></th>
+            <td data-align="left">Clumpy</td>
+            <td>Smooth powder</td>
+          </tr>
+          <tr>
+            <th><strong>Edibility</strong></th>
+            <td data-align="left">Widely used in baking and cooking</td>
+            <td>
+              <a href="#uses">Used in selective cases</a> (do your research)</td>
+            </tr>
+          </tbody>
+        </table>
+        <figcaption>Reference: <a href="https://www.wikipedia.org/" target="_blank">wikipedia.org</a></figcaption></figure>
+        <hr class="hr-dotted">
+        <div class="anchor" id="uses"></div>
+        <h2>Uses for washing soda</h2>
+        <ul>
+          <li><strong>Clean laundry</strong> and tough stains on fabric</li>
+          <li>Clean stains on bathroom and kitchen surfaces</li>
+          <li><a href="#stainless-steel">Remove stains and rust on stainless steel</a> (read more below!)</li>
+          <li><strong>Scour</strong> cellulose fabric such as cotton canvas and linen to prepare for waxing and dying (i.e. remove grease and dirt accumulated in the factory)</li>
+          <li>Soften hard water</li>
+          <li>Food (do your own research!): Used to <a href="https://www.chinayummyfood.com/kansui-lye-water-alkaline-water/" target="_blank">make kansui (鹼水)</a> for making ramen, moon cakes, <a href="https://youtu.be/B8-4GHFjhDY" target="_blank">Chinese buns, and other wheat-based foods</a>; to give pretzels its dark brown colour</li>
+        </ul>
+        <hr class="hr-dotted">
+        <div class="section-box thistle">
 
-      <p><strong>Time needed:</strong> 10 to 30+ minutes depending on batch size</p>
-      <ol>
-      <li>
-      <strong>Prepare a dry stainless steel cooking pot</strong>.</li>
-      <li>Pour desired amount of <strong>baking soda into pot</strong>.</li>
-      <li><strong>Turn heat on medium to high.</strong></li>
-      <li>
-      <strong>Stir regularly</strong> and break up any chunks.</li>
-      <li>As the baking soda heats and water evaporates away, <strong>it will feel lighter and more airy to stir</strong>. <strong>Clumps present will start to disintegrate</strong>. You may see steam and air bubbles coming off of it. <strong>Careful not to breath in any powder</strong>.</li>
-      <li>When there is <strong>no more clumps present, you have successfully make washing soda</strong>! <a href="#ph-test">Test it with a pH test strip to confirm</a> – it should have a pH of 11.</li>
-      </ol>
+          <div class="anchor" id="howto"></div>
+          <h2>How to make washing soda</h2>
 
-      <hr class="hr-dotted">
-      <div class="anchor" id="stainless-steel"></div>
-      <h2>In action: cleaning stainless steel</h2>
+          <p><strong>Time needed:</strong> 10 to 30+ minutes depending on batch size</p>
+          <ol>
+            <li><strong>Prepare</strong> a dry stainless steel cooking pot.</li>
+            <li>Pour desired amount of <strong>baking soda into pot</strong>.</li>
+            <li><strong>Turn heat on</strong> medium to high.</li>
+            <li><strong>Stir regularly</strong> and break up any chunks.</li>
+            <li>As the baking soda heats and water evaporates away, it will <strong>feel lighter and more airy to stir</strong>. <strong>Clumps present will start to disintegrate</strong>. You may see steam and air bubbles coming off of it. <strong>Careful not to breath in any powder</strong>.</li>
+            <li>When there is <strong>no more clumps present, you have successfully make washing soda</strong>! <a href="#ph-test">Test it with a pH test strip to confirm</a> – it should have a pH of 11.</li>
+          </ol>
+          <img src="./resources/img/make-washing-soda-steps.webp" alt="baking soda becomes less clumpy as it converts to washing soda">
+          <ol start="7"><li><strong>Transfer washing soda into an airtight container</strong> (this is important as we don’t want to reintroduce water molecules into the equation!).</li></ol>
+          <figure>
+            <img src="./resources/img/make-washing-soda-label.webp" alt="">
+            <figcaption>be sure to <strong>label the container</strong> to avoid using it as baking soda accidentally</figcaption>
+          </figure>
+        </div>
+
+
+        <hr class="hr-dotted">
+        <div class="anchor" id="stainless-steel"></div>
+        <h2>In action: cleaning stainless steel</h2>
+        <img src="./resources/img/make-washing-soda-stainless-steel.webp" alt="clean stainless steel with washing soda demo">
+        <ol>
+          <li><strong>Bring some water to a boil</strong> in a large enough pot</li>
+          <li>Add in <strong>2 tablespoon of washing soda and some <a href="./liquid-soap-tutorial.html">liquid soap</a></strong></li>
+          <li><strong>Drop in any dirty stainless steel cookware</strong></li>
+          <li>Let it <strong>boil for 1 minute and remove</strong> with care</li>
+          <li><strong>Rinse under cold water and scrub stains with a towel</strong>. The stains should come off with ease.</li>
+        </ol>
+        <hr class="hr-dotted">
+        <p>This is how we make washing soda at home, we hope you learned something new!</p>
+        <img src="./resources/img/make-washing-soda-transform.webp" alt="transform baking soda to washing soda post end feature photo">
 
 
 
+      </main>
+      <!--main content ends-->
 
+      <hr>
 
+      <partial src="_footer-en.html"/>
 
-    </main>
-    <!--main content ends-->
+    </body>
 
-    <hr>
-
-    <partial src="_footer-en.html"/>
-
-  </body>
-
-  </html>
+    </html>
