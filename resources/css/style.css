@@ -254,6 +254,7 @@ tbody th {
   background: #bcf1bc;
 }
 .overflow-auto{overflow: auto;}
+.list-style-none{list-style-type: none;}
 
 /*media*/
 .music {
