@@ -123,7 +123,7 @@
             <li>Prepare your <strong>workstation</strong> with all your tools, materials and safety gear</li>
           </ol>
           <figure>
-            <img src="./resources/img/liquid-soap-tutorial-workstation.webp" alt="liquid soap workstation with tools and materials prepared">
+            <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-workstation.webp" alt="liquid soap workstation with tools and materials prepared">
             <figcaption>prepare liquid soap workstation</figcaption>
           </figure>
           <ol start="3">
@@ -136,7 +136,7 @@
             <li class="text-justify">After 30 minutes of hand stirring (it will take longer for bigger batches and if room temperature is low), the soap batter will reach a thick pancake batter like consistency and a white colour. This is a good place to stop stirring as the oils have fully emulsified with the lye.</li>
           </ol>
           <figure>
-            <img src="./resources/img/liquid-soap-tutorial-batter30min.webp" alt="liquid soap batter after 30 minutes of hand stirring">
+            <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-batter30min.webp" alt="liquid soap batter after 30 minutes of hand stirring">
             <figcaption>soap batter after 30 minutes of hand stirring</figcaption>
           </figure>
           <ol start="10">
@@ -144,12 +144,12 @@
             <li>After 12 hours, it should now be a thick packs with a off white creamy colour</li>
           </ol>
           <figure>
-            <img src="./resources/img/liquid-soap-tutorial-paste12hours.webp" alt="liquid soap becomes paste for after 12 hours of making">
+            <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-paste12hours.webp" alt="liquid soap becomes paste for after 12 hours of making">
             <figcaption>soap paste after 12 hours</figcaption>
           </figure>
           <ol start="12"><li>Transfer soap paste into an airtight container and leave it for 3 weeks until it becomes more translucent. This is important as we did not use heat in this video so the soap paste needs extra time to let excess lye settle and for its pH to drop to a more gentle level.</li></ol>
           <figure>
-            <img src="./resources/img/liquid-soap-tutorial-paste3weeks.webp" alt="liquid soap becomes transluscent after 3 weeks">
+            <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-paste3weeks.webp" alt="liquid soap becomes transluscent after 3 weeks">
             <figcaption>liquid soap paste after 3 weeks</figcaption>
           </figure>
           <ol start="13"><li>To clean up, leave containers that have come into contact with lye untouched for at least 24 hours. All excess lye will be neutralised by then, wash as normal. </li></ol>
@@ -161,11 +161,11 @@
           <p>Let the soap paste dissolve in water overnight. It may appear cloudy at first, but the liquid will clear up (sequester) in a few days. However, if you used hard water to dissolve the soap paste, it may remain cloudy.</p>
           <div class="display-flex">
             <figure>
-              <img src="./resources/img/liquid-soap-tutorial-cloudysoap.webp" alt="cloudy liquid soap right after dissolving">
+              <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-cloudysoap.webp" alt="cloudy liquid soap right after dissolving">
               <figcaption>cloudy soap right after dissolving</figcaption>
             </figure>
             <figure>
-              <img src="./resources/img/liquid-soap-tutorial-clearsoap.webp" alt="clear liquid soap after a few days of sequestering">
+              <img class="img-responsive" src="./resources/img/liquid-soap-tutorial-clearsoap.webp" alt="clear liquid soap after a few days of sequestering">
               <figcaption>clear soap after a few days of sequestering</figcaption>
             </figure>
           </div>
@@ -173,8 +173,8 @@
         <hr class="hr-dotted">
         <div class="anchor" id="pdf"></div>
         <h3>Download PDF version of liquid soap recipe (without images)</h3>
-        <a href="#" download=""><img src="./resources/img/liquid-soap-tutorial-download.webp" alt="pdf download of liquid soap recipe"></a>
-        <div class="text-center">
+        <a href="#" download=""><img class="img-responsive-60 margin-center" src="./resources/img/liquid-soap-tutorial-download.webp" alt="pdf download of liquid soap recipe"></a>
+        <hr class="hr-spacer"><div class="text-center">
           <a href="#" download=""><button type="button" class="download-btn">💾 Download</button></a></div>
           <hr class="hr-dotted">
           <h2 class="text-center">Thank you for reading! We hope you learned something new!</h2>
