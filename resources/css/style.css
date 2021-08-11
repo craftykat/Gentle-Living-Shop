@@ -91,6 +91,11 @@ main{
   justify-content: center;
   flex-direction: column;
 }
+.margin-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 /*flexing*/
 .display-flex{display: flex}
 /*margins*/
@@ -210,6 +215,8 @@ h4, h5, h6,li,ul,p{
 }
 .img-border{box-shadow: 0 0 10px cornflowerblue;}
 .img-responsive{width: 100%;height: auto;}
+.img-responsive-60{width: 60%;height: auto;}
+
 .container-overflow{
   height: 800px;
   width: 100%;
