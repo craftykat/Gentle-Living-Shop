@@ -15,16 +15,16 @@ h5{text-shadow: 1px 1px 1px cornflowerblue;font-size: 20px;}
 @media (max-width:800px){
   h1{font-size: 34px;}
   h2{font-size: 30px;}
-  h3{ font-size: 22px;}
-  h4{font-size: 18px;}
-  h5{font-size: 16px;}
+  h3{font-size: 24px;}
+  h4{font-size: 20px;}
+  h5{font-size: 18px;}
 }
 @media (max-width:480px){
   h1{font-size: 30px;}
   h2{font-size: 26px;}
-  h3{font-size: 20px;}
-  h4{font-size: 18px;}
-  h5{font-size: 16px;}
+  h3{font-size: 22px;}
+  h4{font-size: 20px;}
+  h5{font-size: 18px;}
 }
 .dropcap::first-letter{
   float: left;
@@ -119,15 +119,17 @@ main{
 /*flexing*/
 .display-flex{display: flex}
 /*margins*/
-.hr-dotted{
-  margin-top:2em;
-  margin-bottom:0.5em;
-}
-.hr-spacer, .iframe-container, .blockquote {margin-top:1em;
+.hr-dotted,.hr-spacer, .iframe-container, .blockquote {margin-top:1em;
 margin-bottom:1em;}
-h2, hr, .section-box, .p-margin{
-  margin-top:1.6em;
+h2, hr, .section-box, .p-margin, .toc, .post-thumbnail{
+  margin-top:1.2em;
   margin-bottom:1em;
+}
+h3{margin-top:0.8em;
+margin-bottom:0.5em;}
+h4, h5, h6,li,ul,p{
+  margin-top:0.3em;
+  margin-bottom:0em;
 }
 @media (min-width:800px) {
 {
@@ -180,25 +182,24 @@ a[href^="http"]{color: mediumblue}
   margin-left: auto;
   margin-right: auto;
   border-radius: 2%;
-  padding: 20px;
   max-width: 500px;
 }
-.toc h2{text-align: center;}
+.toc ul{padding-bottom: 10px;}
+.toc h2{text-align: center;margin-top:1em;
+margin-bottom:0.6em;}
 .toc a{color: black; font-size: 112%;}
 
 .anchor {
   display: block;
   height: 65px;
   margin-top: -65px;
-
   visibility: hidden;
 }
-
-@media (max-width: 800px) {
+@media (max-width: 480px) {
   .anchor {
     display: block;
-    height: 55px;
-    margin-top: -90px;
+    height: 20px;
+    margin-top: -20px;
     visibility: hidden;
   }
 }
