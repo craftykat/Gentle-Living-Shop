@@ -75,6 +75,7 @@ pre{text-align: center; overflow: auto;background: rgb(255,251,198);padding: 10p
 a:visited {
   color: mediumslateblue;
 }
+.long-link{text-align: left;overflow: auto;word-break: break-all;}
 /*main*/
 html{scroll-behavior: smooth;}
 body{
@@ -196,15 +197,15 @@ margin-bottom:0.6em;}
 
 .anchor {
   display: block;
-  height: 0px;
-  margin-top: -0px;
+  height: 60px;
+  margin-top: -60px;
   visibility: hidden;
 }
 @media (max-width: 480px) {
   .anchor {
     display: block;
-    height: 20px;
-    margin-top: -20px;
+    height: 15px;
+    margin-top: -15px;
     visibility: hidden;
   }
 }
