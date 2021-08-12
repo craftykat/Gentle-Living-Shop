@@ -414,6 +414,14 @@ tbody th {
   color: black;
   text-decoration-style: dotted;
 }
+
+/*about us find us here logos*/
+.find-us-here{
+  column-count: 5;
+}
+.find-us-here span{
+  padding-right: 16px;
+}
 /*HEADER & FOOTER*/
 /*header*/
 #title-logo {
