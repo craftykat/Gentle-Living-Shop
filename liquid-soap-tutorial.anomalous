@@ -52,7 +52,7 @@
     <div id="video" class="anchor"></div>
     <h2>Video Guide</h2>
     <p>Youtube: <a href="https://www.youtube.com/watch?v=4ZXG9WBK0yA" target="_blank">https://youtu.be/4ZXG9WBK0yA</a></p>
-    <p class="text-left">Odysee: <a href="https://odysee.com/liquid-soap-tutorial:886dfc3ea6baa2e1477ed691409e3abae8904ade" target="_blank">https://odysee.com/liquid-soap-tutorial:886dfc3ea6baa2e1477ed691409e3abae8904ade</a></p>
+    <p class="text-left overflow-auto">Odysee: <a href="https://odysee.com/liquid-soap-tutorial:886dfc3ea6baa2e1477ed691409e3abae8904ade" target="_blank">https://odysee.com/liquid-soap-tutorial:886dfc3ea6baa2e1477ed691409e3abae8904ade</a></p>
     <hr class="hr-dotted">
     <div class="anchor" id="building"></div>
     <h3>Building the recipe</h3>
