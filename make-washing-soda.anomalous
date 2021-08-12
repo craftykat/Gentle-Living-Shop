@@ -134,10 +134,10 @@
           <li>Food (do your own research!): Used to <a href="https://www.chinayummyfood.com/kansui-lye-water-alkaline-water/" target="_blank">make kansui (鹼水)</a> for making ramen, moon cakes, <a href="https://youtu.be/B8-4GHFjhDY" target="_blank">Chinese buns, and other wheat-based foods</a>; to give pretzels its dark brown colour</li>
         </ul>
         <hr class="hr-dotted">
-        <div class="section-box thistle">
+        <div class="recipe-box thistle">
 
           <div class="anchor" id="howto"></div>
-          <h2>How to make washing soda</h2>
+          <h2 class="text-center">How to make washing soda</h2>
 
           <p><strong>Time needed:</strong> 10 to 30+ minutes depending on batch size</p>
           <ol>

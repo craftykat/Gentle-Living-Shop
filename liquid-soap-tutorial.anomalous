@@ -84,9 +84,9 @@
       <p class="text-center">Water (we used soft tap water) = 254.43g</p>
     </div>
     <hr class="hr-dotted">
-    <div class="section-box blue">
+    <div class="recipe-box blue">
       <div class="anchor" id="recipe"></div>
-      <h3>Detailed liquid soap recipe</h3>
+      <h3 class="text-center">Detailed liquid soap recipe</h3>
       <p><strong>Notes</strong></p>
       <ul>
         <li>read <a href="./soap-guide-part-1-basics.html" target="_blank">beginner’s guide to soapmaking</a> if you need</li>
