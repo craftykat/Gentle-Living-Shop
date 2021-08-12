@@ -3,48 +3,203 @@
 <html lang="en">
 
 <head>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./resources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#daf0e2">
-    <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+  <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Soapmaking Basics | Part 1 of Guide to Natural Soapmaking</title>
+  <meta name="description" content="">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://gentlelivingshop.org/soap-guide-part-1-basics/">
+  <meta property="og:title" content="Soapmaking Basics | Part 1 of Guide to Natural Soapmaking">
+  <meta property="og:description" content="Learn the basic science of soap making, different soaping methods, hard/soft water, stages of soap, traditional soapmaking and lye safety.">
+  <meta property="og:image" content="./resources/img/soap-guide-part-1-basics-feature.webp">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
 </head>
 
 <body>
 
-<partial src="_header-en.html"/>
+  <partial src="_header-en.html"/>
 
-    <!--main content starts-->
-    <main>
-        <h1></h1>
-        <hr>
-
-
-    </main>
-    <!--main content ends-->
-
+  <!--main content starts-->
+  <main>
+    <h1>Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</h1>
     <hr>
+    <img src="./resources/img/soap-guide-part-1-basics-feature.webp" alt="a green bar of soap with writing: part 1-soapmaking basics" class="post-thumbnail img-border">
+    <br>
+    <p class="dropcap">Welcome to Part 1 of our beginner&#8217;s guide to soapmaking series! Links to other parts of the series and for <a href="#links">PDF download will be at the bottom of this page.</a> Enjoy!</p>
+    <br>
+    <div class="recipe-box purple">
+      <p><strong>In this section, we will cover (click to go there):</strong></p>
+      <ul>
+        <li>
+          <strong><a href="#science">Science of soapmaking</a></strong><ul>
+            <li>Saponification</li>
+            <li>Superfat</li>
+          </ul>
+        </li>
+        <li>
+          <strong><a href="#water">Water in soapmaking</a></strong><ul>
+            <li>Hard water</li>
+            <li>Soft water</li>
+          </ul>
+        </li>
+        <li>
+          <strong><a href="#methods">Methods of soapmaking</a></strong><ul>
+            <li>Cold process</li>
+            <li>Hot process</li>
+            <li>Melt and pour</li>
+          </ul>
+        </li>
+        <li>
+          <strong><a href="#stages">Stages of soap</a></strong><ul>
+            <li>Emulsification</li>
+            <li>Trace</li>
+          </ul>
+        </li>
+        <li><strong><a href="#traditional">Traditional soapmaking</a></strong></li>
+        <li><strong><em><a href="#lye">Lye safety *very important!*</a></em></strong></li>
+      </ul>
+    </div>
+    <hr class="hr-dotted">
+    <div class="anchor" id="science"></div>
+    <h2>Science of Soapmaking</h2>
+    <p class="dropcap"><strong>Soap is made by a process of combining oils with an alkali, which is called saponification (SAP).</strong> The two different alkalis used to make soap are called lye &#8212; sodium hydroxide (NaOH) and potassium hydroxide (KOH). NaOH creates solid bars of soap and KOH creates liquid soap.</p>
+    <h3>Saponification</h3>
+    <p><strong>During saponification, lye will turn a specific amount of oils into soap. Therefore, the amount of lye used in making a batch of soap is precise</strong> because too much lye will make soap irritating and not enough lye will result in unsaponified oils, which in large amounts tend to go rancid in storage. The amount of lye needed is calculated using the oil&#8217;s saponification value (SAP value). Each type and brand of oil has its own SAP range, which is then used to calculate into two SAP values respectively for NaOH and KOH.</p>
+    <h3>Superfat</h3>
+    <p><strong>As excess lye is not desirable in a soap, it is vital to have superfat in a recipe. It is an extra amount of oils added to the recipe without changing the amount of lye.</strong> This is also known as a lye discount &#8212; using less lye in a recipe where amounts of oils stay the same. Having superfat in the recipe will almost always guarantee a non-irritating soap. What&#8217;s more, increasing superfat in a recipe will make soap more moisturising whereas decreasing superfat values will make soap more cleansing.<br>Read on Page 5 about how to calculate and work with SAP values and superfat.</p>
+    <hr class="hr-dotted">
+    <div class="anchor" id="water"></div>
+    <h2>Water in Soapmaking</h2>
+    <p class="dropcap"><strong>Water is a vital part of a soap recipe as lye needs to be dissolved in water before use. To completely dissolve lye crystals, it is a must to use the same amount of water in weight or more.</strong></p>
+    <p><strong>The type of water used will also affect the quality of soap.</strong></p>
+    <ul>
+      <li>
+        <strong>Hard water</strong> is water with high levels of dissolved minerals; an example would be ground water. The dissolved minerals result in a soap that is hard to lather and leaves chalky residues (soap scum) in sinks. Minerals in hard water also shorten the lifespan of soaps making them go rancid quicker.</li>
+        <li>
+          <strong>Soft water</strong> such as rain water has low levels of dissolved minerals. It is more suitable for soapmaking as soaps will lather well. </li>
+        </ul>
+        <p>A simple way to know whether you have hard tap water is by checking for any white chalky residues on the kettle or water faucets. <strong>Distilled water </strong>is often used instead when tap water is hard. <strong>Chelators</strong> such as citric acid can also be used to counter hard water. They bind with metals in water to suppress their activities hence reducing soap scum and help to lengthen the shelf life of soaps made with hard water.</p>
+        <p class="text-left overflow-auto">Read more <a href="https://inmysoappot.co.nz/2019/10/05/lets-talk-about-water/" target="_blank">about water: https://inmysoappot.co.nz/2019/10/05/lets-talk-about-water/</a></p>
+        <hr class="hr-dotted">
+        <div class="anchor" id="methods"></div>
+        <h2>Methods of Soapmaking</h2>
+        <h3>Cold process soapmaking</h3>
+        <p>Cold process soapmaking does not involve any extra heat added in the process. Heat is still generated during saponification. This method is perfect for <a href="./soap-guide-part-2-recipes/#pouring">creating intricate patterns</a> as the batter can be poured into moulds at various viscosities and textures. It usually takes under an hour to make but the finished cold process soap requires 4+ weeks of curing to allow its alkalinity to drop and soap to harden.</p>
+        <figure>
+          <img class="round-border" src="./resources/img/soap-guide-part-1-basics-curing.webp" alt="many bars of soap curing in open air on a shelf">
+          <figcaption>cold process soaps curing on a shelf</figcaption>
+        </figure>
+        <h3>Hot process soapmaking</h3>
+        <p>Hot process soapmaking involves &#8216;cooking&#8217; the soap on low heat. The heat speeds up the saponification process to produce a saponified thick batter in an hour or two if using a stick blender. Because of its thickness when poured into moulds, hot process soap has a more rustic look. It can be used immediately after setting, but a week of curing will help to harden it up and last longer. This method produces softer soaps compared to cold process. It tends to dissolve faster when in contact with water.</p>
+        <h3>Melt and por soaps</h3>
+        <p>Melt and pour soaps are made by melting pre-made soap blocks and adding fragrances and colours then letting it set. It is the only method that does not involve lye hence it is suitable as an activity to do with children.</p>
+        <hr class="hr-dotted">
+        <div class="anchor" id="stages"></div>
+        <h2>Stages of Soap</h2>
+        <p class="dropcap">What happens during the soapmaking process? After you combine oils with lye that has been dissolved in water, here are the stages it goes through to become soap as we know it:</p>
+        <h3>Stage 1 &#8212; Emulsification</h3>
+        <p>Emulsification is when oils are well-blended with lye solution where you won&#8217;t be able to see oil trails when stirring. There should be no more free oils ﬂoating atop the surface. Opacity and colour of batter is even and the same throughout. This is the earliest stage where you can pour the batter into moulds without oil and lye separating.</p>
+        <h3>Stage 2 &#8212; Trace</h3>
+        <p>The degree of trace is more of a spectrum than distinct stages.</strong> It is separated into three main parts &#8212; light, medium and thick. Diﬀerent soapers have their own version of trace stages. Develop your own &#8216;sense of trace&#8217; to help you work better according to what pattern you want to create and when to add particular additives into the soap batter.</p>
+        <ul>
+          <li><b>Light trace</b>: when you lift your blending tool up, soap dripping down from tool should draw a thin trail on top of the batter but immediately disappears.</li>
+        </ul>
+        <figure>
+          <img loading="lazy" class="round-border" src="./resources/img/soap-guide-part-1-basics-trace.webp" alt="thin soapo batter pouring out of a jug into a silicone mould" >
+          <figcaption>pouring soap batter at emulsification to light trace</figcaption>
+        </figure>
+        <ul>
+          <li><b>Medium Trace:</b> when you lift your blending tool up, soap dripping down from tool should draw a trail that is more raised on top of the batter and does not immediately disappear. You can tap the container to make the soap trail disappear.</li>
+          <li><b>Thick trace:</b> pudding-like texture, you are able to scoop up batter in big quantities and it becomes more diﬃcult to even out the surface.</li>
+        </ul>
+        <h4>Note on false trace and seizing:</h4>
+        <ul>
+          <li>False trace is when soap batter appears to be thick but it has not yet reached emulsification. This is due to hard oils solidifying when in contact with cold lye solution.</li>
+          <li>Seizing is when soap goes beyond thick trace to a point where it is difficult to transfer into moulds. It is possible to soften seized soap with heat but it would be not viable to do designs with it.</li>
+        </ul>
+        <h3>Stage 3 &#8212; Gel Phase</h3>
+        <p>This stage happens after soap has been poured into moulds for cold-process whereas hot-process soaps go through gel phase during making. During this stage, soap heats up to more than 80ºC due to saponiﬁcation. The final soap will become more translucent and have darkened colours as a result of gel phase. In cold-process soap:</p>
+        <ul>
+          <li><b>To aid this phase in taking place:</b> insulate soap mould with towels.</li>
+          <li><b>To avoid this phase:</b> place soap mould in the fridge for a few hours.</li>
+        </ul>
+        <figure>
+          <div class="display-flex">
+            <img src="./resources/img/soap-guide-part-1-basics-gel1.webp" alt="black and white photo showing white soap in regtangle soap mould going through gel phase, there is an oval shaped dark patch in the center of the soap">
+            <img src="./resources/img/soap-guide-part-1-basics-gel2.webp" alt="black and white photo showing white soap in regtangle soap mould with dark patch expanding almost to the edge of the mould">
+          </div>
+          <figcaption>gel phase in action during the making of a 100% coconut soap with low superfat</figcaption>
+        </figure>
+        <p>Be aware! Because the temperatures get so high during saponification, soaps with certain ingredients have a tendency to &#8216;volcano&#8217;. So it is important to choose whether to insulate/cool down soaps intently.</p>
+        <p class="text-left" overflow-auto><strong>For visual references on different stages of soap: </strong><a href="https://youtu.be/o_VCYiDmOJs" target="_blank">video on: Trace, emulsion, false trace, acceleration in cold process soap</a> and also read this<a href="http://www.bathalchemylab.com/2016/03/knowing-your-trace-in-soap.html" target="_blank">article on Knowing Your Trace in Soap</a>.</p>
+        <div class="anchor" id="traditional"></div>
+        <h2>Modern versus Traditional Soapmaking</h2>
+        <p class="dropcap">Many tutorials of cold and hot process soapmaking you find will involve using a stick blender. But soaps have been around for thousands of years, it is only recently when people stared to incorporate modern technologies in the making process. Traditional soapmaking uses the hot-process and cold-process. The main difference is that soapers back in the day would stir the batter for hours (with breaks in between!) until emulsion. <strong>Stick blender is therefore not a necessity in soapmaking &#8212; only a tool to save you time.</strong> So if you are just starting out and do not want to invest in a stick blender, you can dedicate a few hours for making a batch of soap and really see the whole process of soap forming in real-time. There is a beauty in hand stirring soap that stick blenders cannot match! If you have wood ash at home, you can also <a href="http://www.i4at.org/surv/soapmake.htm" target="_blank">make your own lye from it</a>.</p>
+        <p>Learn more about traditional soapmaking: <a href="https://korenhelbig.com/homemade-soap-traditional-castile/" target="_blank">traditionl cold process castile soap</a> and also <a href="http://www.i4at.org/surv/soapmake.htm" target="_blank">traditional hot process </a>.</p>
+        <hr class="hr-dotted">
+        <div id="lye" class="anchor"></div>
+        <div class="recipe-box purple">
+          <h2 class="text-center">❗ An Important Note on Lye Safety</h2>
+          <p class="dropcap"><strong>Lye is corrosive, meaning it can cause chemical burns and severe injuries if handled incorrectly. It is vital that you take the following safety procedures when handling lye:</strong></p>
+          <ul>
+            <li>Prevent eye and skin contact</li>
+            <li>Prevent inhalation of fumes</li>
+            <li>Wash contaminated skin and remove contaminated clothes immediately</li>
+            <li>ALWAYS add lye to water</li>
+            <li>Do not operate near children or pets</li>
+            <li>Always store lye in an appropriate and sealed container in a safe place</li>
+            <li>Lye is a hazardous waste, do not pour lye down the drain or throw it in the rubbish bin.</li>
+          </ul>
+          <p><strong>In the event of contact&#8230;</strong></p>
+          <ul>
+            <li>Eyes: Immediately wash the eyes. Get medical attention immediately.</li>
+            <li>Skin: Immediately flush the skin with water (NOT vinegar). Seek medical attention if necessary.</li>
+            <li>Difficulty breathing: Get respiratory support. Ingestion: Rinse mouth. Do NOT induce vomiting. Drink plenty of water. Get medical attention immediately.</li>
+          </ul>
+          <p class="text-right"><a href="https://www.soapguild.org/how-to/make-soap/lye-safety.php" target="_blank">Source: Soap Guild</a></p>
+          <p>Read more about <a href="./soap-guide-part-3-tools-and-ingredients.html">proper tools for lye and safe handling</a> in Part 3 of this guide.</p>
+        </div>
+        <h2 class="text-center">Thank you for reading! Hope you learned something new!</h2>
+        <hr>
+        <div class="recipe-box gradient-green-pink text-shadow-none">
+          <h3>Check out all the posts in our soapmaking for beginner&#8217;s guide:</h3>
+          <ul>
+            <li><article><h4><a href="./natural-soapmaking-pdf.html">Introduction + PDF Download of Guide</a></h4></article></li>
+            <li><article><h4><a href="./soap-guide-part-1-basics.html">Part 1: Soapmaking Basics</a></h4></article></li>
+            <li><article><h4><a href="./soap-guide-part-2-recipes.html">Part 2: Creating Your Own Recipes</a></h4></article></li>
+            <li><article><h4><a href="./soap-guide-part-3-tools-and-ingredients.html">Part 3: Safety Gear, Tools and Materials</a></h4></article></li>
+            <li><article><h4><a href="./soap-guide-part-4-steps.html">Part 4: Step-by-Step Cold Process Soapmaking</a></h4></article></li>
+            <li><article><h4><a href="./soap-guide-part-5-our-recipes.html">Part 5: A Few of Our Soap Recipes for Inspiration</a></h4></article></li>
+            <li><article><h4>Part 6: Summary of Links &amp; Resources</h4></article></li>
+            <li><article><h4><a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a></h4></article></li>
+          </ul>
+        </div>
+        <br>
+        <img src="./resources/img/soap-guide-part-1-basics-postend-thumnail.webp" alt="end of the post thumbnail of part 1 of soapmaking guide">
 
-<partial src="_footer-en.html"/>
 
-</body>
 
-</html>
+
+      </main>
+      <!--main content ends-->
+
+      <hr>
+
+      <partial src="_footer-en.html"/>
+
+    </body>
+
+    </html>
