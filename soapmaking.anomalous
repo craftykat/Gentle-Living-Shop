@@ -3,94 +3,86 @@
 <html lang="en">
 
 <head>
-    <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
-    <link href=" ./resources/css/animation.css" type="text/css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
-    <!--favicon-->
-    <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./resources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#daf0e2">
-    <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+  <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
+  <link href=" ./resources/css/animation.css" type="text/css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
+  <!--favicon-->
+  <link rel=" apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+  <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="theme-color" content="#daf0e2">
+  <!--make changes here-->
+  <title>Gentle Living Shop</title>
+  <meta name="description" content="">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="#">
+  <meta property="og:title" content="Gentle Living Shop">
+  <meta property="og:description" content="">
+  <meta property="og:image" content="#">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
 </head>
 
 <body>
   <!--
   <div class="bubbles">
-    <div class="bubble"></div>
-<img class="bubble1" src="./resources/img/bubble1.webp"></img>
-<img class="bubble2" src="./resources/img/bubble2.webp"></img>
+  <div class="bubble"></div>
+  <img class="bubble1" src="./resources/img/bubble1.webp"></img>
+  <img class="bubble2" src="./resources/img/bubble2.webp"></img>
 -->
-    <partial src="_header-en.html"/>
+<partial src="_header-en.html"/>
 
-    <!--main content starts-->
-    <main>
+<!--main content starts-->
+<main>
+  <h1>Soaps soaps soaps</h1>
+  <hr>
+  <p>Hello there! In this section you can learn all about soapmaking. We have been making our own soaps for a little while now and decided to share our knowledge by writing some in depth tutorials. You can find everything you need to get started in the 5 parts of the beginners guide to soapmaking. Fun fact, those were the first posts we ever made for this website! If you are looking for something else we also have a liquid soapmaking guide and a washing soda tutorial, more to be added later. Hopefully you can find something useful, have a look around and enjoy your soapmaking!</p>
+  <hr class="hr-dotted">
+  <div class="archive-mosaic">
+    <article class="recent-post-mosaic">
+      <a href="./make-washing-soda.html"><img class="recent-post-img-mosaic" src="./resources/img/make-washing-soda-feature.webp"></a>
+      <a href="./make-washing-soda.html">Make Washing Soda/Soda Ash from Baking Soda for Fabric Scouring, Dying, Laundry, Cleaning & Cooking</a>
+    </article>
+    <article class="recent-post-mosaic"><a href="./liquid-soap-tutorial.html"><img class="recent-post-img-mosaic" src="./resources/img/liquid-soap-tutorial-feature.webp"></a>
+      <a href="./liquid-soap-tutorial.html">Make Liquid Soap At Home Without a Stick Blender (recipe building and tutorial)</a>
+    </article>
 
-        <h1>Soaps soaps soaps</h1>
-        <hr>
-        <p>Hello there! In this section you can learn all about soapmaking. We have been making our own soaps for a little while now and decided to share our knowledge by writing some in depth tutorials. You can find everything you need to get started in the 5 parts of the beginners guide to soapmaking. Fun fact, those were the first posts we ever made for this website! If you are looking for something else we also have a liquid soapmaking guide and a washing soda tutorial, more to be added later. Hopefully you can find something useful, have a look around and enjoy your soapmaking!</p>
-        <hr class="hr-dotted">
-        <div class="archive-mosaic">
+    <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/natural-soapmaking-pdf-feature.webp">
+      <a href="#">Beginner’s Guide PDF Download | Learn How to Make Natural Soap! Introduction</a>
+    </article>
+    <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-5-our-recipes-feature.webp">
+      <a href="#">Our Soap Recipes for Inspiration | Part 5: Learn How to Make Natural Soap!</a>
+    </article>
+    <article class="recent-post-mosaic"><a href="./soapmaking-terms-and-definitions.html"><img class="recent-post-img-mosaic" src="./resources/img/soapmaking-terms-and-definitions-feature.webp"></a>
+      <a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a>
+    </article>
+    <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-4-steps-feature.webp">
+      <a href="#">Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Natural Soap!</a>
+    </article>
+    <article class="recent-post-mosaic"><a href="./soap-guide-part-3-tools-and-ingredients.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-3-tools-and-ingredients-feature.webp"></a>
+      <a href="./soap-guide-part-3-tools-and-ingredients.html">Safety Gear, Tools and Ingredients | Part 3: Learn How to Make Natural Soap!</a>
+    </article>
+    <article class="recent-post-mosaic"><a href="./soap-guide-part-2-recipes.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-2-recipes-feature.webp"></a>
+      <a href="./soap-guide-part-2-recipes.html">Creating You Own Recipes | Part 2: Learn How to Make Natural Soap!</a>
+    </article>
+    <article class="recent-post-mosaic"><a href="./soap-guide-part-1-basics.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-1-basics-feature.webp"></a>
+      <a href="./soap-guide-part-1-basics.html">Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</a>
+    </article>
+  </div>
+</main>
+<!--main content ends-->
+<div class="animation-fox-box">
+  <img src="./resources/img/animation-fox-walking.gif" class="fox-walking"></img>
+</div>
+<hr class="hr-animation">
 
-
-          <article class="recent-post-mosaic">
-            <a href="./make-washing-soda.html"><img class="recent-post-img-mosaic" src="./resources/img/make-washing-soda-feature.webp"></a>
-            <a href="./make-washing-soda.html">Make Washing Soda/Soda Ash from Baking Soda for Fabric Scouring, Dying, Laundry, Cleaning & Cooking</a>
-          </article>
-          <article class="recent-post-mosaic"><a href="./liquid-soap-tutorial.html"><img class="recent-post-img-mosaic" src="./resources/img/liquid-soap-tutorial-feature.webp"></a>
-            <a href="./liquid-soap-tutorial.html">Make Liquid Soap At Home Without a Stick Blender (recipe building and tutorial)</a>
-          </article>
-
-          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/natural-soapmaking-pdf-feature.webp">
-            <a href="#">Beginner’s Guide PDF Download | Learn How to Make Natural Soap! Introduction</a>
-          </article>
-          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-5-our-recipes-feature.webp">
-            <a href="#">Our Soap Recipes for Inspiration | Part 5: Learn How to Make Natural Soap!</a>
-          </article>
-          <article class="recent-post-mosaic"><a href="./soapmaking-terms-and-definitions.html"><img class="recent-post-img-mosaic" src="./resources/img/soapmaking-terms-and-definitions-feature.webp"></a>
-            <a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a>
-          </article>
-          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-4-steps-feature.webp">
-            <a href="#">Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Natural Soap!</a>
-          </article>
-          <article class="recent-post-mosaic"><a href="./soap-guide-part-3-tools-and-ingredients.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-3-tools-and-ingredients-feature.webp"></a>
-            <a href="./soap-guide-part-3-tools-and-ingredients.html">Safety Gear, Tools and Ingredients | Part 3: Learn How to Make Natural Soap!</a>
-          </article>
-          <article class="recent-post-mosaic"><a href="./soap-guide-part-2-recipes.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-2-recipes-feature.webp"></a>
-            <a href="./soap-guide-part-2-recipes.html">Creating You Own Recipes | Part 2: Learn How to Make Natural Soap!</a>
-          </article>
-          <article class="recent-post-mosaic"><a href="./soap-guide-part-1-basics.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-1-basics-feature.webp"></a>
-            <a href="./soap-guide-part-1-basics.html">Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</a>
-          </article>
-
-
-        </div>
-
-
-
-
-
-    </main>
-    <!--main content ends-->
-
-    <hr>
-
-    <partial src="_footer-en.html"/>
+<partial src="_footer-en.html"/>
 </div>
 </body>
 
