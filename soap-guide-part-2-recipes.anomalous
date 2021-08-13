@@ -2,48 +2,153 @@
 <!--update language!-->
 <html lang="en">
 
-<head>
-    <link href="./resources/css/style.css" type="text/css" rel="stylesheet">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
-    <!--favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./resources/favicon/site.webmanifest">
-    <link rel="mask-icon" href="./resources/favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#00aba9">
-    <meta name="theme-color" content="#daf0e2">
-    <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="#">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+<partial src="_head.html"/>
+  <!--make changes here-->
+  <title>Creating Your Own Soap Recipes | Part 2 of Guide to Natural Soapmaking</title>
+  <meta name="description" content="Learn to calculate &amp; formulate soapmaking recipes. We cover SAP value, superfat/lye discount, water ratio, natural additives for soap &amp; more!">
+  <!--open graph meta tags-->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://gentlelivingshop.org/soap-guide-part-2-recipes/">
+  <meta property="og:title" content="Creating Your Own Soap Recipes | Part 2 of Guide to Natural Soapmaking">
+  <meta property="og:description" content="Learn to calculate &amp; formulate soapmaking recipes. We cover SAP value, superfat/lye discount, water ratio, natural additives for soap &amp; more!">
+  <meta property="og:image" content="https://gentlelivingshop.org/resources/img/soap-guide-part-2-recipes-feature.webp">
+  <!--this page in another language-->
+  <link rel="alternate" href="#" hreflang="#">
 </head>
 
 <body>
 
-<partial src="_header-en.html"/>
+  <partial src="_header-en.html"/>
 
-    <!--main content starts-->
-    <main>
-        <h1></h1>
-        <hr>
-
-
-    </main>
-    <!--main content ends-->
-
+  <!--main content starts-->
+  <main>
+    <h1>Creating You Own Soap Recipes | Part 2: Learn How to Make Natural Soap!</h1>
     <hr>
+    <img src="./resources/img/soap-guide-part-2-recipes-feature.webp" class="post-thumbnail img-border" alt="">
+    <p class="dropcap">Welcome to Part 2 of our beginner’s guide to soapmaking series! <a href="#links">Links to other parts of the series and for PDF download</a> will be at the bottom of this page. Enjoy!</p>
+    <p><strong>In this section we will teach you the basics of how to create safe recipes and recommend some online tools to make that process easier. </strong></p>
+    <nav class="toc blue">
+      <h2>We will cover (click to go there):</h2>
+      <ul>
+        <li><a href="#sapvalue">Saponification Values</a></li>
+        <li>
+          <a href="#oils">Oils and Butters for Soapmaking</a><ul><li>Single oil soaps </li></ul>
+        </li>
+        <li><a href="#superfat">Superfat/lye discount </a></li>
+        <li><a href="#water">Water in Soapmaking</a></li>
+        <li>
+          <a href="#additives">Optional additives</a><ul>
+            <li>Chelator &#8211; citric acid</li>
+            <li>Natural additives</li>
+          </ul>
+        </li>
+        <li><a href="#masterbatch">Masterbatching lye</a></li>
+        <li><a href="#sample">Sample soap recipe chart </a></li>
+        <li><a href="#tools">Online tools</a></li>
+        <li><a href="#pouring">Soap pouring techniques</a></li>
+      </ul>
+    </nav>
+    <hr class="hr-dotted">
+    <p class="dropcap">A little lye goes a long way! Any error in the amount of lye you use will either make the soap too alkaline or stop it from setting properly. Therefore, <strong>it is highly recommended that you make your own recipes or to at least check over other people&#8217;s recipes before using them</strong>.</p>
+    <div class="anchor" id="sapvalue"></div>
+    <h2>Saponification Values</h2>
+    <p><strong>Each oil and butter has a SAP range that can be calculated into two different SAP values &#8212; one for NaOH and one for KOH. </strong>There are many <a href="http://www.fromnaturewithlove.com/resources/sapon.asp" target="_blank">charts of SAP values online</a>. Please note that SAP range may be different for the same oil if from different brands. The best practise is to acquire the accurate SAP range/value from the manufacturer. </p>
+    <p>With the SAP range, you can then calculate the SAP values like so: </p>
+    <pre>Solid Soap (NaOH) SAP value (round up to 0.001 decimal point) = average value of SAP range ÷ 1402.50 </pre>
+    <pre>Liquid soap (KOH) SAP value (round up to 0.001 decimal point) = average value of SAP range ÷ 1000 </pre>
+    <p>With the SAP value in hand, you can then use the following formula to calculate exactly how much lye is needed to saponify the amount of oils in the recipe: </p>
+    <pre>oil weight (grams) x SAP value = lye needed (grams) (round to 0.001 decimal point)&nbsp;&nbsp; </pre>
+    <div class="anchor" id="oil"></div>
+    <h2>Oils and Butters for Soapmaking</h2>
+    <h3>Which Oil &amp; Butter?</h3>
+    <p><strong>Choosing which oil and butter you use to make soap will drastically change the properties of the bar in its hardness, lather, cleansing power, conditioning ability and shelf life. </strong>This is because each oil and butter has its own fatty acid profile. There are many formulas out there and each soaper has their own preferences. Read more about <a href="http://www.lovinsoap.com/oils-chart/" target="_blank">properties of oils in soapmaking</a>.</p>
+    <p><strong>For your first batch, we recommend making a single oil soap.</strong> This is an uncomplicated way to start your soapmaking journey and you do not have to invest in many different oils. We think 100% coconut oil soap (with 20% superfat) and 100% olive oil soap (or also known as castile soap) are two good starting points. Examples of single oil soaps: <a href="https://youtu.be/MzDZts9hjKw" target="_blank">100% olive oil soap</a> and <a href="https://youtu.be/5uXbEPy_Xao" target="_blank">100% coconut oil soap</a>.</p>
+    <div class="anchor" id="superfat"></div>
+    <h2>Superfat = Lye Discount</h2>
+    <p><strong>Adding superfat in your recipe is vital in guaranteeing a safe soap.</strong> For ease of calculation, superfat is included in recipes as a lye discount. Meaning, instead of increasing the amount of oils you use, you decrease the amount of lye you use: </p>
+    <pre>5% superfat = 100% of lye - 5% lye = 95% lye (round to 0.001 decimal point) </pre>
+    <p>Supetfat/lye discount is also a great way to fine-tune the properties you want in a soap: </p>
+    <pre>less superfat = a more cleansing soap</pre>
+    <pre>more superfat = a more moisturising soap </pre>
+    <p>The default superfat value is 5%, but the optimal value will depend on the recipe you use and personal preferences. For example, a 100% coconut oil soap is very cleansing so a 20% superfat is often used. You can also experiment with adding different oils as superfat, especially oils that make up for the shortcomings of the recipe. For instance, shea butter (very moisturising) as superfatting oil in a coconut oil soap.</p>
+    <h2>Water in Soapmaking</h2>
+    <p><strong>To thoroughly dissolve all lye crystals, you must use the same amount or more water than lye in weight. But how much more water you add to the recipe is for you to decide.</strong> For cold-process soaps, the amount of water used ranges from 3 water : 1 lye and 1 water : 1 lye. There is the concept of &#8216;full water&#8217; in soapmaking and any recipes using less than full water are called having a &#8216;water discount&#8217;. However, this concept can be inaccurate and inconsistent. It is best to calculate water in your recipes using the water:lye ratio method. Read more about <a href="https://classicbells.com/soap/waterInSoap.asp" target="_blank">water in soapmaking</a>.</p>
+    <p>Finding the perfect water amount in your recipe will take time. You also have to take into account the environment you are in. We make soaps in a hot and humid climate, when we first made 100% coconut oil soap with 20% superfat, a 2:1 water:NaOH ratio resulted in sticky soaps that are difficult to unmould and a 1.5:1 ratio resulted in hard non-sticky bars that came out of the mould in 24 hours after pouring. This is because less water in a recipe results in harder bars of soap with less moisture, which compensated for the high humidity. If you are having problems with sticky or brittle soaps, adjusting the water:lye ratio may solve your problem. </p>
+    <p>Note: water is a carrier of heat, high water content in soap may result in bubbling or even &#8216;volcano&#8217;. Please proceed with care.</p>
+    <div class="anchor" id="additives"></div>
+    <h2>Optional Additives</h2>
+    <h3><a href="./soapmaking-terms-and-definitions.html">Chelator</a> - Citric acid</h3>
+    <p>Citric acid is an optional but good addition in a soap recipe as it helps counter hard water issues such as soap scum and it increase shelf life of soaps: </p>
+    <pre>1-2% of citric acid of total oil weight is a good amount to add<br>(dissolve citric acid in water equal to its weight to add to lye solution)</pre>
+    <p>As an acid, it will neutralise some of the lye in a recipe so we will need to add more lye to balance that out: </p>
+    <pre>Lye for citric acid (grams) = Citric acid weight in grams X 0.624 </pre>
+    <pre>Total lye needed in a recipe (grams) = Lye for citric acid + Lye for saponification of oil(s)</pre>
 
-<partial src="_footer-en.html"/>
+    <h3>Natural Additives</h3>
+    <p>You can include some additives in your recipe to give soaps colour and fragrance. They are easily added when soap reaches emulsion. Take some batter out into a small container and add the additive then whisk to get rid of lumps.</p>
+
+    <h4>Essential Oils</h4>
+    <p>Essential oils are a natural way to give fragrances to your soaps. It is an art in itself to create blends of oils with deep complexity and brings on various moods and atmospheres. It is important to note that essential oils are concentrated and very powerful. <strong>There is a safety aspect to how much to use when making soap for a non-irritating product.</strong> Please refer to the following websites and conduct your own research: </p>
+    <ul>
+      <li><a href="https://lovelygreens.com/make-soap-with-essential-oils/" target="_blank">Essential Oil Chart</a></li>
+      <li><a href="https://www.eocalc.com/enter-your-own-blend/" target="_blank">Essential Oil Calculator</a>
+</li>
+    </ul>
+    <p>Note on additives: additives high in sugar such as fruit purees tend to increase the soap&#8217;s temperature during saponification and lead to &#8216;volcanoes&#8217;. Please proceed with care!</p>
+
+
+
+
+    <div class="anchor" id="masterbatch"></div>
+    <h2>Masterbatching Lye </h2>
+    <p><strong>(recommended for frequent soapers)</strong></p>
+    <p>To reduce the times you come into contact with lye crystals (therefore fumes) and to reduce overall waiting time for lye to cool down during soaping, you can prepare lye and water solution in advance &#8212; called masterbatching. Please read on this page for containers safe for lye storage. </p>
+    <p>Ratio of water:lye for masterbatch depends on your use case. We prefer to soap at 1.5:1 water:NaOH ratio and we do not add other liquids other than water, therefore our masterbatch ratio is 1.5:1. When we make soap, no extra water is added, the total weight of masterbatch solution we use is: </p>
+    <pre>Lye (with discount/superfat) + water (@ 1.5:1 water:lye ratio) = masterbatch solution needed </pre>
+    <p>If you plan on adding other liquids or are unsure of the exact water:lye ratio to use when soaping, you can make a masterbatch at 1:1 ratio. Any liquid or water to add can always be added in later but it would not be wise to add more lye to an already made masterbatch as it may have issues dissolving properly. </p>
+    <p><strong>Note:</strong> citric acid does not dissolve well in lye water solution so always dissolve citric acid in water (equal to its weight) if you use masterbatch solution.&nbsp;&nbsp; </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr class="hr-dotted">
+    <div class="anchor" id="link"></div>
+    <div class="recipe-box gradient-green-pink text-shadow-none">
+      <h3>Check out all the posts in our soapmaking for beginner&#8217;s guide:</h3>
+      <ul>
+        <li><article><h4><a href="./natural-soapmaking-pdf.html">Introduction + PDF Download of Guide</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-1-basics.html">Part 1: Soapmaking Basics</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-2-recipes.html">Part 2: Creating Your Own Recipes</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-3-tools-and-ingredients.html">Part 3: Safety Gear, Tools and Materials</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-4-steps.html">Part 4: Step-by-Step Cold Process Soapmaking</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-5-our-recipes.html">Part 5: A Few of Our Soap Recipes for Inspiration</a></h4></article></li>
+        <li><article><h4>Part 6: Summary of Links &amp; Resources</h4></article></li>
+        <li><article><h4><a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a></h4></article></li>
+      </ul>
+    </div>
+    <br>
+
+  </main>
+  <!--main content ends-->
+
+  <hr>
+
+  <partial src="_footer-en.html"/>
 
 </body>
 

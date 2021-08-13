@@ -5,9 +5,9 @@
 @font-face {font-family: Nunito; src: url(../fonts/nunito-italic-webfont.woff); font-style: italic; font-display: swap;}
 @font-face {font-family: Nunito; src: url(../fonts/nunito-bolditalic-webfont.woff); font-weight: bold; font-style: italic; font-display: swap;}
 @font-face {font-family: jf-openhuninn; src: url(../fonts/jf-openhuninn-11.woff); unicode-range: U+4E00–9FFF; font-display: swap;}
-body {font-family: Nunito, sans-serif;}
+body {font-family: Nunito, BoopasBlobs, sans-serif;}
 h1, h2, h3, h4, h5, h6, blockquote, #foot, #mainnav {font-family: BoopasBlobs, Nunito, sans-serif;}
-:lang(zh){font-family: jf-openhuninn, sans-serif;}
+:lang(zh){font-family: BoopasBlobs, jf-openhuninn, sans-serif;}
 
 h1{text-shadow: 2px 2px 2px #c4a2f0;font-size: 36px;}
 h2{text-shadow: 2px 2px 2px #a2f0dc;font-size: 34px;}
@@ -48,7 +48,7 @@ li{text-align: left}
 dt{font-weight: bold;}
 dd{font-size: 1rem; margin-bottom: 1em;}
 figcaption{
-  background-color: darkslategray;
+  background-color: #2d5215;
   color: #fff;
   font: italic sans-serif;
   padding: 3px;
