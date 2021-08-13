@@ -1,0 +1,132 @@
+.overflow-hidden{
+  overflow: hidden;
+  position:absolute;
+  bottom:200px;
+}
+/*ANIMALS*/
+
+.cat-walking-right{
+  animation: cat-walking-right 5s linear infinite;
+  position: absolute;
+  bottom:210px;
+  margin:0;
+  width:100px;
+   transform: scaleX(-1);
+}
+/*
+  @keyframes cat-walking-right {
+    0% {
+      margin-left: -100%;
+    }
+    10%{
+      margin-left:-20%;
+    }
+    25%{
+      margin-left:120%;
+    }
+    100% {
+      margin-left:200%;
+    }
+
+
+}
+
+
+.cat-walking-left{
+  animation: cat-walking-left 5s linear infinite;
+  position: absolute;
+  margin:0;
+  width:100px;
+  bottom:210px;
+}
+
+  @keyframes cat-walking-left {
+    0% {
+      margin-left: 200%;
+    }
+    60%{
+      margin-left:120%;
+    }
+    75%{
+      margin-left:-20%;
+    }
+    100% {
+      margin-left:-100%;
+    }
+
+}
+
+.fox-walking{
+  transform: scaleY(-1);
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+  width: 150px;
+  margin:0;
+  margin-top: 56px;
+  animation: fox-walking-left 5s linear forwards;
+}
+/*
+@keyframes fox-walking-left {
+  0% {
+    margin-left: 200%;
+  }
+  60%{
+    margin-left:120%;
+  }
+  90%{
+    margin-left:-20%;
+  }
+  100% {
+    margin-left:-100%;
+  }
+     transform: scaleX(-1);
+}
+
+
+/*BACKGROUNDS
+--bubble-left-offset: #{random_range(0vw, 100vw)};
+.bubble1{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.bubble1 {
+  animation: bubble1 15s linear infinite;
+  z-index:100;
+}
+@keyframes bubble1 {
+  0% {
+    margin-top:140%;
+    left: 50%;
+  }
+  40%{
+    left: 60%;
+  }
+  100% {
+    margin-top:-10%;
+    left:80%;
+  }
+}
+  .bubble2{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+  }
+  .bubble2 {
+    animation: bubble2 15s linear infinite;
+    z-index:100;
+  }
+  @keyframes bubble2 {
+    0% {
+      margin-top:140%;
+      left: 20%;
+    }
+    70%{
+      left: 10%;
+    }
+    100% {
+      margin-top:-10%;
+      left:30%;
+    }
+}

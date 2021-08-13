@@ -4,6 +4,7 @@
 
 <head>
     <link href=" ./resources/css/style.css" type="text/css" rel="stylesheet">
+    <link href=" ./resources/css/animation.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode">
@@ -29,13 +30,59 @@
 </head>
 
 <body>
-
+  <!--
+  <div class="bubbles">
+    <div class="bubble"></div>
+<img class="bubble1" src="./resources/img/bubble1.webp"></img>
+<img class="bubble2" src="./resources/img/bubble2.webp"></img>
+-->
     <partial src="_header-en.html"/>
 
     <!--main content starts-->
     <main>
-        <h1></h1>
+
+        <h1>Soaps soaps soaps</h1>
         <hr>
+        <p>Hello there! In this section you can learn all about soapmaking. We have been making our own soaps for a little while now and decided to share our knowledge by writing some in depth tutorials. You can find everything you need to get started in the 5 parts of the beginners guide to soapmaking. Fun fact, those were the first posts we ever made for this website! If you are looking for something else we also have a liquid soapmaking guide and a washing soda tutorial, more to be added later. Hopefully you can find something useful, have a look around and enjoy your soapmaking!</p>
+        <hr class="hr-dotted">
+        <div class="archive-mosaic">
+
+
+          <article class="recent-post-mosaic">
+            <a href="./make-washing-soda.html"><img class="recent-post-img-mosaic" src="./resources/img/make-washing-soda-feature.webp"></a>
+            <a href="./make-washing-soda.html">Make Washing Soda/Soda Ash from Baking Soda for Fabric Scouring, Dying, Laundry, Cleaning & Cooking</a>
+          </article>
+          <article class="recent-post-mosaic"><a href="./liquid-soap-tutorial.html"><img class="recent-post-img-mosaic" src="./resources/img/liquid-soap-tutorial-feature.webp"></a>
+            <a href="./liquid-soap-tutorial.html">Make Liquid Soap At Home Without a Stick Blender (recipe building and tutorial)</a>
+          </article>
+
+          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/natural-soapmaking-pdf-feature.webp">
+            <a href="#">Beginner’s Guide PDF Download | Learn How to Make Natural Soap! Introduction</a>
+          </article>
+          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-5-our-recipes-feature.webp">
+            <a href="#">Our Soap Recipes for Inspiration | Part 5: Learn How to Make Natural Soap!</a>
+          </article>
+          <article class="recent-post-mosaic"><a href="./soapmaking-terms-and-definitions.html"><img class="recent-post-img-mosaic" src="./resources/img/soapmaking-terms-and-definitions-feature.webp"></a>
+            <a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a>
+          </article>
+          <article class="recent-post-mosaic"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-4-steps-feature.webp">
+            <a href="#">Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Natural Soap!</a>
+          </article>
+          <article class="recent-post-mosaic"><a href="./soap-guide-part-3-tools-and-ingredients.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-3-tools-and-ingredients-feature.webp"></a>
+            <a href="./soap-guide-part-3-tools-and-ingredients.html">Safety Gear, Tools and Ingredients | Part 3: Learn How to Make Natural Soap!</a>
+          </article>
+          <article class="recent-post-mosaic"><a href="./soap-guide-part-2-recipes.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-2-recipes-feature.webp"></a>
+            <a href="./soap-guide-part-2-recipes.html">Creating You Own Recipes | Part 2: Learn How to Make Natural Soap!</a>
+          </article>
+          <article class="recent-post-mosaic"><a href="./soap-guide-part-1-basics.html"><img class="recent-post-img-mosaic" src="./resources/img/soap-guide-part-1-basics-feature.webp"></a>
+            <a href="./soap-guide-part-1-basics.html">Soapmaking Basics | Part 1: Learn How to Make Natural Soap!</a>
+          </article>
+
+
+        </div>
+
+
+
 
 
     </main>
@@ -44,7 +91,7 @@
     <hr>
 
     <partial src="_footer-en.html"/>
-
+</div>
 </body>
 
 </html>

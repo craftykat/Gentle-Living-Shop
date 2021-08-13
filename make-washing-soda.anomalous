@@ -56,13 +56,13 @@
     <hr class="hr-dotted">
     <div class="anchor" id="science"></div>
     <h2>The science!</h2>
-    <img src="./resources/img/make-washing-soda-equation.webp" alt="baking soda compared to washing soda with a chemical equation">
+    <img class="img-responsive" src="./resources/img/make-washing-soda-equation.webp" alt="baking soda compared to washing soda with a chemical equation">
     <p><b>Chemically speaking:</b></p>
     <pre>Washing soda (sodium carbonate) = baking soda (sodium bicarbonate) - carbon dioxide - water</pre>
     <p>To get rid of the excess water and carbon dioxide in this equation, you simply have to apply heat to baking soda.</p>
     <p>Why would you want to use washing soda instead of baking soda? <strong>Washing soda is more alkaline than baking soda.</strong> It has a pH of 11 whereas baking soda has a pH of 8.3. Its basic nature makes it more powerful in its cleansing abilities. Baking soda may be the more popular natural cleaning agent, but <strong>if you ever come across some tough stains tougher than it can handle, we recommend trying its big sister washing soda!</strong></p>
     <figure>
-      <img src="./resources/img/make-washing-soda-test.webp" alt="baking soda and washing soda ph test compare">
+      <img class="img-responsive" src="./resources/img/make-washing-soda-test.webp" alt="baking soda and washing soda ph test compare">
       <figcaption>washing soda has a higher ph making it more powerful at cleaning!</figcaption>
     </figure>
     <hr class="hr-dotted">
@@ -148,10 +148,10 @@
             <li>As the baking soda heats and water evaporates away, it will <strong>feel lighter and more airy to stir</strong>. <strong>Clumps present will start to disintegrate</strong>. You may see steam and air bubbles coming off of it. <strong>Careful not to breath in any powder</strong>.</li>
             <li>When there is <strong>no more clumps present, you have successfully make washing soda</strong>! <a href="#ph-test">Test it with a pH test strip to confirm</a> – it should have a pH of 11.</li>
           </ol>
-          <img src="./resources/img/make-washing-soda-steps.webp" alt="baking soda becomes less clumpy as it converts to washing soda">
+          <img class="img-responsive-60 margin-center" src="./resources/img/make-washing-soda-steps.webp" alt="baking soda becomes less clumpy as it converts to washing soda">
           <ol start="7"><li><strong>Transfer washing soda into an airtight container</strong> (this is important as we don’t want to reintroduce water molecules into the equation!).</li></ol>
           <figure>
-            <img src="./resources/img/make-washing-soda-label.webp" alt="">
+            <img class="img-responsive" src="./resources/img/make-washing-soda-label.webp" alt="">
             <figcaption>be sure to <strong>label the container</strong> to avoid using it as baking soda accidentally</figcaption>
           </figure>
         </div>
@@ -160,7 +160,7 @@
         <hr class="hr-dotted">
         <div class="anchor" id="stainless-steel"></div>
         <h2>In action: cleaning stainless steel</h2>
-        <img src="./resources/img/make-washing-soda-stainless-steel.webp" alt="clean stainless steel with washing soda demo">
+        <img class="img-responsive" src="./resources/img/make-washing-soda-stainless-steel.webp" alt="clean stainless steel with washing soda demo">
         <ol>
           <li><strong>Bring some water to a boil</strong> in a large enough pot</li>
           <li>Add in <strong>2 tablespoon of washing soda and some <a href="./liquid-soap-tutorial.html">liquid soap</a></strong></li>
@@ -170,7 +170,7 @@
         </ol>
         <hr class="hr-dotted">
         <p>This is how we make washing soda at home, we hope you learned something new!</p>
-        <img src="./resources/img/make-washing-soda-transform.webp" alt="transform baking soda to washing soda post end feature photo">
+        <img class="img-responsive" src="./resources/img/make-washing-soda-transform.webp" alt="transform baking soda to washing soda post end feature photo">
 
 
 
