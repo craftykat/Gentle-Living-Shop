@@ -17,7 +17,7 @@
 }
 /*ANIMALS*/
 .cat-walking{
-  animation: cat-walking 25s linear infinite;
+  animation: cat-walking 40s linear infinite;
   width:100px;
   position: relative;
   bottom:-405px;
