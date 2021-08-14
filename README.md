@@ -10,9 +10,9 @@ All tutorials are [released into the public domain](https://creativecommons.org/
 [Visit the website](https://gentlelivingshop.org/)
 
 ## Upcoming stuff
-- migrate to .org
-- migrate posts to GitLab Pages website
-- *write secret post on cats*😽  
+* [x] migrate to .org
+* [ ] migrate posts to GitLab Pages website
+* [ ] *write secret post about cats*😽  
 > <strong>[see our to-do list, live on CryptPad](https://cryptpad.fr/kanban/#/2/kanban/view/hhuyRfwVohuetMMjpPbtY6mgH6y4TmzNOBwziFWdJUs/)</strong>
 
 
