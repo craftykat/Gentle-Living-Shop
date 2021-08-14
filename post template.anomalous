@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <!--update language!-->
 <html lang="en">
-
 <partial src="_head.html"/>
-    <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="#">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://gentlelivingshop.org/">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="#">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+<!--make changes here-->
+<title>Gentle Living Shop</title>
+<meta name="description" content="#">
+<!--open graph meta tags-->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gentlelivingshop.org/">
+<meta property="og:title" content="Gentle Living Shop">
+<meta property="og:description" content="#">
+<meta property="og:image" content="#">
+<!--this page in another language-->
+<link rel="alternate" href="#" hreflang="#">
 </head>
-
 <body>
-
-<partial src="_header-en.html"/>
-
-    <!--main content starts-->
-    <main>
-        <h1></h1>
-        <hr>
-
-
-    </main>
-    <!--main content ends-->
-
+  <partial src="_header-en.html"/>
+  <!--main content starts-->
+  <main>
+    <h1></h1>
     <hr>
 
-<partial src="_footer-en.html"/>
 
+  </main>
+  <!--main content ends-->
+  <hr>
+  <partial src="_footer-en.html"/>
 </body>
-
 </html>

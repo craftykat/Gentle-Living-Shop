@@ -164,7 +164,7 @@ h3, h4, h5, h6,li,ul,p{
 }
 }
 /*colors*/
-.pink{background: #F9DFFD;}
+.pink{background: #e9d9ec;}
 .purple{background: #D0D2F1;}
 .yellow{background: #FFFABE;}
 .black{background: black;}
@@ -179,10 +179,11 @@ h3, h4, h5, h6,li,ul,p{
 .mintgreen{background: #a9f9ca}
 
 .brighter{filter: brightness(120%)}
-a[href^="./"]{color: #000}
-a[href^="#"]{color: #000}
+a[href^="./"]{color: mediumblue}
+a[href^="#"]{color: mediumblue}
 a[href^="http"]{color: mediumblue}
 .gradient-green-pink{background: linear-gradient(120deg,rgb(209,250,242) 0%,rgb(230,219,251) 100%)}
+.gradient-gold-blue{background: linear-gradient(120deg,#FCFBC9 0%,#7edfd8 100%)}
 /*BLOCKS*/
 
 /*Navigation*/
@@ -267,6 +268,7 @@ margin-bottom:0.6em;}
   padding: 10px;
 }
 .align-wide{max-width:110%;position: relative;left:-10%;}
+#soap-links a {color: #000000;}
 /*tables*/
 /*.tables{width: 120%;margin-left: 0;margin-right: 0;}*/
 table{
@@ -285,7 +287,7 @@ tbody th {
 .list-style-none{list-style-type: none;}
 .display-inline-block{display: inline-block;}
 .display-grid{display: grid;}
-.three-columns{ grid-template-columns: 1fr 1fr 1fr;}
+.three-columns{ grid-template-columns: 1fr 1fr 1fr; grid-gap: 2px;}
 /*multimedia*/
 .music {
   display: flex;
@@ -347,6 +349,7 @@ tbody th {
   height: 100%;
 }
 .round-border{border-radius: 26% 12%;}
+.circle-border{border-radius: 50%}
 /*download button*/
 .download-btn{
   display: inline-block;
@@ -362,6 +365,13 @@ tbody th {
   cursor: pointer;
 }
 .download-btn:hover{
+  filter: sepia(0%);
+  background: linear-gradient(-45deg, #3A4387, #3A873B, #3298C4, #7A3A87,#B8C433);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  box-shadow: 0 0 12px 10px mintcream;
+}
+.download-btn:focus {
   filter: sepia(0%);
   background: linear-gradient(-45deg, #3A4387, #3A873B, #3298C4, #7A3A87,#B8C433);
   background-size: 400% 400%;
@@ -731,6 +741,7 @@ ul li ul li {
     margin-left: 1em;;
   }
   pre{font-size: 80%}
+  .display-grid{display: flex;flex-direction: column; row-gap:3px; width: 80%;}
 }
 /*mobile view*/
 @media (max-width: 480px) {

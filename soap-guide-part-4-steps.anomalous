@@ -1,38 +1,94 @@
 <!DOCTYPE html>
 <!--update language!-->
 <html lang="en">
-
 <partial src="_head.html"/>
-    <!--make changes here-->
-    <title>Gentle Living Shop</title>
-    <meta name="description" content="#">
-    <!--open graph meta tags-->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://gentlelivingshop.org/">
-    <meta property="og:title" content="Gentle Living Shop">
-    <meta property="og:description" content="#">
-    <meta property="og:image" content="#">
-    <!--this page in another language-->
-    <link rel="alternate" href="#" hreflang="#">
+<!--make changes here-->
+<title>Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Soap!</title>
+<meta name="description" content="List of the steps we take making cold process soap, each step is explained in detail including clean up tips! A good reference for beginners!">
+<!--open graph meta tags-->
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://gentlelivingshop.org/soap-guide-part-4-steps/">
+<meta property="og:title" content="Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Soap!">
+<meta property="og:description" content="List of the steps we take making cold process soap, each step is explained in detail including clean up tips! A good reference for beginners!">
+<meta property="og:image" content="https://gentlelivingshop.org/resources/img/soap-guide-part-4-steps-feature.webp">
+<!--this page in another language-->
+<link rel="alternate" href="#" hreflang="#">
 </head>
-
 <body>
-
-<partial src="_header-en.html"/>
-
-    <!--main content starts-->
-    <main>
-        <h1></h1>
-        <hr>
-
-
-    </main>
-    <!--main content ends-->
-
+  <partial src="_header-en.html"/>
+  <!--main content starts-->
+  <main>
+    <h1>Step by Step Cold Process Soapmaking | Part 4: Learn How to Make Soap!</h1>
     <hr>
-
-<partial src="_footer-en.html"/>
-
+    <img class="post-thumbnail img-border" src="./resources/img/soap-guide-part-4-steps-feature.webp" alt="">
+    <p>Welcome to Part 4 of the series, in this section, we will provide you with the steps we follow when making cold-process soaps. It is just a guideline and your soapmaking process may well be different but we hope it is serves as a reference to any beginners nervous to get started! We recommend watching some online videos for visuals if you are unsure 😊</p>
+    <p>Read more about <a href="./soap-guide-part-1-basics.html#lye" target="_blank">lye safety in Part 1 of this guide</a>.</p>
+    <h2>Soapmaking Steps</h2>
+    <ol><li>Do research and make up your own recipe, make sure math is correct</li>
+      <hr class="halfwidth">
+      <li>Prepare your workstation, gather all tools and ingredients AND SAFETY GEAR. Make sure you are in a safe environment before proceeding. (lye is corrosive so please make sure that no children or pets are near by) </li>
+      <li><strong>Put on your safety gear! </strong></li>
+      <li>In a well-ventilated area, measure out lye precisely with a scale (OR skip Step 4-6 if using masterbatch solution) </li>
+      <li>Slowly pour lye into water. NEVER pour water onto lye as water will boil and splash explosively! Also, take care to avoid inhaling fumes. </li>
+      <li>Let lye solution cool to room or desired temperature </li>
+      <hr class="halfwidth">
+      <li>Measure out the rest of ingredients accurately with a scale </li>
+      <li>Prepare those ingredients (melting &amp; combine oils &amp; butters etc.) </li>
+      <li>Pour lye into oil(s) down shaft of blender/spatula to avoid splashing </li>
+      <li>First, mix by hand and then, </li>
+      <li>Use a stick blender to mix soap batter by pulsing in short intervals (take care to remove air trapped in stick blender head, also called &#8216;burping&#8217; the blender) OR hand stir with whisk in intervals of few minutes of stirring and few minutes of rest&nbsp; </li>
+      <li>Stir until batter reaches emulsion &#8212; stick blending takes less than 5 minutes, hand-stirring takes 20 minutes to more than an hour depending on batch size </li>
+      <li>Optional: add additives (fragrance, colour etc.) Take out a small portion of batter and combine additive thoroughly with no clumps and then mix into main container </li>
+      <li>When batter reaches desired consistency, pour into moulds (optional: create patterns and swirls with various techniques) </li>
+      <li>Cover top of the mould to keep away dust and insects, choose whether or not to insulate with towels to encourage gel phase </li>
+      <li>Let set for 12-24 hours or more</li>
+      <hr class="halfwidth">
+      <li>Un-mould hardened soap, inspect &amp; cut! You may need to wear gloves as the soap can still be very alkaline. </li>
+      <li>Place on racks to cure for 4-6 weeks in a cool dry place&nbsp; </li>
+    </ol>
+    <hr class="hr-dotted">
+    <h2>Cleaning Up</h2>
+    <p>Remember to keep your protective gear on as there is still active lye in your soap batter!</p>
+    <ul>
+      <li>
+        <strong>Method 1:</strong> scrape your containers empty with a spatula and clean tools with a towel. Put any soap collected into an extra mould. Wash everything with warm water and mild soap. Wait 24 hours for saponification to be completed before washing the towels to prevent any active lye going down the drain.
+      </li>
+      <li>
+        <strong>Method 2 (recommended):</strong> leave all your tools in a safe place for at least 24 hours to let everything saponify and then do the clean up, you won&#8217;t need any extra soap!&nbsp;&nbsp;
+      </li>
+    </ul>
+    <hr class="hr-dotted">
+    <h3>Other Ways to Make Soap</h3>
+    <ul>
+      <li>
+        <strong>Cold Process liquid soap:</strong> Check out <a href="./liquid-soap-tutorial.html">our liquid soap tutorial</a> using potassium hydroxide.
+        <br>Watch video tutorial on <a href="https://diode.zone/w/wvM5P5Q1mm94mqFj1oEJK5?subtitle=en" target="_blank">PeerTube</a> or <a href="https://youtu.be/4ZXG9WBK0yA" target="_blank">YouTube</a>.
+      </li>
+      <li>
+        <strong>Hot process soapmaking: </strong><a href="https://youtu.be/scokYOkLcQo" target="_blank">watch this tutorial by Soaping 101</a> (on YouTube)
+      </li>
+    </ul>
+    <hr>
+    <h2 class="text-center">Thank you for reading! We hope it was helpful!</h2>
+    <hr class="hr-dotted">
+    <div class="anchor" id="link"></div>
+    <div class="recipe-box gradient-green-pink text-shadow-none" id="soap-links">
+      <h3>Check out all the posts in our soapmaking for beginner&#8217;s guide:</h3>
+      <ul>
+        <li><article><h4><a href="./natural-soapmaking-pdf.html">Introduction + PDF Download of Guide</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-1-basics.html">Part 1: Soapmaking Basics</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-2-recipes.html">Part 2: Creating Your Own Recipes</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-3-tools-and-ingredients.html">Part 3: Safety Gear, Tools and Materials</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-4-steps.html">Part 4: Step-by-Step Cold Process Soapmaking</a></h4></article></li>
+        <li><article><h4><a href="./soap-guide-part-5-our-recipes.html">Part 5: A Few of Our Soap Recipes for Inspiration</a></h4></article></li>
+        <li><article><h4>Part 6: Summary of Links &amp; Resources</h4></article></li>
+        <li><article><h4><a href="./soapmaking-terms-and-definitions.html">Soapmaking Terms and Definitions</a></h4></article></li>
+      </ul>
+    </div>
+    <br>
+  </main>
+  <!--main content ends-->
+  <hr>
+  <partial src="_footer-en.html"/>
 </body>
-
 </html>
