@@ -1,3 +1,5 @@
+> # we are [officially on GitLab!](https://gitlab.com/gentlelivingshop/gentlelivingshop.gitlab.io) (it's an open source GitHub, see you there ;)
+
 # Welcome to our family website where you can discover tutorials and how-tos on how we create our **natural handmade home**, free access for all❤️
 <img src="https://gitlab.com/gentlelivingshop/gentlelivingshop.gitlab.io/-/raw/main/resources/img/Screenshot_2021-08-09%20Gentle%20Living%20Shop.webp" width="80%" height="auto" alt="screenshot of websit front page">
 
